@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Global Prehistory",
+    "dateDisplay": "30,000–500 BCE",
+    "dateStart": -30000,
+    "dateEnd": -500,
+    "description": "Humanity's earliest artistic expressions across Africa, Asia, Europe, the Americas, and the Pacific.",
+    "color": "#8b5a2b"
+  },
+  {
+    "id": 2,
+    "name": "Ancient Mediterranean",
+    "dateDisplay": "3,500 BCE–300 CE",
+    "dateStart": -3500,
+    "dateEnd": 300,
+    "description": "Art and architecture of the Ancient Near East, Egypt, Greece, Etruria, and Rome.",
+    "color": "#9c4126"
+  },
+  {
+    "id": 3,
+    "name": "Early Europe and Colonial Americas",
+    "dateDisplay": "200–1750 CE",
+    "dateStart": 200,
+    "dateEnd": 1750,
+    "description": "Late Antique, Medieval, Renaissance, Baroque, and colonial transatlantic traditions.",
+    "color": "#305252"
+  },
+  {
+    "id": 4,
+    "name": "Later Europe and the Americas",
+    "dateDisplay": "1750–1980 CE",
+    "dateStart": 1750,
+    "dateEnd": 1980,
+    "description": "Neoclassicism, Romanticism, Realism, Impressionism, Modernism, and Postmodernism.",
+    "color": "#486284"
+  },
+  {
+    "id": 5,
+    "name": "Indigenous Americas",
+    "dateDisplay": "1000 BCE–1980 CE",
+    "dateStart": -1000,
+    "dateEnd": 1980,
+    "description": "Ancient Mesoamerica, the Andes, and Native North American cultural traditions.",
+    "color": "#784b6f"
+  },
+  {
+    "id": 6,
+    "name": "Africa",
+    "dateDisplay": "1100–1980 CE",
+    "dateStart": 1100,
+    "dateEnd": 1980,
+    "description": "Royal, spiritual, performance, and utilitarian arts of historic African civilizations.",
+    "color": "#a8651e"
+  },
+  {
+    "id": 7,
+    "name": "West and Central Asia",
+    "dateDisplay": "500 BCE–1980 CE",
+    "dateStart": -500,
+    "dateEnd": 1980,
+    "description": "Islamic art, Persian miniature traditions, monumental architecture, and Central Asian crossroads.",
+    "color": "#3f6a62"
+  },
+  {
+    "id": 8,
+    "name": "South, East, and Southeast Asia",
+    "dateDisplay": "300 BCE–1980 CE",
+    "dateStart": -300,
+    "dateEnd": 1980,
+    "description": "Buddhist, Hindu, Jain, Daoist, Confucian, and Shinto arts across the Asian continent.",
+    "color": "#a04732"
+  },
+  {
+    "id": 9,
+    "name": "The Pacific",
+    "dateDisplay": "700–1980 CE",
+    "dateStart": 700,
+    "dateEnd": 1980,
+    "description": "Oceanic arts of Polynesia, Micronesia, Melanesia, and Aboriginal Australia.",
+    "color": "#2c6e7a"
+  },
+  {
+    "id": 10,
+    "name": "Global Contemporary",
+    "dateDisplay": "1980 CE–Present",
+    "dateStart": 1980,
+    "dateEnd": 2026,
+    "description": "Contemporary art addressing globalization, identity, technology, and memory across the world.",
+    "color": "#5a4d7a"
+  }
+]

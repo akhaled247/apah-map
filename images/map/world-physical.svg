@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1024" width="2048" height="1024">
+  <defs>
+    <!-- Ocean gradient (calm, academic bathymetric blue) -->
+    <radialGradient id="oceanGrad" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#e1ebf2"/>
+      <stop offset="100%" stop-color="#cddde8"/>
+    </radialGradient>
+    
+    <!-- Land gradient (subtle physical parchment tone) -->
+    <linearGradient id="landGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e5e0d4"/>
+      <stop offset="50%" stop-color="#ded8ca"/>
+      <stop offset="100%" stop-color="#d4ccba"/>
+    </linearGradient>
+
+    <!-- Mountain shading pattern -->
+    <linearGradient id="mountainHills" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7bba8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#b8a892" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <filter id="subtleShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0.5" dy="1" stdDeviation="1" flood-color="#556" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Ocean Background -->
+  <rect width="2048" height="1024" fill="url(#oceanGrad)"/>
+
+  <!-- Subtle Equator, Tropics, and Graticule Grid Lines (Academic Style) -->
+  <g stroke="#b8c8d4" stroke-width="0.75" stroke-dasharray="3,4" opacity="0.6">
+    <!-- Latitudes -->
+    <line x1="0" y1="180" x2="2048" y2="180" /><!-- ~60N -->
+    <line x1="0" y1="352" x2="2048" y2="352" stroke-dasharray="6,4"/><!-- Tropic of Cancer ~23.5N -->
+    <line x1="0" y1="512" x2="2048" y2="512" stroke="#a0b8c8" stroke-width="1.2" stroke-dasharray="none"/><!-- Equator -->
+    <line x1="0" y1="672" x2="2048" y2="672" stroke-dasharray="6,4"/><!-- Tropic of Capricorn ~23.5S -->
+    <line x1="0" y1="844" x2="2048" y2="844" /><!-- ~60S -->
+
+    <!-- Longitudes -->
+    <line x1="256" y1="0" x2="256" y2="1024" /><!-- 135W -->
+    <line x1="512" y1="0" x2="512" y2="1024" /><!-- 90W -->
+    <line x1="768" y1="0" x2="768" y2="1024" /><!-- 45W -->
+    <line x1="1024" y1="0" x2="1024" y2="1024" stroke="#a0b8c8" stroke-width="1.2" stroke-dasharray="none"/><!-- Prime Meridian 0 -->
+    <line x1="1280" y1="0" x2="1280" y2="1024" /><!-- 45E -->
+    <line x1="1536" y1="0" x2="1536" y2="1024" /><!-- 90E -->
+    <line x1="1792" y1="0" x2="1792" y2="1024" /><!-- 135E -->
+  </g>
+
+  <!-- World Continents (Physical outlines, NO political borders) -->
+  <g fill="url(#landGrad)" stroke="#b8ae9c" stroke-width="1.2" filter="url(#subtleShadow)">
+    
+    <!-- North America & Greenland -->
+    <path d="M 170 120 Q 220 100 320 110 T 450 140 Q 520 160 560 210 T 590 260 Q 550 290 530 330 T 480 380 Q 430 420 400 480 T 360 540 Q 330 520 310 470 T 260 410 Q 220 370 180 340 T 140 280 Q 120 220 150 160 Z M 720 70 Q 780 60 830 80 T 880 130 Q 840 200 780 220 T 730 150 Z" />
+    <path d="M 400 480 Q 450 490 490 520 T 520 560 Q 490 580 440 550 Z" /><!-- Central America -->
+    
+    <!-- South America -->
+    <path d="M 520 560 Q 580 540 660 580 T 740 650 Q 720 740 670 820 T 600 920 Q 570 880 560 780 T 530 680 Q 500 620 520 560 Z" />
+
+    <!-- Eurasia (Europe + Asia) -->
+    <path d="M 960 160 Q 1080 140 1220 150 T 1460 130 Q 1640 140 1780 180 T 1920 220 Q 1960 280 1880 340 T 1760 380 Q 1720 440 1650 470 T 1540 450 Q 1480 520 1420 540 T 1320 480 Q 1260 490 1200 450 T 1140 390 Q 1060 380 1020 340 T 960 280 Q 920 220 960 160 Z" />
+    
+    <!-- Scandinavia & British Isles -->
+    <path d="M 980 140 Q 1030 110 1080 150 T 1060 230 Q 1020 260 990 220 Z" />
+    <path d="M 940 230 Q 970 210 980 250 T 950 290 Q 920 270 940 230 Z" />
+    <path d="M 900 240 Q 930 230 925 270 T 895 280 Z" /><!-- Ireland -->
+
+    <!-- Mediterranean Islands & Southern Europe peninsulas -->
+    <path d="M 960 340 Q 1010 330 1000 380 T 940 370 Z" /><!-- Iberia -->
+    <path d="M 1050 340 Q 1080 330 1100 370 T 1080 410 Q 1060 380 1050 340 Z" /><!-- Italy -->
+    <path d="M 1120 350 Q 1160 340 1170 380 T 1140 410 Z" /><!-- Greece -->
+
+    <!-- Africa -->
+    <path d="M 940 380 Q 1060 370 1180 390 T 1280 470 Q 1240 580 1220 680 T 1160 800 Q 1080 840 1020 780 T 960 640 Q 900 560 920 470 T 940 380 Z" />
+    <path d="M 1260 700 Q 1300 680 1310 750 T 1270 810 Q 1240 760 1260 700 Z" /><!-- Madagascar -->
+
+    <!-- Arabian Peninsula -->
+    <path d="M 1210 420 Q 1280 410 1330 460 T 1300 540 Q 1240 520 1210 460 Z" />
+
+    <!-- Indian Subcontinent -->
+    <path d="M 1390 420 Q 1460 410 1480 470 T 1440 580 Q 1400 520 1390 420 Z" />
+    <path d="M 1470 590 Q 1490 580 1490 610 T 1470 615 Z" /><!-- Sri Lanka -->
+
+    <!-- East Asia & Japan -->
+    <path d="M 1820 280 Q 1860 260 1880 310 T 1840 360 Q 1800 330 1820 280 Z" /><!-- Japan -->
+    <path d="M 1720 330 Q 1750 320 1760 360 T 1730 380 Z" /><!-- Korea -->
+
+    <!-- Southeast Asia & Maritime SE Asia / Indonesia / Philippines -->
+    <path d="M 1540 460 Q 1590 480 1600 560 T 1570 610 Q 1530 550 1540 460 Z" />
+    <path d="M 1620 540 Q 1660 520 1670 580 T 1630 620 Z" /><!-- Philippines -->
+    <path d="M 1550 630 Q 1640 620 1730 640 T 1800 660 Q 1720 680 1620 670 T 1550 630 Z" /><!-- Indonesia / Sunda -->
+
+    <!-- Australia & Oceania / Pacific Islands -->
+    <path d="M 1660 690 Q 1780 670 1860 720 T 1870 820 Q 1790 870 1710 850 T 1650 780 Q 1620 730 1660 690 Z" /><!-- Australia -->
+    <path d="M 1760 630 Q 1830 620 1860 650 T 1820 680 Q 1760 670 1760 630 Z" /><!-- New Guinea -->
+    <path d="M 1900 810 Q 1940 790 1960 840 T 1930 890 Q 1890 860 1900 810 Z" /><!-- New Zealand -->
+
+    <!-- Pacific / Caribbean / Mediterranean smaller islands (dots) -->
+    <circle cx="1930" cy="620" r="4"/><!-- Solomons -->
+    <circle cx="1980" cy="650" r="4"/><!-- Fiji / Vanuatu -->
+    <circle cx="2010" cy="580" r="3"/><!-- Micronesia -->
+    <circle cx="1900" cy="460" r="3"/><!-- Marshall -->
+    <circle cx="420" cy="460" r="5"/><!-- Hawaii (approx wrapped) -->
+    <circle cx="640" cy="490" r="4"/><!-- Caribbean -->
+    <circle cx="670" cy="480" r="4"/>
+    <circle cx="690" cy="510" r="3"/>
+  </g>
+
+  <!-- Physical Topographic Relief Shading (Mountains & Plateaus) -->
+  <g fill="url(#mountainHills)" opacity="0.6">
+    <!-- Andes Mountain Ridge -->
+    <path d="M 520 570 Q 540 640 550 720 T 580 840 Q 570 830 550 720 T 530 600 Z"/>
+    
+    <!-- Rocky Mountains -->
+    <path d="M 270 200 Q 320 280 340 380 T 360 460 Q 345 440 325 350 T 255 220 Z"/>
+
+    <!-- Himalayas & Tibetan Plateau -->
+    <polygon points="1440,380 1560,360 1620,400 1550,430 1460,420"/>
+
+    <!-- Alps & Pyrenees -->
+    <polygon points="1020,330 1070,320 1090,340 1040,345"/>
+    <polygon points="970,340 1010,340 1000,350 975,348"/>
+
+    <!-- African Rift & Atlas -->
+    <polygon points="940,390 1000,395 990,410 950,405"/>
+    <polygon points="1210,540 1240,640 1220,720 1205,620"/>
+  </g>
+
+  <!-- Border Frame (Textbook / Academic style) -->
+  <rect x="0" y="0" width="2048" height="1024" fill="none" stroke="#908070" stroke-width="3"/>
+</svg>

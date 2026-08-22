@@ -1,0 +1,19 @@
+{
+  "name": "apah-interactive-map",
+  "version": "1.0.0",
+  "description": "Interactive map and timeline visualization for the 250 required AP Art History works",
+  "private": true,
+  "scripts": {
+    "validate": "node scripts/validate-data.js",
+    "generate-affcc": "node scripts/generate-affcc.js",
+    "test": "node scripts/validate-data.js"
+  },
+  "keywords": [
+    "ap-art-history",
+    "interactive-map",
+    "timeline",
+    "education"
+  ],
+  "author": "AP Art History Interactive Map Project",
+  "license": "MIT"
+}

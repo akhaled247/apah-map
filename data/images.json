@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "title": "Apollo 11 Stones",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2021/10/apollo-11-stone.jpg",
+        "alt": "Apollo 11 Stones (c. 25,500–25,300 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/apollo-11-cave-stones-2/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Great Hall of the Bulls",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2021/09/lascaux-II-1536x1046.jpg",
+        "alt": "Great Hall of the Bulls (15,000–13,000 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/hall-of-bulls-lascaux/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Camelid sacrum in the shape of a canine",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2020/12/MNA113.jpg",
+        "alt": "Camelid sacrum in the shape of a canine (14,000–7000 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/camelid-sacrum-in-the-shape-of-a-canine/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Running horned woman",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2021/09/enhanced.jpeg",
+        "alt": "Running horned woman (6000–4000 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/running-horned-woman-tassili-najjer-algeria-2/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Beaker with ibex motifs",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2018/06/ibex.jpg",
+        "alt": "Beaker with ibex motifs (4200–3500 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/bushel-with-ibex-motifs/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Anthropomorphic stele",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2021/09/anthro-stele-1000px.jpeg",
+        "alt": "Anthropomorphic stele (Fourth millennium BCE)",
+        "source": "Smarthistory: https://smarthistory.org/anthropomorphic-stele/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Jade cong",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2018/06/jadecong.jpg",
+        "alt": "Jade cong (3300–2200 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/jade-cong-2/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Stonehenge",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2023/05/Stonehenge-1.jpg",
+        "alt": "Stonehenge (c. 2500–1600 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/stonehenge/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "The Ambum stone",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2016/09/ambumnga.jpg",
+        "alt": "The Ambum stone (c. 1500 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/ambum/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Tlatilco female figurine",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2023/11/default-e1701372072437.jpg",
+        "alt": "Tlatilco female figurine (1200–900 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/tlatilco-figurines/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Terra cotta fragment",
+    "images": [
+      {
+        "src": "https://smarthistory.org/wp-content/uploads/2016/12/lapitafragment.jpg",
+        "alt": "Terra cotta fragment (1000 BCE)",
+        "source": "Smarthistory: https://smarthistory.org/lapita/",
+        "local": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "White Temple and its ziggurat",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "White Temple and its ziggurat (c. 3500–3000 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/white-temple-and-ziggurat-uruk/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Palette of King Narmer",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/palette-of-king-narmer/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Statues of votive figures, from the Square Temple at Eshnunna",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Statues of votive figures, from the Square Temple at Eshnunna (c. 2700 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/standing-male-worshipper-from-the-square-temple-at-eshnunna-tell-asmar/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Seated scribe",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Seated scribe (c. 2620–2500 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/seated-scribe/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Standard of Ur from the Royal Tombs at Ur",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/standard-of-ur-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-great-pyramids-of-giza/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "King Menkaura and queen",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "King Menkaura and queen (c. 2490–2472 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/king-menkaure-mycerinus-and-queen/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "The Code of Hammurabi",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/hammurabi-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Temple of Amun-Re and Hypostyle Hall",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/temple-of-amun-re-and-the-hypostyle-hall-karnak/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Mortuary Temple of Hatshepsut",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Mortuary Temple of Hatshepsut (c. 1473–1458 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/hatshepsut/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Akhenaten, Nefertiti, and three daughters",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/house-altar-depicting-akhenaten-nefertiti-and-three-of-their-daughters/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Tutankhamun's tomb, innermost coffin",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Tutankhamun's tomb, innermost coffin (c. 1323 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/tutankhamuns-tomb-innermost-coffin-and-death-mask/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/hunefers-judgement-in-the-presence-of-osiris/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Lamassu from the citadel of Sargon II, Dur Sharrukin",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/lamassu-from-the-citadel-of-sargon-ii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Athenian Agora",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Athenian Agora (600 BCE–150 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-athenian-agora-and-the-experiment-in-democracy/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Anavysos Kouros",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Anavysos Kouros (c. 530 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/anavysos-kouros/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Peplos Kore from the Acropolis",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Peplos Kore from the Acropolis (c. 530 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/peplos-kore/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Sarcophagus of the Spouses",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/sarcophagus-of-the-spouses-rome/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Audience Hall (apadana) of Darius and Xerxes",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/persepolis-the-audience-hall-of-darius-and-xerxes/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/temple-of-minerva-and-the-sculpture-of-apollo-veii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Tomb of the Triclinium",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Tomb of the Triclinium (c. 480–470 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/tomb-of-the-triclinium/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Niobides Krater",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Niobides Krater (c. 460–450 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/niobid-krater/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Doryphoros (Spear Bearer)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/polykleitos-doryphoros-spear-bearer/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/courses/the-story-of-the-parthenon/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Grave stele of Hegeso",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Grave stele of Hegeso (c. 410 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/grave-stele-of-hegeso/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Winged Victory of Samothrace",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Winged Victory of Samothrace (c. 190 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/nike-winged-victory-of-samothrace/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Great Altar of Zeus and Athena at Pergamon",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Altar of Zeus and Athena at Pergamon (c. 175 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-pergamon-altar/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "House of the Vettii",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/pompeii-house-of-the-vettii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Alexander Mosaic from the House of the Faun, Pompeii",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/alexander-mosaic-from-the-house-of-the-faun-pompeii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Seated boxer (Boxer at Rest)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/apollonius-boxer-at-rest/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Head of a Roman patrician",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Head of a Roman patrician (c. 75–50 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/head-of-a-roman-patrician/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Augustus of Prima Porta",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Augustus of Prima Porta (Early first century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/augustus-of-primaporta/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Colosseum (Flavian Amphitheater)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-colosseum-rome/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/forum-and-markets-of-trajan/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Pantheon",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Pantheon (118–125 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-pantheon/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Ludovisi Battle Sarcophagus",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/battle-of-the-romans-and-barbarians-ludovisi-battle-sarcophagus/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Catacomb of Priscilla",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Catacomb of Priscilla (c. 200–400 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/catacomb-of-priscilla-rome/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Santa Sabina",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Santa Sabina (c. 422–432 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/santa-sabina/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) (Early sixth century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-vienna-genesis/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "title": "San Vitale",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "San Vitale (c. 526–547 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/san-vitale/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Hagia Sophia",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Hagia Sophia (532–537 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/hagia-sophia-istanbul/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Merovingian looped fibulae",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Merovingian looped fibulae (Mid-sixth century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/fibulae/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Virgin (Theotokos) and Child between Saints Theodore and George",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Virgin (Theotokos) and Child between Saints Theodore and George (Sixth or early seventh century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/virgin-theotokos-and-child-between-saints-theodore-and-george/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-lindisfarne-gospels/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Great Mosque of Córdoba",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-great-mosque-of-cordoba/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Pyxis of al-Mughira",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Pyxis of al-Mughira (968 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/pyxis-of-al-mughira/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Church of Sainte-Foy",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Church of Sainte-Foy (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/church-and-reliquary-of-sainte‐foy-france/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Bayeux Tapestry",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Bayeux Tapestry (c. 1066–1080 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-bayeux-tapestry/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Chartres Cathedral",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Chartres Cathedral (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cathedral-of-notre-dame-de-chartres-part-1-of-3/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées (c. 1225–1245 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/saint-louis-bible-moralized-bible-or-bible-moralisee/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Röttgen Pietà",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Röttgen Pietà (c. 1300–1325 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/roettgen-pieta/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Arena (Scrovegni) Chapel, including Lamentation",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/giotto-arena-scrovegni-chapel/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover) (c. 1320 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-golden-haggadah/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Alhambra",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Alhambra (1354–1391 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-alhambra/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Annunciation Triptych (Merode Altarpiece)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Annunciation Triptych (Merode Altarpiece) (1427–1432 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/robert-campin-merode-altarpiece/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Pazzi Chapel",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Pazzi Chapel (c. 1429–1461 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/filippo-brunelleschi-pazzi-chapel-florence/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "title": "The Arnolfini Portrait",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Arnolfini Portrait (1434 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jan-van-eyck-the-arnolfini-portrait/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "title": "David",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "David (c. 1440–1460 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/donatello-david/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Palazzo Rucellai",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Palazzo Rucellai (c. 1450 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/alberti-palazzo-rucellai/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Madonna and Child with Two Angels",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Madonna and Child with Two Angels (c. 1465 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/lippi-madonna-and-child-with-two-angels/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "title": "Birth of Venus",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Birth of Venus (c. 1484–1486 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/sandro-botticelli-the-birth-of-venus/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "title": "Last Supper",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Last Supper (c. 1494–1498 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/leonardo-last-supper/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "title": "Adam and Eve",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Adam and Eve (1504 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/durer-adam-and-eve/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "title": "Sistine Chapel ceiling and altar wall frescoes",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Sistine Chapel ceiling and altar wall frescoes (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/who-was-michelangelo/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "School of Athens",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "School of Athens (1509–1511 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/raphael-school-of-athens/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "title": "Isenheim altarpiece",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/grunewald-isenheim-altarpiece/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "title": "Entombment of Christ",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Entombment of Christ (1525–1528 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jacopo-pontormo-entombment-or-deposition-from-the-cross/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "title": "Allegory of Law and Grace",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Allegory of Law and Grace (c. 1530 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cranach-law-and-gospel-law-and-grace/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "title": "Venus of Urbino",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Venus of Urbino (1538 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/titian-venus-of-urbino/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "title": "Frontispiece of the Codex Mendoza",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Frontispiece of the Codex Mendoza (c. 1541–1542 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/frontispiece-of-the-codex-mendoza/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "title": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/il-gesu-rome/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Hunters in the Snow",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Hunters in the Snow (1565 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/pieter-bruegel-the-elder-hunters-in-the-snow-winter/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Mosque of Selim II",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Mosque of Selim II (1568–1575 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "title": "Calling of Saint Matthew",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Calling of Saint Matthew (c. 1597–1601 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/caravaggio-calling-of-st-matthew/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "title": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle (1621–1625 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/rubens-the-presentation-of-the-portrait-of-marie-de-medici/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "title": "Self-Portrait with Saskia",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Self-Portrait with Saskia (1636 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/rembrandt-self-portrait-with-saskia/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "title": "San Carlo alle Quattro Fontane",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/borromini-san-carlo-alle-quattro-fontane/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "title": "Ecstasy of Saint Teresa",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Ecstasy of Saint Teresa (1647–1652 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/bernini-ecstasy-of-st-teresa/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "title": "Angel with Arquebus, Asiel Timor Dei",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Angel with Arquebus, Asiel Timor Dei (c. 17th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/master-of-calamarca-angel-with-arquebus/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "title": "Las Meninas",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Las Meninas (1656 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/diego-velazquez-las-meninas/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "title": "Woman Holding a Balance",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Woman Holding a Balance (c. 1664 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/johannes-vermeer-woman-holding-a-balance/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "title": "The Palace at Versailles",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Palace at Versailles (Begun 1669 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/chateau-de-versailles/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "title": "Screen with the Siege of Belgrade and hunting scene",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/screen-with-the-siege-of-belgrade-and-hunting-scene-or-brooklyn-biombo/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "title": "The Virgin of Guadalupe (Virgen de Guadalupe)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Virgin of Guadalupe (Virgen de Guadalupe) (c. 1698 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/gonzalez-guadalupe/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "title": "Spaniard and Indian Produce a Mestizo",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Spaniard and Indian Produce a Mestizo (c. 1715 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/rachel-ruysch-fruit-and-insects/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "title": "Portrait of Sor Juana Inés de la Cruz",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Portrait of Sor Juana Inés de la Cruz (c. 1750 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/spaniard-and-indian-produce-a-mestizo-attributed-to-juan-rodriguez/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "title": "The Tête à Tête, from Marriage à la Mode",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Tête à Tête, from Marriage à la Mode (c. 1743 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/william-hogarth-marriage-a-la-mode/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "title": "A Philosopher Giving a Lecture on the Orrery",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "A Philosopher Giving a Lecture on the Orrery (c. 1763–1765 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cabrera-portrait-of-sor-juana-ines-de-la-cruz/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "title": "The Swing",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Swing (1767 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/joseph-wright-of-derby-a-philosopher-giving-a-lecture-at-the-orrery/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "title": "Monticello",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Monticello (1768–1809 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jean-honore-fragonard-the-swing/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "title": "The Oath of the Horatii",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Oath of the Horatii (1784 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jefferson-monticello/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "title": "George Washington",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "George Washington (1788–1792 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jacques-louis-david-oath-of-the-horatii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Self-Portrait",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Self-Portrait (1790 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/houdon-george-washington/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Y no hai remedio (And There's Nothing to Be Done), from Los Desastres de la Guerra (The Disasters of War), plate 15",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Y no hai remedio (And There's Nothing to Be Done), from Los Desastres de la Guerra (The Disasters of War), plate 15 (1810–1823 CE (published 1863))",
+        "source": "Smarthistory guide: https://smarthistory.org/elisabeth-louise-vigee-le-brun-self-portrait/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "title": "La Grande Odalisque",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "La Grande Odalisque (1814 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/goya-and-theres-nothing-to-be-done-from-the-disasters-of-war/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Liberty Leading the People",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Liberty Leading the People (1830 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/between-neclassicism-and-romanticism-ingres-la-grande-odalisque-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "title": "The Oxbow (View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Oxbow (View from Mount Holyoke, Northampton, Massachusetts, after a Thunderstorm) (1836 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/delacroix-liberty-leading-the-people/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "title": "Still Life in Studio",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Still Life in Studio (1837 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cole-the-oxbow/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Slave Ship (Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Slave Ship (Slavers Throwing Overboard the Dead and Dying, Typhoon Coming On) (1840 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/daguerre-artists-studio/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Palace of Westminster (Houses of Parliament)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Palace of Westminster (Houses of Parliament) (1840–1870 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/j-m-w-turner-slave-ship/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "title": "The Stone Breakers",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Stone Breakers (1849 CE (destroyed in 1945))",
+        "source": "Smarthistory guide: https://smarthistory.org/barry-pugin-parliament/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Nadar Raising Photography to the Height of Art",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Nadar Raising Photography to the Height of Art (1862 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/courbet-the-stonebreakers/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Olympia",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Olympia (1863 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/daumier-nadar-elevating-photography/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "title": "The Saint-Lazare Station",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Saint-Lazare Station (1877 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/edouard-manet-olympia/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "title": "The Horse in Motion",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Horse in Motion (1878 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/monet-the-gare-saint-lazare/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "title": "The Valley of Mexico from the Hillside of Santa Isabel (El Valle de México desde el Cerro de Santa Isabel)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Valley of Mexico from the Hillside of Santa Isabel (El Valle de México desde el Cerro de Santa Isabel) (1882 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/eadweard-muybridge-the-horse-in-motion/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "The Burghers of Calais",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Burghers of Calais (1884–1895 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/velasco-the-valley-of-mexico/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "The Starry Night",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Starry Night (1889 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/rodin-the-burghers-of-calais/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "The Coiffure",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Coiffure (1890–1891 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/van-gogh-the-starry-night/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "title": "The Scream",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Scream (1893 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cassatt-the-coiffure/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Where Do We Come From? What Are We? Where Are We Going?",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Where Do We Come From? What Are We? Where Are We Going? (1897–1898 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/munch-the-scream/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Carson, Pirie, Scott and Company Building",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Carson, Pirie, Scott and Company Building (1899–1903 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/gauguin-where-do-we-come-from-what-are-we-where-are-we-going/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Mont Sainte-Victoire",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Mont Sainte-Victoire (1902–1904 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/sullivan-carson-pirie-scott-building/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "title": "Les Demoiselles d'Avignon",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Les Demoiselles d'Avignon (1907 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cezanne-mont-sainte-victoire/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "title": "The Steerage",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Steerage (1907 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/pablo-picasso-les-demoiselles-davignon/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "title": "The Kiss",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Kiss (1907–1908 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/stieglitz-the-steerage/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "title": "The Kiss",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Kiss (Original 1907–1908 CE; stone copy 1916 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/gustav-klimt-the-kiss/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "title": "The Portuguese",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Portuguese (1911 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/constantin-brancusi-the-kiss/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "title": "Goldfish",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Goldfish (1912 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/braque-the-portuguese/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "title": "Improvisation 28 (second version)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Improvisation 28 (second version) (1912 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/matisse-goldfish/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "title": "Self-Portrait as a Soldier",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Self-Portrait as a Soldier (1915 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/kandinsky-improvisation-28-second-version/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "title": "Memorial Sheet for Karl Liebknecht",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Memorial Sheet for Karl Liebknecht (1919–1920 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/kirchner-self-portrait-as-a-soldier/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Villa Savoye",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Villa Savoye (1929 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/kathe-kollwitz-in-memoriam-karl-liebknecht/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Composition with Red, Blue and Yellow",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Composition with Red, Blue and Yellow (1930 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/le-corbusier-villa-savoye/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Illustration from The Results of the First Five-Year Plan",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Illustration from The Results of the First Five-Year Plan (1932 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mondrian-composition-ii-in-red-blue-and-yellow/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "title": "Object (Le Déjeuner en fourrure)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Object (Le Déjeuner en fourrure) (1936 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/stepanova-the-results-of-the-first-five-year-plan/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Fallingwater",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Fallingwater (1936–1939 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/meret-oppenheim-object-fur-covered-cup-saucer-and-spoon/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "title": "The Two Fridas (Las dos Fridas)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Two Fridas (Las dos Fridas) (1939 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/frank-lloyd-wright-fallingwater/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "title": "The Migration of the Negro, Panel no. 49",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Migration of the Negro, Panel no. 49 (1940–1941 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/kahlo-the-two-fridas-las-dos-fridas/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "title": "The Jungle",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Jungle (1943 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jacob-lawrence-the-migration-series/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "title": "Dream of a Sunday Afternoon in the Alameda Park",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Dream of a Sunday Afternoon in the Alameda Park (1947–1948 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/lam-the-jungle/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "title": "Fountain (second version)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Fountain (second version) (Original 1917; fabricated 1950 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/rivera-dream-of-a-sunday-afternoon-in-alameda-central-park/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "title": "Woman, I",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Woman, I (1950–1952 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/marcel-duchamp-fountain/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "title": "Seagram Building",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Seagram Building (1954–1958 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/de-k-woman/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "title": "Marilyn Diptych",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Marilyn Diptych (1962 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/ludwig-mies-van-der-rohe-seagram-building-new-york-city/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "title": "Narcissus Garden",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Narcissus Garden (Original installation and performance 1966 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/warhol-marilyn-diptych/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "title": "The Bay",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Bay (1963 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/yayoi-kusama-narcissus-garden/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "title": "Lipstick (Ascending) on Caterpillar Tracks",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Lipstick (Ascending) on Caterpillar Tracks (1969–1974 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/frankenthaler-the-bay/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "title": "Spiral Jetty",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Spiral Jetty (1970 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/oldenburg-lipstick-ascending-on-caterpillar-tracks/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "title": "House in New Castle County",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "House in New Castle County (1978–1983 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/robert-smithson-spiral-jetty/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "title": "Chavín de Huántar",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Chavín de Huántar (c. 900–200 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/venturi-house-in-new-castle-county-delaware/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "title": "Mesa Verde cliff dwellings",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Mesa Verde cliff dwellings (450–1300 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/chavin-de-huantar/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "title": "Yaxchilán (Structure 23, Structure 33, Structure 40, Lintel 25)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Yaxchilán (Structure 23, Structure 33, Structure 40, Lintel 25) (725 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mesa-verde-cliff-dwellings/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "title": "Great Serpent Mound",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Serpent Mound (c. 1070 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/yaxchilan-lintels/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "title": "Templo Mayor (Main Temple), Tenochtitlan (including Coyolxauhqui Stone, Calendar Stone, and Olmec-style mask)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Templo Mayor (Main Temple), Tenochtitlan (including Coyolxauhqui Stone, Calendar Stone, and Olmec-style mask) (1375–1520 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/fort-ancient-culture-great-serpent-mound/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "title": "Ruler's feather headdress (probably of Motecuhzoma II)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Ruler's feather headdress (probably of Motecuhzoma II) (1428–1520 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/templo-mayor-at-tenochtitlan-the-coyolxauhqui-stone-and-an-olmec-mask/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "title": "City of Cusco, including Qorikancha (Inka main temple), Santo Domingo, and Walls at Saqsa Waman",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "City of Cusco, including Qorikancha (Inka main temple), Santo Domingo, and Walls at Saqsa Waman (c. 1440 CE; convent added 1550–1650 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/feathered-headdress-aztec/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "title": "Maize cobs",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Maize cobs (c. 1440–1533 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/city-of-cusco/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "title": "City of Machu Picchu",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "City of Machu Picchu (c. 1450–1540 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/maize-cobs/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "title": "All-T'oqapu tunic",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "All-T'oqapu tunic (1450–1540 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/machu-picchu/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "title": "Bandolier bag",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Bandolier bag (c. 1850 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/all-toqapu-tunic/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "Transformation mask",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Transformation mask (Late 19th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/seeing-america-2/bandolier-bag-sa/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "title": "Painted elk hide",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Painted elk hide (c. 1890–1900 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/transformation-masks/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "title": "Black-on-black ceramic vessel",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Black-on-black ceramic vessel (c. mid-20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/eastern-shoshone-hide-painting-of-the-sun-dance-attributed-to-cotsiogo-cadzi-cody/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "title": "Conical tower and circular wall of Great Zimbabwe",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Conical tower and circular wall of Great Zimbabwe (c. 1000–1400 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/puebloan-maria-martinez-black-on-black-ceramic-vessel/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "title": "Great Mosque of Djenné",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Mosque of Djenné (Founded c. 1200 CE; rebuilt 1906–1907 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/great-zimbabwe/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "title": "Wall plaque, from Oba's palace",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Wall plaque, from Oba's palace (16th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/great-mosque-of-djenne/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "title": "Sika dwa kofi (Golden Stool)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Sika dwa kofi (Golden Stool) (c. 1700 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/benin-plaque-equestrian-oba-and-attendants/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "title": "Ndop (portrait figure) of King Mishe miShyaang maMbul",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Ndop (portrait figure) of King Mishe miShyaang maMbul (c. 1760–1780 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/sika-dwa-kofi-golden-stool/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Power figure (Nkisi n'kondi)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Power figure (Nkisi n'kondi) (Late 19th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/ndop-portrait-of-king-mishe-mishyaang-mambul-kuba-people/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "title": "Female (Pwo) mask",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Female (Pwo) mask (Late 19th to early 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/nkisi-nkondi-kongo-people/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "title": "Portrait mask (Mblo)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Portrait mask (Mblo) (Early 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/female-pwo-mask/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "Bundu mask",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Bundu mask (19th to 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/owie-kimou-portrait-mask-mblo-of-moya-yanso-baule-peoples/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "title": "Ikenga (shrine figure)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Ikenga (shrine figure) (c. 19th to 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/bundu-sowei-helmet-mask/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "title": "Lukasa (memory board)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Lukasa (memory board) (c. 19th to 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/ikenga/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "title": "Aka elephant mask",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Aka elephant mask (c. 19th to 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/lukasa-memory-board-luba-peoples/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "title": "Reliquary figure (byeri)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Reliquary figure (byeri) (c. 19th to 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/elephant-mask-kuosi-society-bamileke-peoples-cameroon/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "title": "Veranda post of enthroned king and senior wife (Opo Ogoga)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Veranda post of enthroned king and senior wife (Opo Ogoga) (c. 1910–1914 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/fang-reliquary-figure/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "title": "Petra, Jordan: Treasury and Great Temple",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Petra, Jordan: Treasury and Great Temple (c. 400 BCE–100 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/olowe-ise-veranda-post-king-senior-wife/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "title": "Buddhas of Bamiyan",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Buddhas of Bamiyan (c. 400–800 CE (destroyed 2001))",
+        "source": "Smarthistory guide: https://smarthistory.org/petra-the-rose-red-city-of-the-nabataeans/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "title": "The Kaaba",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Kaaba (Pre-Islamic monument; rededicated by Muhammad in 631–632 CE; multiple renovations)",
+        "source": "Smarthistory guide: https://smarthistory.org/bamiyan-buddhas/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "title": "Jowo Rinpoche, enshrined in the Jokhang Temple",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Jowo Rinpoche, enshrined in the Jokhang Temple (Brought to Tibet in 641 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-kaaba-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "title": "Dome of the Rock",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Dome of the Rock (691–692 CE, with multiple renovations)",
+        "source": "Smarthistory guide: https://smarthistory.org/jowo-rinpoche-jokhang-temple-tibet/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "title": "Great Mosque (Masjid-e Jameh) of Isfahan",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Mosque (Masjid-e Jameh) of Isfahan (c. 700 CE; additions through 14th, 18th, and 20th centuries CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-dome-of-the-rock-qubbat-al-sakhra/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "title": "Folio from a Qur'an",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Folio from a Qur'an (c. eighth to ninth century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-great-mosque-or-masjid-e-jameh-of-isfahan/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "title": "Basin (Baptistère de St. Louis)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Basin (Baptistère de St. Louis) (c. 1320–1340 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/folio-from-a-quran/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "title": "Bahram Gur Fights the Karg, folio from the Great Il-Khanid Shahnama",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Bahram Gur Fights the Karg, folio from the Great Il-Khanid Shahnama (c. 1330–1340 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mohammed-ibn-al-zain-basin-baptistere-de-saint-louis/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "title": "The Court of Gayumars, folio from Shah Tahmasp's Shahnama",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Court of Gayumars, folio from Shah Tahmasp's Shahnama (c. 1522–1525 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/bahram-gur-fights-the-karg/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "title": "The Ardabil Carpet",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Ardabil Carpet (1539–1540 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-court-of-gayumars/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "title": "Great Stupa at Sanchi",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Great Stupa at Sanchi (c. 300 BCE–100 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-ardabil-carpet/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "title": "Terra cotta warriors from mausoleum of the first Qin emperor of China",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Terra cotta warriors from mausoleum of the first Qin emperor of China (c. 221–209 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-stupa-sanchi/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "title": "Funeral banner of Lady Dai (Xin Zhui)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Funeral banner of Lady Dai (Xin Zhui) (c. 180 BCE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-terracotta-warriors/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "title": "Longmen caves",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Longmen caves (493–1127 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/funeral-banner-of-lady-dai-xin-zhui/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "title": "Gold and jade crown",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Gold and jade crown (Fifth to sixth century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/longmen-caves-luoyang/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "title": "Todai-ji",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Todai-ji (c. 743 CE; rebuilt c. 1100–1200 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/gold-and-jade-crown-silla-kingdom/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "title": "Borobudur Temple",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Borobudur Temple (c. 750–842 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/todai-ji/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "title": "Angkor, the temple of Angkor Wat, and the city of Angkor Thom, Cambodia",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Angkor, the temple of Angkor Wat, and the city of Angkor Thom, Cambodia (c. 800–1200 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/borobudur/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "title": "Lakshmana Temple",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Lakshmana Temple (c. 930–950 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/angkor-wat/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "title": "Travelers among Mountains and Streams",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Travelers among Mountains and Streams (c. 1000 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/lakshmana-temple/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "title": "Shiva as Lord of Dance (Nataraja)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Shiva as Lord of Dance (Nataraja) (c. 11th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/neo-confucianism-fan-kuan-travelers-by-streams-and-mountains/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "title": "Night Attack on the Sanjô Palace",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Night Attack on the Sanjô Palace (c. 1250–1300 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/shiva-as-lord-of-the-dance-nataraja/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "title": "The David Vases",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The David Vases (1351 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/night-attack-on-the-sanjo-palace/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "title": "Portrait of Sin Sukju (1417–1475)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Portrait of Sin Sukju (1417–1475) (c. 15th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-david-vases/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "title": "Forbidden City",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Forbidden City (15th century CE and later)",
+        "source": "Smarthistory guide: https://smarthistory.org/portrait-of-sin-sukju/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "title": "Ryoan-ji",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Ryoan-ji (c. 1480 CE; current design c. late 18th century)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-forbidden-city/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "title": "Jahangir Preferring a Sufi Shaikh to Kings",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Jahangir Preferring a Sufi Shaikh to Kings (c. 1620 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/ryoanji-peaceful-dragon-temple/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "title": "Taj Mahal",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Taj Mahal (1632–1653 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/bichtir-jahangir-preferring-a-sufi-shaikh-to-kings/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "title": "White and Red Plum Blossoms",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "White and Red Plum Blossoms (c. 1710–1716 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/the-taj-mahal-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as the Great Wave, from the series Thirty-Six Views of Mount Fuji",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as the Great Wave, from the series Thirty-Six Views of Mount Fuji (1830–1833 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/ogata-korin-red-and-white-plum-blossoms/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "title": "Chairman Mao en Route to Anyuan",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Chairman Mao en Route to Anyuan (c. 1969 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/hokusai-under-the-wave-off-kanagawa-the-great-wave/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "title": "Nan Madol",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Nan Madol (c. 700–1600 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/liu-chunhua-chairman-mao-en-route-to-anyuan-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "title": "Moai on platform (ahu)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Moai on platform (ahu) (c. 1100–1600 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/nan-madol/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "title": "‘Ahu ‘ula (feather cape)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "‘Ahu ‘ula (feather cape) (Late 18th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/moai-waka/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "title": "Staff god",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Staff god (Late 18th to early 19th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/feather-cape/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "title": "Female deity",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Female deity (18th to 19th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/staff-god/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "title": "Buk (mask)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Buk (mask) (Mid- to late 19th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/wooden-sculptures-from-nukuoro/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "title": "Hiapo (tapa)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Hiapo (tapa) (c. 1850–1900 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mask-buk-torres-strait-mabuiag-island/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "title": "Tamati Waka Nene",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Tamati Waka Nene (1890 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/hiapo-tapa/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "title": "Navigation chart",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Navigation chart (19th to early 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/gottfried-lindauer-tamati-waka-nene/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "title": "Malagan display and mask",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Malagan display and mask (c. 20th century CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/chart-marshall/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "title": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Presentation of Fijian mats and tapa cloths to Queen Elizabeth II (1953 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/life-of-malagan/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "title": "The Gates",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Gates (1979–2005 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/presentation-of-fijian-mats-and-tapa-cloths-to-queen-elizabeth-ii-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "title": "Vietnam Veterans Memorial",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Vietnam Veterans Memorial (1982 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/christo-and-jeanne-claude-the-gates/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "title": "Horn Players",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Horn Players (1983 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/seeing-america-2/vvm-sa/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "title": "Summer Trees",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Summer Trees (1983 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jean-michel-basquiat-horn-players/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "title": "Androgyne III",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Androgyne III (1985 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/song-su-nam-summer-trees-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "title": "A Book from the Sky",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "A Book from the Sky (1987–1991 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/magdalena-abakanowicz-androgyne-iii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "title": "Pink Panther",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Pink Panther (1988 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/xu-bing-book-from-the-sky/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "title": "Untitled (#228), from the History Portraits series",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Untitled (#228), from the History Portraits series (1990 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jeff-koons-pink-panther/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "title": "Dancing at the Louvre, from the series The French Collection, Part I; #1",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Dancing at the Louvre, from the series The French Collection, Part I; #1 (1991 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/cindy-sherman-untitled-228/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "title": "Trade (Gifts for Trading Land with White People)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Trade (Gifts for Trading Land with White People) (1992 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/ringgold-dancing-at-the-louvre/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "title": "Earth's Creation",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Earth's Creation (1994 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/jaune-quick-to-see-smith-trade-gifts-for-trading-land-with-white-people/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "title": "Rebellious Silence, from the Women of Allah series",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Rebellious Silence, from the Women of Allah series (1994 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/emily-kame-kngwarreye-earths-creation-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "title": "En la Barberia no se Llora (No Crying Allowed in the Barbershop)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "En la Barberia no se Llora (No Crying Allowed in the Barbershop) (1994 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/shirin-neshat-rebellious-silence-women-of-allah-series/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "title": "Pisupo Lua Afe (Corned Beef 2000)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Pisupo Lua Afe (Corned Beef 2000) (1994 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/osorio-en-la-barberia-no-se-llora-no-crying-allowed-in-the-barbershop/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "title": "Electronic Superhighway",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Electronic Superhighway (1995 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/michel-tuffery-pisupo-lua-afe/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "title": "The Crossing",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Crossing (1996 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/nam-june-paik-electronic-superhighway-continental-u-s-alaska-hawaii/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "title": "Guggenheim Museum Bilbao",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Guggenheim Museum Bilbao (1997 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/bill-viola-the-crossing/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "title": "Pure Land",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Pure Land (1998 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/frank-gehry-guggenheim-bilbao/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "title": "Lying with the Wolf",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Lying with the Wolf (2001 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/mariko-mori-pure-land-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "title": "Darkytown Rebellion",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Darkytown Rebellion (2001 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/kiki-smith-lying-with-the-wolf/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "title": "The Swing (after Fragonard)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "The Swing (after Fragonard) (2001 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/kara-walker-darkytown-rebellion/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "title": "Old Man's Cloth",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Old Man's Cloth (2003 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/yinka-shonibare-the-swing-after-fragonard/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "title": "Stadia II",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Stadia II (2004 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/el-anatsui-old-mans-cloth-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "title": "Preying Mantra",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Preying Mantra (2006 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/julie-mehretu-stadia-ii-2/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "title": "Shibboleth",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Shibboleth (2007–2008 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/wangechi-mutu-preying-mantra/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "title": "MAXXI National Museum of XXI Century Arts",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "MAXXI National Museum of XXI Century Arts (2009 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/doris-salcedo-shibboleth/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "title": "Kui Hua Zi (Sunflower Seeds)",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "Kui Hua Zi (Sunflower Seeds) (2010–2011 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/zaha-hadid-maxxi/",
+        "local": true
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "title": "St. Luke Drawing the Virgin",
+    "images": [
+      {
+        "src": "images/placeholder/artwork-placeholder.svg",
+        "alt": "St. Luke Drawing the Virgin (c. 1435–1440 CE)",
+        "source": "Smarthistory guide: https://smarthistory.org/rogier-van-der-weyden-saint-luke-drawing-the-virgin/",
+        "local": true
+      }
+    ]
+  }
+]

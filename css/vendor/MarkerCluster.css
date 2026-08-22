@@ -1,0 +1,39 @@
+/* MarkerCluster CSS */
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+  -webkit-transition: -webkit-transform 0.25s ease-out, opacity 0.25s ease-in;
+  -moz-transition: -moz-transform 0.25s ease-out, opacity 0.25s ease-in;
+  transition: transform 0.25s ease-out, opacity 0.25s ease-in;
+}
+.leaflet-cluster-spider-leg {
+  -webkit-transition: -webkit-stroke-dashoffset 0.25s ease-out, -webkit-stroke-opacity 0.25s ease-in;
+  -moz-transition: -moz-stroke-dashoffset 0.25s ease-out, -moz-stroke-opacity 0.25s ease-in;
+  transition: stroke-dashoffset 0.25s ease-out, stroke-opacity 0.25s ease-in;
+  stroke: #6c584c;
+  stroke-width: 1.5;
+  stroke-dasharray: 2, 2;
+}
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  background-color: #4a5d6e;
+}
+.marker-cluster div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.marker-cluster-small { background-color: #557174; }
+.marker-cluster-medium { background-color: #6a605c; }
+.marker-cluster-large { background-color: #8c5344; }
