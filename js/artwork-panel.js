@@ -262,6 +262,14 @@ window.ArtworkPanel = (function () {
     _panelImageCaption.textContent = [srcStr, countStr].filter(Boolean).join(' • ') || 'AP Art History Image Archive';
   }
 
+  function isPendingSection(rawBody) {
+    if (!rawBody || !rawBody.trim()) return true;
+    const trimmed = rawBody.trim();
+    return /^\*?Source notes pending/i.test(trimmed) ||
+           /from owner source notes pending/i.test(trimmed) ||
+           /^Source notes pending\b/i.test(trimmed);
+  }
+
   function renderAffccContent(affcc, artwork) {
     _affccContainer.innerHTML = '';
 
@@ -277,33 +285,70 @@ window.ArtworkPanel = (function () {
 
       const rawBody = affcc.sections && affcc.sections[secKey] ? affcc.sections[secKey] : '';
 
-      if (!rawBody || rawBody.includes('pending')) {
+      if (isPendingSection(rawBody)) {
         const p = document.createElement('p');
         p.style.fontStyle = 'italic';
         p.style.color = '#7a7060';
         p.textContent = `Source notes pending for ${secKey.toLowerCase()}.`;
         secDiv.appendChild(p);
       } else {
-        // Render bullet points or paragraphs
+        // Render nested lists, bullet points, or paragraphs
         const lines = rawBody.split('\n');
-        let currentList = null;
+        // Stack of { level: number, ul: HTMLUListElement, lastLi: HTMLLIElement }
+        let listStack = [];
 
         lines.forEach(line => {
-          const trimmed = line.trim();
-          if (!trimmed) return;
+          if (!line.trim()) return;
 
-          if (trimmed.startsWith('-') || trimmed.startsWith('*')) {
-            if (!currentList) {
-              currentList = document.createElement('ul');
-              secDiv.appendChild(currentList);
+          // Match bullet pattern: indentation followed by '-' or '*'
+          const bulletMatch = line.match(/^(\s*)(?:[-*]|\d+\.)\s+(.*)$/);
+
+          if (bulletMatch) {
+            const indentSpaces = bulletMatch[1].replace(/\t/g, '  ').length;
+            const text = cleanMarkdownArtifacts(bulletMatch[2]);
+
+            if (listStack.length === 0) {
+              const ul = document.createElement('ul');
+              secDiv.appendChild(ul);
+              const li = document.createElement('li');
+              li.textContent = text;
+              ul.appendChild(li);
+              listStack.push({ indent: indentSpaces, ul, lastLi: li });
+            } else {
+              const current = listStack[listStack.length - 1];
+
+              if (indentSpaces > current.indent) {
+                // Nested sub-list under the parent's last <li>
+                const parentLi = current.lastLi || current.ul;
+                const subUl = document.createElement('ul');
+                parentLi.appendChild(subUl);
+                const li = document.createElement('li');
+                li.textContent = text;
+                subUl.appendChild(li);
+                listStack.push({ indent: indentSpaces, ul: subUl, lastLi: li });
+              } else if (indentSpaces < current.indent) {
+                // Pop stack until finding matching or lesser indent
+                while (listStack.length > 1 && listStack[listStack.length - 1].indent > indentSpaces) {
+                  listStack.pop();
+                }
+                const target = listStack[listStack.length - 1];
+                const li = document.createElement('li');
+                li.textContent = text;
+                target.ul.appendChild(li);
+                target.lastLi = li;
+              } else {
+                // Sibling at same indent level
+                const li = document.createElement('li');
+                li.textContent = text;
+                current.ul.appendChild(li);
+                current.lastLi = li;
+              }
             }
-            const li = document.createElement('li');
-            li.textContent = cleanMarkdownArtifacts(trimmed.replace(/^[-*]\s*/, ''));
-            currentList.appendChild(li);
           } else {
-            currentList = null;
+            // Regular paragraph line
+            listStack = [];
             const p = document.createElement('p');
-            p.textContent = cleanMarkdownArtifacts(trimmed);
+            p.textContent = cleanMarkdownArtifacts(line.trim());
             secDiv.appendChild(p);
           }
         });

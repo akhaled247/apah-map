@@ -299,6 +299,12 @@ Links to images in document:
       2. Would appear to have a ritual significance as the axis of the structure is aligned with the sunrise of the summer solstice and the setting of the midwinter sun   
       3. Recent research suggests that is was possibly a place for healing of the sick and a pilgrimage site  
    3. Content  
+      1. Non-representational, monumental architectural arrangement and sacred earthwork  
+      2. Outer circle of thirty sarsen upright megaliths linked by continuous curved horizontal lintels  
+      3. Inner horseshoe configuration of five grand sarsen trilithons (paired uprights with a lintel), with the central Giant Trilithon at the apex  
+      4. Concentric settings of smaller bluestones arranged between and within the sarsen formations  
+      5. Central axis aligned with the celestial calendar (summer solstice sunrise and winter solstice sunset)  
+      6. Enclosing circular earthwork ditch and bank, Aubrey Holes, and ceremonial Avenue leading toward the River Avon  
    4. Context (contextual analysis)  
       1. One of the most recognizable monuments from the neolithic period  
       2. Located on the Salisbury plain in England  

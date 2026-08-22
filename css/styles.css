@@ -591,8 +591,20 @@ html, body {
 }
 
 .affcc-section ul {
-  padding-left: 18px;
+  padding-left: 20px;
+  margin-top: 4px;
   margin-bottom: 8px;
+  list-style-type: disc;
+}
+
+.affcc-section ul ul {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  list-style-type: circle;
+}
+
+.affcc-section ul ul ul {
+  list-style-type: square;
 }
 
 .affcc-section li {
