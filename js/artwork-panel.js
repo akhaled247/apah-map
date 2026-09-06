@@ -14,6 +14,7 @@ window.ArtworkPanel = (function () {
   let _hoverImages = [];
   let _hoverImageIndex = 0;
   let _activeHoverArtworkId = null;
+  let _hoverHideTimer = null;
 
   // Panel DOM
   let _panel = null;
@@ -31,8 +32,8 @@ window.ArtworkPanel = (function () {
   let _metaLocation = null;
   let _metaUnit = null;
   let _affccContainer = null;
-  let _panelImages = [];
-  let _panelImageIndex = 0;
+  let _panelImageLink = null;
+  let _panelCarousel = null;
 
   function init() {
     // Hover elements
@@ -47,6 +48,7 @@ window.ArtworkPanel = (function () {
     _panelTitle = document.getElementById('panel-title');
     _panelCloseBtn = document.getElementById('panel-close-btn');
     _panelImage = document.getElementById('panel-image');
+    _panelImageLink = document.getElementById('panel-image-link');
     _panelImagePrev = document.getElementById('panel-img-prev');
     _panelImageNext = document.getElementById('panel-img-next');
     _panelImageCaption = document.getElementById('panel-image-caption');
@@ -108,6 +110,22 @@ window.ArtworkPanel = (function () {
         cycleHoverImage(1);
       });
     }
+
+    _hoverCard.addEventListener('mouseenter', cancelHideHoverCard);
+    _hoverCard.addEventListener('mouseleave', function () {
+      window.AppState.setHoveredArtwork(null);
+    });
+  }
+
+  function scheduleHideHoverCard() {
+    clearTimeout(_hoverHideTimer);
+    _hoverHideTimer = setTimeout(function () {
+      window.AppState.setHoveredArtwork(null);
+    }, 150);
+  }
+
+  function cancelHideHoverCard() {
+    clearTimeout(_hoverHideTimer);
   }
 
   function showHoverCard(artworkId, point) {
@@ -115,6 +133,7 @@ window.ArtworkPanel = (function () {
     const artwork = window.DataLoader.getArtworkById(artworkId);
     if (!artwork) return;
 
+    cancelHideHoverCard();
     _activeHoverArtworkId = artwork.id;
     _hoverImages = window.DataLoader.getImagesForArtwork(artwork.id);
     _hoverImageIndex = 0;
@@ -148,6 +167,7 @@ window.ArtworkPanel = (function () {
 
   function hideHoverCard() {
     if (!_hoverCard) return;
+    cancelHideHoverCard();
     _hoverCard.classList.remove('visible');
     _hoverCard.setAttribute('aria-hidden', 'true');
     _activeHoverArtworkId = null;
@@ -177,17 +197,13 @@ window.ArtworkPanel = (function () {
       });
     }
 
-    if (_panelImagePrev) {
-      _panelImagePrev.addEventListener('click', function () {
-        cyclePanelImage(-1);
-      });
-    }
-
-    if (_panelImageNext) {
-      _panelImageNext.addEventListener('click', function () {
-        cyclePanelImage(1);
-      });
-    }
+    _panelCarousel = window.ArtworkRender.bindImageCarousel({
+      imgEl: _panelImage,
+      captionEl: _panelImageCaption,
+      controlsEl: _panelImageControls,
+      prevBtn: _panelImagePrev,
+      nextBtn: _panelImageNext
+    });
 
     window.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') {
@@ -206,34 +222,30 @@ window.ArtworkPanel = (function () {
 
     hideHoverCard();
 
-    // Populate header & metadata
+    const pageUrl = window.ArtworkRender.artworkPageUrl(artwork.id);
+
+    _panelCedTag.href = pageUrl;
     _panelCedTag.textContent = `CED #${artwork.id}`;
+    _panelTitle.href = pageUrl;
     _panelTitle.textContent = artwork.title;
+    if (_panelImageLink) _panelImageLink.href = pageUrl;
+    if (_panelImageCaption) _panelImageCaption.href = pageUrl;
 
-    const artistOrCulture = [artwork.artist, artwork.culture].filter(Boolean).join(' • ') || '—';
-    _metaCulture.textContent = artistOrCulture;
-    _metaDate.textContent = artwork.dateDisplay;
-    _metaMedium.textContent = artwork.medium || '—';
-    _metaLocation.textContent = artwork.locationDisplay || '—';
+    window.ArtworkRender.populateMetadata(artwork, {
+      culture: _metaCulture,
+      date: _metaDate,
+      medium: _metaMedium,
+      location: _metaLocation,
+      unit: _metaUnit
+    });
 
-    const unitObj = window.DataLoader.getUnitById(artwork.unit);
-    _metaUnit.textContent = unitObj ? `Unit ${unitObj.id}: ${unitObj.name}` : `Unit ${artwork.unit}`;
-
-    // Images
-    _panelImages = window.DataLoader.getImagesForArtwork(artwork.id);
-    _panelImageIndex = 0;
-    updatePanelImageDisplay();
-
-    if (_panelImages.length > 1) {
-      _panelImageControls.style.display = 'flex';
-    } else {
-      _panelImageControls.style.display = 'none';
+    if (_panelCarousel) {
+      _panelCarousel.setImages(window.DataLoader.getImagesForArtwork(artwork.id));
     }
 
-    // Load AFFCC Markdown Content
     _affccContainer.innerHTML = '<div style="padding:12px; color:#777;">Loading study analysis...</div>';
     const affcc = await window.DataLoader.loadAffccContent(artwork.id);
-    renderAffccContent(affcc, artwork);
+    window.ArtworkRender.renderAffccContent(_affccContainer, affcc, artwork);
 
     _panel.classList.add('open');
     _panel.setAttribute('aria-hidden', 'false');
@@ -245,143 +257,13 @@ window.ArtworkPanel = (function () {
     _panel.setAttribute('aria-hidden', 'true');
   }
 
-  function cyclePanelImage(delta) {
-    if (_panelImages.length <= 1) return;
-    _panelImageIndex = (_panelImageIndex + delta + _panelImages.length) % _panelImages.length;
-    updatePanelImageDisplay();
-  }
-
-  function updatePanelImageDisplay() {
-    if (_panelImages.length === 0) return;
-    const current = _panelImages[_panelImageIndex];
-    _panelImage.src = current.src;
-    _panelImage.alt = current.alt || 'Artwork image';
-
-    const countStr = _panelImages.length > 1 ? ` (${_panelImageIndex + 1} of ${_panelImages.length})` : '';
-    const srcStr = current.source ? `Source: ${current.source}` : '';
-    _panelImageCaption.textContent = [srcStr, countStr].filter(Boolean).join(' • ') || 'AP Art History Image Archive';
-  }
-
-  function isPendingSection(rawBody) {
-    if (!rawBody || !rawBody.trim()) return true;
-    const trimmed = rawBody.trim();
-    return /^\*?Source notes pending/i.test(trimmed) ||
-           /from owner source notes pending/i.test(trimmed) ||
-           /^Source notes pending\b/i.test(trimmed);
-  }
-
-  function renderAffccContent(affcc, artwork) {
-    _affccContainer.innerHTML = '';
-
-    const sectionsOrder = ['Form', 'Function', 'Content', 'Context'];
-
-    sectionsOrder.forEach(secKey => {
-      const secDiv = document.createElement('div');
-      secDiv.className = 'affcc-section';
-
-      const heading = document.createElement('h3');
-      heading.textContent = secKey;
-      secDiv.appendChild(heading);
-
-      const rawBody = affcc.sections && affcc.sections[secKey] ? affcc.sections[secKey] : '';
-
-      if (isPendingSection(rawBody)) {
-        const p = document.createElement('p');
-        p.style.fontStyle = 'italic';
-        p.style.color = '#7a7060';
-        p.textContent = `Source notes pending for ${secKey.toLowerCase()}.`;
-        secDiv.appendChild(p);
-      } else {
-        // Render nested lists, bullet points, or paragraphs
-        const lines = rawBody.split('\n');
-        // Stack of { level: number, ul: HTMLUListElement, lastLi: HTMLLIElement }
-        let listStack = [];
-
-        lines.forEach(line => {
-          if (!line.trim()) return;
-
-          // Match bullet pattern: indentation followed by '-' or '*'
-          const bulletMatch = line.match(/^(\s*)(?:[-*]|\d+\.)\s+(.*)$/);
-
-          if (bulletMatch) {
-            const indentSpaces = bulletMatch[1].replace(/\t/g, '  ').length;
-            const text = cleanMarkdownArtifacts(bulletMatch[2]);
-
-            if (listStack.length === 0) {
-              const ul = document.createElement('ul');
-              secDiv.appendChild(ul);
-              const li = document.createElement('li');
-              li.textContent = text;
-              ul.appendChild(li);
-              listStack.push({ indent: indentSpaces, ul, lastLi: li });
-            } else {
-              const current = listStack[listStack.length - 1];
-
-              if (indentSpaces > current.indent) {
-                // Nested sub-list under the parent's last <li>
-                const parentLi = current.lastLi || current.ul;
-                const subUl = document.createElement('ul');
-                parentLi.appendChild(subUl);
-                const li = document.createElement('li');
-                li.textContent = text;
-                subUl.appendChild(li);
-                listStack.push({ indent: indentSpaces, ul: subUl, lastLi: li });
-              } else if (indentSpaces < current.indent) {
-                // Pop stack until finding matching or lesser indent
-                while (listStack.length > 1 && listStack[listStack.length - 1].indent > indentSpaces) {
-                  listStack.pop();
-                }
-                const target = listStack[listStack.length - 1];
-                const li = document.createElement('li');
-                li.textContent = text;
-                target.ul.appendChild(li);
-                target.lastLi = li;
-              } else {
-                // Sibling at same indent level
-                const li = document.createElement('li');
-                li.textContent = text;
-                current.ul.appendChild(li);
-                current.lastLi = li;
-              }
-            }
-          } else {
-            // Regular paragraph line
-            listStack = [];
-            const p = document.createElement('p');
-            p.textContent = cleanMarkdownArtifacts(line.trim());
-            secDiv.appendChild(p);
-          }
-        });
-      }
-
-      _affccContainer.appendChild(secDiv);
-    });
-
-    // If pending, add subtle banner
-    if (affcc.status === 'pending') {
-      const banner = document.createElement('div');
-      banner.className = 'affcc-status-note';
-      banner.innerHTML = `<strong>Note:</strong> Detailed AFFCC notes for Unit ${artwork.unit} are queued to be imported from owner source files.`;
-      _affccContainer.appendChild(banner);
-    }
-  }
-
-  function cleanMarkdownArtifacts(str) {
-    if (!str) return '';
-    return str
-      .replace(/\\-/g, '-')
-      .replace(/\\\*/g, '')
-      .replace(/\\_/g, '_')
-      .replace(/\*(.*?)\*/g, '$1')
-      .replace(/\\/g, '')
-      .trim();
-  }
-
   return {
     init,
     openPanel,
     closePanel,
     showHoverCard,
-    hideHoverCard
+    hideHoverCard,
+    scheduleHideHoverCard,
+    cancelHideHoverCard
   };
 })();

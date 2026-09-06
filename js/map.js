@@ -108,11 +108,29 @@ window.AppMap = (function () {
 
       // Hover / focus interaction (spec section 11)
       marker.on('mouseover', function (e) {
+        if (window.ArtworkPanel && window.ArtworkPanel.cancelHideHoverCard) {
+          window.ArtworkPanel.cancelHideHoverCard();
+        }
         showHoverPreview(art, e);
+      });
+
+      marker.on('mouseout', function () {
+        if (window.ArtworkPanel && window.ArtworkPanel.scheduleHideHoverCard) {
+          window.ArtworkPanel.scheduleHideHoverCard();
+        } else {
+          window.AppState.setHoveredArtwork(null);
+        }
       });
 
       marker.on('focus', function (e) {
         showHoverPreview(art, e);
+      });
+
+      marker.on('blur', function (e) {
+        const related = e.originalEvent && e.originalEvent.relatedTarget;
+        const hoverCard = document.getElementById('hover-preview-card');
+        if (related && hoverCard && hoverCard.contains(related)) return;
+        window.AppState.setHoveredArtwork(null);
       });
 
       // Click / enter interaction: Open full detail panel

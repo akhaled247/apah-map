@@ -165,6 +165,21 @@ for (let id = 1; id <= 250; id++) {
   }
 }
 
+// 5. Validate generated artwork detail pages
+for (let id = 1; id <= 250; id++) {
+  const pageDir = path.join(__dirname, '..', 'list', padId(id));
+  const pageFile = path.join(pageDir, 'index.html');
+  if (!fs.existsSync(pageFile)) {
+    errors.push(`Missing artwork page "list/${padId(id)}/index.html" (run npm run generate-pages)`);
+    continue;
+  }
+  const pageHtml = fs.readFileSync(pageFile, 'utf8');
+  const idMatch = pageHtml.match(/data-artwork-id="(\d+)"/);
+  if (!idMatch || parseInt(idMatch[1], 10) !== id) {
+    errors.push(`Artwork page list/${padId(id)}/index.html has mismatched data-artwork-id (expected ${id})`);
+  }
+}
+
 // Report results
 console.log('--------------------------------------------------');
 console.log('AP Art History Interactive Map — Dataset Validation');

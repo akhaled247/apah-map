@@ -20,7 +20,7 @@
       <div class="brand-title">
         <h1>AP Art History</h1>
         <!-- Note: Displays "X/250 Required Works" where X is the number of works that have been updated -->
-        <span class="badge">11/250 Required Works</span>
+        <span class="badge">47/250 Required Works</span>
       </div>
 
       <!-- Search Bar -->
@@ -41,6 +41,7 @@
 
       <!-- Global Actions -->
       <div class="header-controls">
+        <a href="list/" class="btn btn-subtle header-nav-link">Browse List</a>
         <button id="random-artwork-btn" class="btn btn-primary" title="Explore a random artwork from the filtered set">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
           Random Artwork
@@ -93,8 +94,8 @@
     <aside id="artwork-panel" class="artwork-panel" aria-label="Artwork Information and Study Analysis" aria-hidden="true">
       <div class="panel-header">
         <div class="panel-title-group">
-          <span id="panel-ced-tag" class="panel-ced-tag">CED #5</span>
-          <h2 id="panel-title">Artwork Title</h2>
+          <a id="panel-ced-tag" class="panel-ced-tag panel-detail-link" href="#">CED #5</a>
+          <h2><a id="panel-title" class="panel-detail-link" href="#">Artwork Title</a></h2>
         </div>
         <button id="panel-close-btn" class="panel-close-btn" aria-label="Close artwork details panel">&times;</button>
       </div>
@@ -102,14 +103,16 @@
       <div class="panel-body">
         <!-- Image & Carousel -->
         <div class="panel-image-section">
-          <div class="panel-image-display">
-            <img id="panel-image" src="images/placeholder/artwork-placeholder.svg" alt="Artwork Detail">
-          </div>
+          <a id="panel-image-link" class="panel-image-link panel-detail-link" href="#">
+            <div class="panel-image-display">
+              <img id="panel-image" src="images/placeholder/artwork-placeholder.svg" alt="Artwork Detail">
+            </div>
+          </a>
           <div class="panel-image-controls" id="panel-image-controls">
             <button id="panel-img-prev" class="panel-image-btn" aria-label="Previous image">&lt;</button>
             <button id="panel-img-next" class="panel-image-btn" aria-label="Next image">&gt;</button>
           </div>
-          <div id="panel-image-caption" class="panel-image-caption">Image source & attribution</div>
+          <a id="panel-image-caption" class="panel-image-caption panel-detail-link" href="#">Image source & attribution</a>
         </div>
 
         <!-- Metadata Table -->
@@ -188,6 +191,7 @@
   <script src="js/map.js"></script>
   <script src="js/timeline.js"></script>
   <script src="js/search.js"></script>
+  <script src="js/artwork-render.js"></script>
   <script src="js/artwork-panel.js"></script>
   <script src="js/random.js"></script>
   <script src="js/app.js"></script>

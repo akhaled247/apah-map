@@ -908,8 +908,8 @@ remainingWorksData.forEach(item => {
     longitude: item.lon,
     locationPrecision: item.prec,
     unit: item.unit,
-    dataConfidence: item.id <= 11 ? 'owner_notes' : 'best_effort',
-    affccStatus: item.id <= 11 ? 'complete' : 'pending',
+    dataConfidence: item.id <= 47 ? 'owner_notes' : 'best_effort',
+    affccStatus: item.id <= 47 ? 'complete' : 'pending',
     url: item.url
   });
 });
@@ -1009,8 +1009,8 @@ let reviewContent = `# Dataset Audit & Items for Review
 
 This document logs any artworks whose dates, locations, or metadata require verification against the physical College Board Course and Exam Description (CED).
 
-- **Unit 1 (Works 1–11)**: Level 2 Authoritative (from Project Owner's \`__Unit 1 Global Prehistory 30,000–500 bce Notes.md\`).
-- **Units 2–10 (Works 12–250)**: Standard canonical AP Art History CED metadata with Smarthistory guide cross-references. Marked with \`"dataConfidence": "best_effort"\`.
+- **Units 1–2 (Works 1–47)**: Level 2 Authoritative (from project owner source notes in \`data/source/\`).
+- **Units 3–10 (Works 48–250)**: Standard canonical AP Art History CED metadata with Smarthistory guide cross-references. Marked with \`"dataConfidence": "best_effort"\`.
 
 ## Date Normalization Audit
 `;

@@ -136,10 +136,10 @@
     "title": "White Temple and its ziggurat",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7530/15773819026_f99694b522_b.jpg",
         "alt": "White Temple and its ziggurat (c. 3500–3000 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/white-temple-and-ziggurat-uruk/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -148,10 +148,22 @@
     "title": "Palette of King Narmer",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8611/15774189486_171dc1f28c_b.jpg",
         "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/palette-of-king-narmer/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5610/15178422513_2029239eb6_b.jpg",
+        "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5606/15612039269_9714be156e_b.jpg",
+        "alt": "Palette of King Narmer (c. 3000–2920 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -160,10 +172,16 @@
     "title": "Statues of votive figures, from the Square Temple at Eshnunna",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/3907/15324643576_4db954a9b1_b.jpg",
         "alt": "Statues of votive figures, from the Square Temple at Eshnunna (c. 2700 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/standing-male-worshipper-from-the-square-temple-at-eshnunna-tell-asmar/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2944/15344487461_8c28eb99a9_b.jpg",
+        "alt": "Statues of votive figures, from the Square Temple at Eshnunna (c. 2700 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -172,10 +190,22 @@
     "title": "Seated scribe",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7555/15775012706_cd2d5ae7f0_b.jpg",
         "alt": "Seated scribe (c. 2620–2500 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/seated-scribe/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5615/15612861779_b61241686f_b.jpg",
+        "alt": "Seated scribe (c. 2620–2500 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7530/15612861729_3c6e22443b_b.jpg",
+        "alt": "Seated scribe (c. 2620–2500 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -184,10 +214,28 @@
     "title": "Standard of Ur from the Royal Tombs at Ur",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7084/7324389694_459ba6d344_b.jpg",
         "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/standard-of-ur-2/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7083/7324379672_5aeb6cdfe5_b.jpg",
+        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8158/7324397844_12cc2d6b95_b.jpg",
+        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8153/7324396386_fba1cfe3af_b.jpg",
+        "alt": "Standard of Ur from the Royal Tombs at Ur (c. 2600–2400 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -196,10 +244,22 @@
     "title": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7533/15613718217_d0c0c6178d.jpg",
         "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-great-pyramids-of-giza/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7535/15179450153_34a96d48ed.jpg",
+        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7551/15179450113_f92e408909.jpg",
+        "alt": "Great Pyramids (Menkaura, Khafre, Khufu) and Great Sphinx (c. 2550–2490 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -208,10 +268,16 @@
     "title": "King Menkaura and queen",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7499/15179060794_7dc11a6d38_b.jpg",
         "alt": "King Menkaura and queen (c. 2490–2472 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/king-menkaure-mycerinus-and-queen/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7557/15613188179_cf1174142e_b.jpg",
+        "alt": "King Menkaura and queen (c. 2490–2472 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -220,10 +286,28 @@
     "title": "The Code of Hammurabi",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/4221/34752049742_82696ca134_b.jpg",
         "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/hammurabi-2/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4202/34528460920_ce8a128b84_b.jpg",
+        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4276/34528463920_99cce583e3_b.jpg",
+        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4270/34528455910_821591e63f_b.jpg",
+        "alt": "The Code of Hammurabi (c. 1792–1750 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -232,10 +316,28 @@
     "title": "Temple of Amun-Re and Hypostyle Hall",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7466/15801060102_92f7dddfd2_b.jpg",
         "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/temple-of-amun-re-and-the-hypostyle-hall-karnak/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7521/15799491715_54e78d573c_b.jpg",
+        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5610/15797719771_d9af4ca420_b.jpg",
+        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7541/15614759390_9f9a11a2bc_b.jpg",
+        "alt": "Temple of Amun-Re and Hypostyle Hall (Temple: c. 1550 BCE; hall: c. 1250 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -244,10 +346,10 @@
     "title": "Mortuary Temple of Hatshepsut",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7488/15776116906_f806c12c35_b.jpg",
         "alt": "Mortuary Temple of Hatshepsut (c. 1473–1458 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/hatshepsut/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -256,10 +358,28 @@
     "title": "Akhenaten, Nefertiti, and three daughters",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8424/7670423810_60dca10f25_b.jpg",
         "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/house-altar-depicting-akhenaten-nefertiti-and-three-of-their-daughters/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7128/7670401464_ecd4351647_b.jpg",
+        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8143/7670413792_5052607617_b.jpg",
+        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8165/7670404296_32b9b10637_b.jpg",
+        "alt": "Akhenaten, Nefertiti, and three daughters (c. 1353–1335 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -268,10 +388,16 @@
     "title": "Tutankhamun's tomb, innermost coffin",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/5615/15618376030_425dd41720_b.jpg",
         "alt": "Tutankhamun's tomb, innermost coffin (c. 1323 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/tutankhamuns-tomb-innermost-coffin-and-death-mask/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7493/15801346991_b8637d78db_b.jpg",
+        "alt": "Tutankhamun's tomb, innermost coffin (c. 1323 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -280,10 +406,28 @@
     "title": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/3716/9395548313_2e0d44cd97_b.jpg",
         "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/hunefers-judgement-in-the-presence-of-osiris/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5464/9395528047_45704d9a76_b.jpg",
+        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7305/9395530653_6734651a3d_b.jpg",
+        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3668/9398296854_5dcff17e11_b.jpg",
+        "alt": "Last judgment of Hunefer, from his tomb (page from the Book of the Dead) (c. 1275 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -292,10 +436,22 @@
     "title": "Lamassu from the citadel of Sargon II, Dur Sharrukin",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/3847/14581729882_9221bf5687_b.jpg",
         "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/lamassu-from-the-citadel-of-sargon-ii/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3854/14396096157_d14fe00e3b_b.jpg",
+        "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3847/14559452516_7aee937941_b.jpg",
+        "alt": "Lamassu from the citadel of Sargon II, Dur Sharrukin (c. 720–705 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -304,10 +460,22 @@
     "title": "Athenian Agora",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7543/15784365296_fb88b5705e_b.jpg",
         "alt": "Athenian Agora (600 BCE–150 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-athenian-agora-and-the-experiment-in-democracy/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7560/15623178030_7a30accf85_b.jpg",
+        "alt": "Athenian Agora (600 BCE–150 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7521/15806143661_5b93434c8c_b.jpg",
+        "alt": "Athenian Agora (600 BCE–150 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -316,10 +484,22 @@
     "title": "Anavysos Kouros",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/3804/13200052054_1998e8faa5_b.jpg",
         "alt": "Anavysos Kouros (c. 530 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/anavysos-kouros/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2889/13199718465_a4cde1913b_b.jpg",
+        "alt": "Anavysos Kouros (c. 530 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3796/13199851933_5b7f73a474_b.jpg",
+        "alt": "Anavysos Kouros (c. 530 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -328,10 +508,10 @@
     "title": "Peplos Kore from the Acropolis",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7541/15808502755_42274b327d_b.jpg",
         "alt": "Peplos Kore from the Acropolis (c. 530 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/peplos-kore/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -340,10 +520,28 @@
     "title": "Sarcophagus of the Spouses",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7461/15623415937_ea32f3f6bb_b.jpg",
         "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/sarcophagus-of-the-spouses-rome/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8129/15623415987_fd61a528de_b.jpg",
+        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8589/15623416067_74353bf9ac_b.jpg",
+        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5614/15622782629_c23d8d6eb9_b.jpg",
+        "alt": "Sarcophagus of the Spouses (c. 520 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -352,10 +550,28 @@
     "title": "Audience Hall (apadana) of Darius and Xerxes",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7386/12886128175_6e7692ae85_b.jpg",
         "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/persepolis-the-audience-hall-of-darius-and-xerxes/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7409/12886123855_99c050ba96_b.jpg",
+        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7386/12886600984_b4870234a8_b.jpg",
+        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8624/16126611004_77bf89507a_b.jpg",
+        "alt": "Audience Hall (apadana) of Darius and Xerxes (c. 520–465 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -364,10 +580,28 @@
     "title": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7597/16748028961_460bc86ac0_b.jpg",
         "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/temple-of-minerva-and-the-sculpture-of-apollo-veii/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8619/16748132902_1c6ce2f233_b.jpg",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8634/16541947547_62fe604d8c_b.jpg",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8680/16748027571_918e1f2495_b.jpg",
+        "alt": "Temple of Minerva (Veii, near Rome, Italy) and sculpture of Apollo (c. 510–500 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -376,10 +610,10 @@
     "title": "Tomb of the Triclinium",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8571/16748187041_6418d3067d_b.jpg",
         "alt": "Tomb of the Triclinium (c. 480–470 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/tomb-of-the-triclinium/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -388,10 +622,28 @@
     "title": "Niobides Krater",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7373/14109737924_93c17b8369_b.jpg",
         "alt": "Niobides Krater (c. 460–450 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/niobid-krater/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7341/13922754258_2fcabc4ea7_b.jpg",
+        "alt": "Niobides Krater (c. 460–450 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2911/13922694587_59aa30fd25_b.jpg",
+        "alt": "Niobides Krater (c. 460–450 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5574/14129418233_f2dba1fd39_b.jpg",
+        "alt": "Niobides Krater (c. 460–450 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -400,10 +652,28 @@
     "title": "Doryphoros (Spear Bearer)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8293/7751597926_15db8bdde6_b.jpg",
         "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/polykleitos-doryphoros-spear-bearer/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7268/7751591568_8e7a0d3cb3_b.jpg",
+        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8443/7751589724_15121dd374_b.jpg",
+        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8441/7751593584_ce35134893_b.jpg",
+        "alt": "Doryphoros (Spear Bearer) (Original c. 450–440 BCE; Roman copy 1st century BCE/CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -412,10 +682,28 @@
     "title": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/5153/14296260440_f5276cc612_b.jpg",
         "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/courses/the-story-of-the-parthenon/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3916/14296297438_7e7cbdb444_b.jpg",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2924/14296456947_1c480a59c2_b.jpg",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3800/12881144743_d2ffe2b65f_b.jpg",
+        "alt": "Acropolis (Parthenon, Helios, Plaque of the Ergastines, Temple of Athena Nike, Victory adjusting her sandal) (c. 447–410 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -424,10 +712,28 @@
     "title": "Grave stele of Hegeso",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7621/16723646646_71a19b6fba_b.jpg",
         "alt": "Grave stele of Hegeso (c. 410 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/grave-stele-of-hegeso/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8671/16563441969_299de0e3fe_b.jpg",
+        "alt": "Grave stele of Hegeso (c. 410 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7631/16127236534_c3ce6f85ef_b.jpg",
+        "alt": "Grave stele of Hegeso (c. 410 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7629/16723647476_6efb4985b7_b.jpg",
+        "alt": "Grave stele of Hegeso (c. 410 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -436,10 +742,22 @@
     "title": "Winged Victory of Samothrace",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/5061/5604970256_af3b8948e4_b.jpg",
         "alt": "Winged Victory of Samothrace (c. 190 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/nike-winged-victory-of-samothrace/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5023/5605181736_983b4b77e7_b.jpg",
+        "alt": "Winged Victory of Samothrace (c. 190 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5144/5605177684_ff73dfa040_b.jpg",
+        "alt": "Winged Victory of Samothrace (c. 190 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -448,10 +766,10 @@
     "title": "Great Altar of Zeus and Athena at Pergamon",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8037/7952983798_5da455144b.jpg",
         "alt": "Great Altar of Zeus and Athena at Pergamon (c. 175 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-pergamon-altar/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -460,10 +778,22 @@
     "title": "House of the Vettii",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7623/16129743933_97d076ed3b.jpg",
         "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/pompeii-house-of-the-vettii/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7285/16748501091_2b95a76b4f_b.jpg",
+        "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8740/16723787626_1eee021974_b.jpg",
+        "alt": "House of the Vettii (c. second century BCE; rebuilt 62–79 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -472,10 +802,28 @@
     "title": "Alexander Mosaic from the House of the Faun, Pompeii",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8345/8215862030_62da30f94a_b.jpg",
         "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/alexander-mosaic-from-the-house-of-the-faun-pompeii/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8337/8214776951_2e1b0c7b9a_b.jpg",
+        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8342/8215876046_0c9e90787b_b.jpg",
+        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8340/8215878366_6e5741ea26_b.jpg",
+        "alt": "Alexander Mosaic from the House of the Faun, Pompeii (c. 100 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -484,10 +832,28 @@
     "title": "Seated boxer (Boxer at Rest)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8281/7808850358_66ee0fe817_b.jpg",
         "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/apollonius-boxer-at-rest/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8437/7808848184_0660df65e3_b.jpg",
+        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8282/7808851660_c14aa92ae1_b.jpg",
+        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8424/7808852254_d56d6786c4_b.jpg",
+        "alt": "Seated boxer (Boxer at Rest) (c. 100 BCE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -496,10 +862,10 @@
     "title": "Head of a Roman patrician",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/16748752172_37af22f24e_b.jpg",
         "alt": "Head of a Roman patrician (c. 75–50 BCE)",
-        "source": "Smarthistory guide: https://smarthistory.org/head-of-a-roman-patrician/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -508,10 +874,28 @@
     "title": "Augustus of Prima Porta",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8423/7576026902_8af516fa1c_b.jpg",
         "alt": "Augustus of Prima Porta (Early first century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/augustus-of-primaporta/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7280/7576041404_14c46de3bd_b.jpg",
+        "alt": "Augustus of Prima Porta (Early first century CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7252/7576050842_877fb42668_b.jpg",
+        "alt": "Augustus of Prima Porta (Early first century CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7131/7576046720_49cc6d2d0f_b.jpg",
+        "alt": "Augustus of Prima Porta (Early first century CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -520,10 +904,28 @@
     "title": "Colosseum (Flavian Amphitheater)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/3360/4573419272_2aed5555be_b.jpg",
         "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-colosseum-rome/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4025/4573419878_ca00dc26b3_b.jpg",
+        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4023/4572785657_d54ffaa119_b.jpg",
+        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3184/3017455273_48d3a3d21c_b.jpg",
+        "alt": "Colosseum (Flavian Amphitheater) (70–80 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -532,10 +934,28 @@
     "title": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/4039/4630360337_f0dd6d125d_b.jpg",
         "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/forum-and-markets-of-trajan/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4061/4630360635_cdeef5d35d_b.jpg",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3410/4630958882_67467a0986_b.jpg",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/4041/4630360603_9275756984_b.jpg",
+        "alt": "Forum of Trajan (Forum, Basilica Ulpia, Trajan Markets, Column of Trajan) (Forum and markets: 106–112 CE; column: 113 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -544,10 +964,22 @@
     "title": "Pantheon",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/3148/3032206257_05e86ce89a_b.jpg",
         "alt": "Pantheon (118–125 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-pantheon/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3042/3032204579_1aa4f47171_b.jpg",
+        "alt": "Pantheon (118–125 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3040/3033046896_3b7571f80d_b.jpg",
+        "alt": "Pantheon (118–125 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -556,10 +988,28 @@
     "title": "Ludovisi Battle Sarcophagus",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8355/8298134176_f15c060482_b.jpg",
         "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/battle-of-the-romans-and-barbarians-ludovisi-battle-sarcophagus/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8496/8297085689_43989d4848_b.jpg",
+        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8081/8298136238_786d656db3_b.jpg",
+        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8363/8298138870_59e79238c4_b.jpg",
+        "alt": "Ludovisi Battle Sarcophagus (c. 250 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },

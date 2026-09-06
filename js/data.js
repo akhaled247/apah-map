@@ -15,12 +15,20 @@ window.DataLoader = (function () {
     return String(id).padStart(3, '0');
   }
 
+  function resolveSitePath(relativePath) {
+    const script = document.querySelector('script[src*="js/data.js"]');
+    const base = script && script.src
+      ? new URL('../', script.src)
+      : new URL('./', window.location.href);
+    return new URL(relativePath, base).href;
+  }
+
   async function loadAll() {
     try {
       const [artworksRes, unitsRes, imagesRes] = await Promise.all([
-        fetch('data/artworks.json'),
-        fetch('data/units.json'),
-        fetch('data/images.json')
+        fetch(resolveSitePath('data/artworks.json')),
+        fetch(resolveSitePath('data/units.json')),
+        fetch(resolveSitePath('data/images.json'))
       ]);
 
       if (!artworksRes.ok || !unitsRes.ok || !imagesRes.ok) {
@@ -81,7 +89,7 @@ window.DataLoader = (function () {
       return _affccCache.get(numId);
     }
 
-    const filePath = `content/affcc/${padId(numId)}.md`;
+    const filePath = resolveSitePath(`content/affcc/${padId(numId)}.md`);
     try {
       const res = await fetch(filePath);
       if (!res.ok) {

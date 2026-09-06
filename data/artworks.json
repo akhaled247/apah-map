@@ -223,7 +223,9 @@
     "longitude": 45.63,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/white-temple-and-ziggurat-uruk/"
+    "sourceUrl": "https://smarthistory.org/white-temple-and-ziggurat-uruk/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 13,
@@ -240,7 +242,9 @@
     "longitude": 32.78,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/palette-of-king-narmer/"
+    "sourceUrl": "https://smarthistory.org/palette-of-king-narmer/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 14,
@@ -257,7 +261,9 @@
     "longitude": 44.88,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/standing-male-worshipper-from-the-square-temple-at-eshnunna-tell-asmar/"
+    "sourceUrl": "https://smarthistory.org/standing-male-worshipper-from-the-square-temple-at-eshnunna-tell-asmar/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 15,
@@ -274,7 +280,9 @@
     "longitude": 31.22,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/seated-scribe/"
+    "sourceUrl": "https://smarthistory.org/seated-scribe/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 16,
@@ -291,7 +299,9 @@
     "longitude": 46.1,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/standard-of-ur-2/"
+    "sourceUrl": "https://smarthistory.org/standard-of-ur-2/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 17,
@@ -308,7 +318,9 @@
     "longitude": 31.1342,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/the-great-pyramids-of-giza/"
+    "sourceUrl": "https://smarthistory.org/the-great-pyramids-of-giza/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 18,
@@ -325,7 +337,9 @@
     "longitude": 31.128,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/king-menkaure-mycerinus-and-queen/"
+    "sourceUrl": "https://smarthistory.org/king-menkaure-mycerinus-and-queen/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 19,
@@ -342,7 +356,9 @@
     "longitude": 44.42,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/hammurabi-2/"
+    "sourceUrl": "https://smarthistory.org/hammurabi-2/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 20,
@@ -359,7 +375,9 @@
     "longitude": 32.6573,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/temple-of-amun-re-and-the-hypostyle-hall-karnak/"
+    "sourceUrl": "https://smarthistory.org/temple-of-amun-re-and-the-hypostyle-hall-karnak/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 21,
@@ -376,7 +394,9 @@
     "longitude": 32.607,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/hatshepsut/"
+    "sourceUrl": "https://smarthistory.org/hatshepsut/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 22,
@@ -393,7 +413,9 @@
     "longitude": 30.9,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/house-altar-depicting-akhenaten-nefertiti-and-three-of-their-daughters/"
+    "sourceUrl": "https://smarthistory.org/house-altar-depicting-akhenaten-nefertiti-and-three-of-their-daughters/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 23,
@@ -410,7 +432,9 @@
     "longitude": 32.6,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/tutankhamuns-tomb-innermost-coffin-and-death-mask/"
+    "sourceUrl": "https://smarthistory.org/tutankhamuns-tomb-innermost-coffin-and-death-mask/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 24,
@@ -427,7 +451,9 @@
     "longitude": 32.63,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/hunefers-judgement-in-the-presence-of-osiris/"
+    "sourceUrl": "https://smarthistory.org/hunefers-judgement-in-the-presence-of-osiris/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 25,
@@ -444,7 +470,9 @@
     "longitude": 43.22,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/lamassu-from-the-citadel-of-sargon-ii/"
+    "sourceUrl": "https://smarthistory.org/lamassu-from-the-citadel-of-sargon-ii/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 26,
@@ -461,7 +489,9 @@
     "longitude": 23.7225,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/the-athenian-agora-and-the-experiment-in-democracy/"
+    "sourceUrl": "https://smarthistory.org/the-athenian-agora-and-the-experiment-in-democracy/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 27,
@@ -478,7 +508,9 @@
     "longitude": 23.94,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/anavysos-kouros/"
+    "sourceUrl": "https://smarthistory.org/anavysos-kouros/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 28,
@@ -495,7 +527,9 @@
     "longitude": 23.7266,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/peplos-kore/"
+    "sourceUrl": "https://smarthistory.org/peplos-kore/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 29,
@@ -512,7 +546,9 @@
     "longitude": 12.1,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/sarcophagus-of-the-spouses-rome/"
+    "sourceUrl": "https://smarthistory.org/sarcophagus-of-the-spouses-rome/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 30,
@@ -529,7 +565,9 @@
     "longitude": 52.89,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/persepolis-the-audience-hall-of-darius-and-xerxes/"
+    "sourceUrl": "https://smarthistory.org/persepolis-the-audience-hall-of-darius-and-xerxes/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 31,
@@ -546,7 +584,9 @@
     "longitude": 12.4,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/temple-of-minerva-and-the-sculpture-of-apollo-veii/"
+    "sourceUrl": "https://smarthistory.org/temple-of-minerva-and-the-sculpture-of-apollo-veii/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 32,
@@ -563,7 +603,9 @@
     "longitude": 11.77,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/tomb-of-the-triclinium/"
+    "sourceUrl": "https://smarthistory.org/tomb-of-the-triclinium/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 33,
@@ -580,7 +622,9 @@
     "longitude": 23.72,
     "locationPrecision": "city",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/niobid-krater/"
+    "sourceUrl": "https://smarthistory.org/niobid-krater/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 34,
@@ -597,7 +641,9 @@
     "longitude": 14.48,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/polykleitos-doryphoros-spear-bearer/"
+    "sourceUrl": "https://smarthistory.org/polykleitos-doryphoros-spear-bearer/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 35,
@@ -614,7 +660,9 @@
     "longitude": 23.7266,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/courses/the-story-of-the-parthenon/"
+    "sourceUrl": "https://smarthistory.org/courses/the-story-of-the-parthenon/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 36,
@@ -631,7 +679,9 @@
     "longitude": 23.718,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/grave-stele-of-hegeso/"
+    "sourceUrl": "https://smarthistory.org/grave-stele-of-hegeso/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 37,
@@ -648,7 +698,9 @@
     "longitude": 25.53,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/nike-winged-victory-of-samothrace/"
+    "sourceUrl": "https://smarthistory.org/nike-winged-victory-of-samothrace/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 38,
@@ -665,7 +717,9 @@
     "longitude": 27.18,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/the-pergamon-altar/"
+    "sourceUrl": "https://smarthistory.org/the-pergamon-altar/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 39,
@@ -682,7 +736,9 @@
     "longitude": 14.4845,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/pompeii-house-of-the-vettii/"
+    "sourceUrl": "https://smarthistory.org/pompeii-house-of-the-vettii/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 40,
@@ -699,7 +755,9 @@
     "longitude": 14.484,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/alexander-mosaic-from-the-house-of-the-faun-pompeii/"
+    "sourceUrl": "https://smarthistory.org/alexander-mosaic-from-the-house-of-the-faun-pompeii/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 41,
@@ -716,7 +774,9 @@
     "longitude": 12.488,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/apollonius-boxer-at-rest/"
+    "sourceUrl": "https://smarthistory.org/apollonius-boxer-at-rest/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 42,
@@ -733,7 +793,9 @@
     "longitude": 12.48,
     "locationPrecision": "city",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/head-of-a-roman-patrician/"
+    "sourceUrl": "https://smarthistory.org/head-of-a-roman-patrician/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 43,
@@ -750,7 +812,9 @@
     "longitude": 12.493,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/augustus-of-primaporta/"
+    "sourceUrl": "https://smarthistory.org/augustus-of-primaporta/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 44,
@@ -767,7 +831,9 @@
     "longitude": 12.4922,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/the-colosseum-rome/"
+    "sourceUrl": "https://smarthistory.org/the-colosseum-rome/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 45,
@@ -784,7 +850,9 @@
     "longitude": 12.4858,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/forum-and-markets-of-trajan/"
+    "sourceUrl": "https://smarthistory.org/forum-and-markets-of-trajan/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 46,
@@ -801,7 +869,9 @@
     "longitude": 12.4769,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/the-pantheon/"
+    "sourceUrl": "https://smarthistory.org/the-pantheon/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 47,
@@ -818,7 +888,9 @@
     "longitude": 12.492,
     "locationPrecision": "site",
     "unit": 2,
-    "sourceUrl": "https://smarthistory.org/battle-of-the-romans-and-barbarians-ludovisi-battle-sarcophagus/"
+    "sourceUrl": "https://smarthistory.org/battle-of-the-romans-and-barbarians-ludovisi-battle-sarcophagus/",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete"
   },
   {
     "id": 48,

@@ -6,6 +6,7 @@
   "scripts": {
     "validate": "node scripts/validate-data.js",
     "generate-affcc": "node scripts/generate-affcc.js",
+    "generate-pages": "node scripts/generate-artwork-pages.js",
     "test": "node scripts/validate-data.js"
   },
   "keywords": [

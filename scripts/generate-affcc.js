@@ -22,9 +22,9 @@ function padId(id) {
 }
 
 /**
- * Parses Unit 1 source notes markdown into structured sections
+ * Parses owner source notes markdown into structured sections (works 1–250).
  */
-function parseUnit1Notes(filePath) {
+function parseOwnerNotes(filePath) {
   const text = fs.readFileSync(filePath, 'utf8');
   const sections = {};
 
@@ -202,11 +202,17 @@ confidence: "ced_metadata_only"
 }
 
 // Execution
-const unit1SourcePath = path.join(__dirname, '../data/source/unit-01-global-prehistory.md');
-let unit1Parsed = {};
-if (fs.existsSync(unit1SourcePath)) {
-  unit1Parsed = parseUnit1Notes(unit1SourcePath);
-  console.log(`Parsed ${Object.keys(unit1Parsed).length} works from Unit 1 notes file.`);
+const notesSources = [
+  path.join(__dirname, '../data/source/unit-01-global-prehistory.md'),
+  path.join(__dirname, '../data/source/unit-02-ancient-mediterranean.md')
+];
+
+let ownerNotesParsed = {};
+for (const notesPath of notesSources) {
+  if (!fs.existsSync(notesPath)) continue;
+  const parsed = parseOwnerNotes(notesPath);
+  Object.assign(ownerNotesParsed, parsed);
+  console.log(`Parsed ${Object.keys(parsed).length} works from ${path.basename(notesPath)}.`);
 }
 
 let generatedCount = 0;
@@ -223,8 +229,8 @@ for (let id = 1; id <= 250; id++) {
   const filePath = path.join(contentDir, `${padId(id)}.md`);
   let content = '';
 
-  if (id <= 11 && unit1Parsed[id]) {
-    content = generateAffccMarkdown(artwork, unit1Parsed[id]);
+  if (ownerNotesParsed[id]) {
+    content = generateAffccMarkdown(artwork, ownerNotesParsed[id]);
     completeCount++;
   } else {
     content = generatePendingStub(artwork);
