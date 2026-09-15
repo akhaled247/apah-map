@@ -8,18 +8,52 @@
 </head>
 <body class="list-page">
 
-  <header class="standalone-header" role="banner">
-    <div class="standalone-header-inner">
+  <header class="app-header app-header--page" role="banner">
+    <div class="header-top">
       <div class="brand-title">
         <h1>AP Art History</h1>
         <span class="badge">250 Required Works</span>
       </div>
-      <nav class="standalone-nav" aria-label="Site navigation">
-        <a href="../">Map</a>
-        <a href="./" class="active" aria-current="page">Browse List</a>
-      </nav>
+
+      <div class="search-container" role="search">
+        <label for="artwork-search-input" class="sr-only">Search artworks by CED number, title, artist, culture, or location</label>
+        <input
+          type="text"
+          id="artwork-search-input"
+          class="search-input"
+          placeholder="Search by title, artist, CED #, culture..."
+          autocomplete="off"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+        >
+        <button id="search-clear-btn" class="search-clear" aria-label="Clear search input">&times;</button>
+        <div id="search-dropdown" class="search-dropdown" role="listbox"></div>
+      </div>
+
+      <div class="header-controls">
+        <a href="../" class="btn btn-subtle header-nav-link">Map</a>
+        <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Browse List</a>
+        <a href="../vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
+      </div>
     </div>
-    <p class="standalone-subtitle">All 250 required works in College Board CED order</p>
+
+    <div class="header-bottom">
+      <nav class="unit-presets" id="list-unit-nav" aria-label="AP Art History Unit Presets">
+        <button class="unit-tab active" data-unit="all">All Works (1–250)</button>
+        <button class="unit-tab" data-unit="1" title="Global Prehistory (30,000–500 BCE)">Unit 1: Prehistory</button>
+        <button class="unit-tab" data-unit="2" title="Ancient Mediterranean (3,500 BCE–300 CE)">Unit 2: Ancient Med</button>
+        <button class="unit-tab" data-unit="3" title="Early Europe &amp; Colonial Americas (200–1750 CE)">Unit 3: Early Europe</button>
+        <button class="unit-tab" data-unit="4" title="Later Europe &amp; Americas (1750–1980 CE)">Unit 4: Later Europe</button>
+        <button class="unit-tab" data-unit="5" title="Indigenous Americas (1000 BCE–1980 CE)">Unit 5: Indigenous Americas</button>
+        <button class="unit-tab" data-unit="6" title="Africa (1100–1980 CE)">Unit 6: Africa</button>
+        <button class="unit-tab" data-unit="7" title="West &amp; Central Asia (500 BCE–1980 CE)">Unit 7: W & C Asia</button>
+        <button class="unit-tab" data-unit="8" title="South, East &amp; SE Asia (300 BCE–1980 CE)">Unit 8: Asia</button>
+        <button class="unit-tab" data-unit="9" title="The Pacific (700–1980 CE)">Unit 9: Pacific</button>
+        <button class="unit-tab" data-unit="10" title="Global Contemporary (1980 CE–Present)">Unit 10: Contemporary</button>
+      </nav>
+
+      <div class="status-counter" id="list-status-counter" aria-live="polite">Showing 250 of 250 works</div>
+    </div>
   </header>
 
   <main class="list-page-main" role="main">
@@ -28,8 +62,11 @@
     </div>
   </main>
 
+  <script src="../js/sticky-header.js"></script>
   <script src="../js/data.js"></script>
+  <script src="../js/filters.js"></script>
   <script src="../js/artwork-render.js"></script>
+  <script src="../js/search.js"></script>
   <script src="../js/list.js"></script>
 </body>
 </html>

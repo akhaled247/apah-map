@@ -23,7 +23,7 @@
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   --header-height: 104px;
-  --timeline-height: 130px;
+  --timeline-height: 142px;
   --panel-width: 440px;
 }
 
@@ -73,7 +73,26 @@ body.standalone-artwork-page {
   padding: 8px 16px;
   box-shadow: var(--shadow-sm);
   z-index: 1000;
-  position: relative;
+  position: sticky;
+  top: 0;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.app-header.is-scrolled {
+  box-shadow: 0 3px 10px rgba(43, 40, 36, 0.12);
+  border-bottom-color: var(--border-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-header {
+    transition: none;
+  }
+}
+
+.app-header--page {
+  height: auto;
+  min-height: var(--header-height);
+  flex-shrink: 0;
 }
 
 .header-top {
@@ -262,8 +281,8 @@ body.standalone-artwork-page {
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  overflow-x: auto;
-  padding-bottom: 2px;
+  overflow: visible;
+  padding-bottom: 4px;
 }
 
 .unit-presets {
@@ -271,6 +290,12 @@ body.standalone-artwork-page {
   align-items: center;
   gap: 4px;
   flex-wrap: nowrap;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
+  scrollbar-gutter: stable;
 }
 
 .unit-tab {
@@ -691,35 +716,43 @@ a.panel-image-caption.panel-detail-link:hover {
 
 .timeline-top-bar {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 16px;
+  gap: 12px 16px;
+  flex-wrap: wrap;
 }
 
 .timeline-title-group {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+  flex: 1 1 160px;
+  min-width: 0;
 }
 
 .timeline-title {
   font-family: var(--font-serif);
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  color: var(--text-main);
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
 }
 
 .timeline-range-label {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--accent-burgundy);
-  font-family: var(--font-mono);
+  font-family: var(--font-serif);
+  line-height: 1.25;
+  white-space: nowrap;
 }
 
 .timeline-inputs {
   display: flex;
   align-items: center;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 .timeline-inputs label {
@@ -729,12 +762,12 @@ a.panel-image-caption.panel-detail-link:hover {
 }
 
 .year-input {
-  width: 90px;
+  width: 108px;
   padding: 3px 6px;
   border: 1px solid var(--border-dark);
   border-radius: 3px;
-  font-family: var(--font-mono);
-  font-size: 11px;
+  font-family: var(--font-serif);
+  font-size: 12px;
   text-align: center;
   background: var(--bg-card);
 }
@@ -748,8 +781,9 @@ a.panel-image-caption.panel-detail-link:hover {
 .timeline-track-container {
   position: relative;
   width: 100%;
-  height: 48px;
-  margin: 4px 0;
+  height: 52px;
+  margin: 2px 0 0;
+  padding: 0 24px;
   user-select: none;
 }
 
@@ -811,8 +845,9 @@ a.panel-image-caption.panel-detail-link:hover {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 20px;
+  height: 22px;
   pointer-events: none;
+  overflow: visible;
 }
 
 .timeline-tick {
@@ -823,6 +858,16 @@ a.panel-image-caption.panel-detail-link:hover {
   align-items: center;
 }
 
+.timeline-tick--edge-start {
+  transform: translateX(0);
+  align-items: flex-start;
+}
+
+.timeline-tick--edge-end {
+  transform: translateX(-100%);
+  align-items: flex-end;
+}
+
 .timeline-tick-mark {
   width: 1px;
   height: 6px;
@@ -830,11 +875,12 @@ a.panel-image-caption.panel-detail-link:hover {
 }
 
 .timeline-tick-label {
-  font-family: var(--font-mono);
+  font-family: var(--font-serif);
   font-size: 9px;
   color: var(--text-muted);
   white-space: nowrap;
   margin-top: 2px;
+  letter-spacing: -0.01em;
 }
 
 /* Artwork dots along timeline */
@@ -918,11 +964,23 @@ a.panel-image-caption.panel-detail-link:hover {
   margin: 0 auto;
 }
 
+.standalone-header-inner .search-container {
+  flex: 1 1 220px;
+  max-width: 320px;
+  min-width: 180px;
+}
+
 .standalone-subtitle {
   max-width: 960px;
   margin: 8px auto 0;
   color: var(--text-muted);
   font-size: 13px;
+}
+
+.vocab-page-tagline {
+  margin: 4px 0 0;
+  text-align: left;
+  white-space: normal;
 }
 
 .standalone-nav {
@@ -959,6 +1017,12 @@ a.panel-image-caption.panel-detail-link:hover {
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+}
+
+.header-nav-link.active {
+  color: var(--accent-burgundy);
+  background: #fdf5f5;
+  border-color: var(--accent-burgundy);
 }
 
 .list-page-main {
@@ -1080,14 +1144,18 @@ a.panel-image-caption.panel-detail-link:hover {
   padding: 24px 16px 48px;
 }
 
+.header-bottom .artwork-page-nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 .artwork-page-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
   gap: 12px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--border-color);
 }
 
 .artwork-page-nav .artwork-nav-link {
@@ -1157,6 +1225,193 @@ a.panel-image-caption.panel-detail-link:hover {
   font-family: var(--font-serif);
   color: var(--accent-burgundy);
   margin-bottom: 8px;
+}
+
+/* ── Vocabulary page ── */
+.vocab-page-main {
+  max-width: 800px;
+}
+
+.vocab-toolbar {
+  margin-bottom: 20px;
+}
+
+.vocab-view-tabs {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.vocab-view-tab {
+  cursor: pointer;
+}
+
+.vocab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.vocab-entry {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 16px 18px;
+  scroll-margin-top: 80px;
+  transition: background 0.3s ease, border-color 0.3s ease;
+}
+
+.vocab-entry--highlight {
+  background: #fdf5f5;
+  border-color: var(--accent-burgundy);
+}
+
+.vocab-entry-term {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  color: var(--accent-burgundy);
+  margin: 0 0 6px;
+}
+
+.vocab-entry-units {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.vocab-entry-definition {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-main);
+  white-space: pre-wrap;
+}
+
+/* Quiz */
+.vocab-quiz {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.vocab-quiz-score {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.vocab-quiz-prompt {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.vocab-quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.vocab-quiz-option {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 12px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--bg-accent);
+  font-size: 14px;
+  line-height: 1.45;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.vocab-quiz-option:hover:not(:disabled) {
+  border-color: var(--border-dark);
+  background: var(--bg-card);
+}
+
+.vocab-quiz-option:disabled {
+  cursor: default;
+}
+
+.vocab-quiz-option--correct {
+  border-color: #2d6a4f;
+  background: #e8f5ee;
+}
+
+.vocab-quiz-option--wrong {
+  border-color: #9b2226;
+  background: #fde8e8;
+}
+
+.vocab-quiz-label {
+  font-weight: 700;
+  color: var(--accent-burgundy);
+  margin-right: 6px;
+}
+
+.vocab-quiz-feedback {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  min-height: 1.2em;
+}
+
+.vocab-quiz-next {
+  margin-top: 4px;
+}
+
+/* Vocab links in AFFCC */
+.vocab-link {
+  color: var(--accent-burgundy);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.vocab-link:hover,
+.vocab-link:focus {
+  text-decoration-style: solid;
+}
+
+/* Hovercard */
+.vocab-hovercard {
+  position: fixed;
+  z-index: 10000;
+  max-width: 320px;
+  padding: 12px 14px;
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  box-shadow: var(--shadow-md);
+  pointer-events: none;
+}
+
+.vocab-hovercard-term {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: var(--accent-burgundy);
+  margin-bottom: 6px;
+}
+
+.vocab-hovercard-def {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--text-main);
+  margin: 0 0 6px;
+}
+
+.vocab-hovercard-hint {
+  font-size: 11px;
+  color: var(--text-muted);
 }
 
 @media (max-width: 600px) {

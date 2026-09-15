@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="list-page-html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP Art History — Vocabulary</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="list-page vocab-page">
+
+  <header class="app-header app-header--page" role="banner">
+    <div class="header-top">
+      <div class="brand-title">
+        <h1>AP Art History</h1>
+        <span class="badge">Vocabulary</span>
+      </div>
+
+      <div class="search-container" role="search">
+        <label for="vocab-search-input" class="sr-only">Search vocabulary terms</label>
+        <input type="text" id="vocab-search-input" class="search-input" placeholder="Search terms and definitions..." autocomplete="off">
+        <button id="vocab-search-clear" class="search-clear" aria-label="Clear search">&times;</button>
+      </div>
+
+      <div class="header-controls">
+        <a href="../" class="btn btn-subtle header-nav-link">Map</a>
+        <a href="../list/" class="btn btn-subtle header-nav-link">Browse List</a>
+        <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Vocabulary</a>
+      </div>
+    </div>
+
+    <p class="status-counter vocab-page-tagline">Browse, search, and quiz yourself over the AP Art History glossary</p>
+
+    <div class="header-bottom">
+      <nav class="unit-presets" id="vocab-unit-nav" aria-label="Filter vocabulary by unit">
+        <button class="unit-tab active" data-unit="all">All Terms</button>
+        <button class="unit-tab" data-unit="0" title="Introductory Vocabulary">Unit 0: Intro</button>
+        <button class="unit-tab" data-unit="1" title="Global Prehistory (30,000–500 BCE)">Unit 1: Prehistory</button>
+        <button class="unit-tab" data-unit="2" title="Ancient Mediterranean (3,500 BCE–300 CE)">Unit 2: Ancient Med</button>
+        <button class="unit-tab" data-unit="3" title="Early Europe &amp; Colonial Americas (200–1750 CE)">Unit 3: Early Europe</button>
+        <button class="unit-tab" data-unit="4" title="Later Europe &amp; Americas (1750–1980 CE)">Unit 4: Later Europe</button>
+        <button class="unit-tab" data-unit="5" title="Indigenous Americas (1000 BCE–1980 CE)">Unit 5: Indigenous Americas</button>
+        <button class="unit-tab" data-unit="6" title="Africa (1100–1980 CE)">Unit 6: Africa</button>
+        <button class="unit-tab" data-unit="7" title="West &amp; Central Asia (500 BCE–1980 CE)">Unit 7: W &amp; C Asia</button>
+        <button class="unit-tab" data-unit="8" title="South, East &amp; SE Asia (300 BCE–1980 CE)">Unit 8: Asia</button>
+        <button class="unit-tab" data-unit="9" title="The Pacific (700–1980 CE)">Unit 9: Pacific</button>
+        <button class="unit-tab" data-unit="10" title="Global Contemporary (1980 CE–Present)">Unit 10: Contemporary</button>
+      </nav>
+
+      <div id="vocab-count" class="status-counter" aria-live="polite">Loading...</div>
+    </div>
+  </header>
+
+  <main class="list-page-main vocab-page-main" role="main">
+    <div class="vocab-toolbar">
+      <div class="vocab-view-tabs" role="tablist" aria-label="Vocabulary views">
+        <button type="button" id="vocab-view-glossary" class="vocab-view-tab unit-tab active" role="tab" aria-selected="true" aria-controls="vocab-glossary-panel">Glossary</button>
+        <button type="button" id="vocab-view-quiz" class="vocab-view-tab unit-tab" role="tab" aria-selected="false" aria-controls="vocab-quiz-panel">Quiz Me</button>
+      </div>
+    </div>
+
+    <div id="vocab-glossary-panel" class="vocab-panel" role="tabpanel">
+      <div id="vocab-list" class="vocab-list" aria-label="Vocabulary glossary">
+        <div class="loading-note">Loading vocabulary...</div>
+      </div>
+    </div>
+
+    <div id="vocab-quiz-panel" class="vocab-panel vocab-quiz" role="tabpanel" hidden>
+      <div id="vocab-quiz-score" class="vocab-quiz-score">Score: 0 / 0</div>
+      <p id="vocab-quiz-prompt" class="vocab-quiz-prompt">Loading quiz...</p>
+      <div id="vocab-quiz-options" class="vocab-quiz-options" role="group" aria-label="Answer choices"></div>
+      <p id="vocab-quiz-feedback" class="vocab-quiz-feedback" aria-live="polite"></p>
+      <button type="button" id="vocab-quiz-next" class="btn btn-primary vocab-quiz-next" hidden>Next Question</button>
+    </div>
+  </main>
+
+  <script src="../js/sticky-header.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/vocab.js"></script>
+</body>
+</html>

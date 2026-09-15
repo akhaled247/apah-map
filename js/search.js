@@ -11,8 +11,14 @@ window.AppSearch = (function () {
   let _dropdown = null;
   let _currentResults = [];
   let _focusedIndex = -1;
+  let _onQueryChange = null;
+  let _onSelect = null;
 
-  function init() {
+  function init(options) {
+    options = options || {};
+    _onQueryChange = options.onQueryChange || null;
+    _onSelect = options.onSelect || null;
+
     _input = document.getElementById('artwork-search-input');
     _clearBtn = document.getElementById('search-clear-btn');
     _dropdown = document.getElementById('search-dropdown');
@@ -47,7 +53,7 @@ window.AppSearch = (function () {
 
     if (val.length === 0) {
       closeDropdown();
-      window.AppState.setSearchQuery('');
+      notifyQueryChange('');
       return;
     }
 
@@ -134,11 +140,23 @@ window.AppSearch = (function () {
     _input.value = '';
     if (_clearBtn) _clearBtn.classList.remove('active');
     closeDropdown();
-    window.AppState.setSearchQuery('');
+    notifyQueryChange('');
+  }
+
+  function notifyQueryChange(query) {
+    if (_onQueryChange) {
+      _onQueryChange(query);
+    } else if (window.AppState) {
+      window.AppState.setSearchQuery(query);
+    }
   }
 
   function selectItem(artworkId) {
-    window.AppState.selectArtwork(artworkId);
+    if (_onSelect) {
+      _onSelect(parseInt(artworkId, 10));
+    } else if (window.AppState) {
+      window.AppState.selectArtwork(artworkId);
+    }
     closeDropdown();
   }
 
@@ -160,8 +178,7 @@ window.AppSearch = (function () {
         const id = items[_focusedIndex].getAttribute('data-id');
         selectItem(id);
       } else {
-        // Apply text filter to whole map/timeline
-        window.AppState.setSearchQuery(_input.value.trim());
+        notifyQueryChange(_input.value.trim());
         closeDropdown();
       }
     } else if (e.key === 'Escape') {

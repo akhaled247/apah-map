@@ -5,13 +5,34 @@
 (function () {
   'use strict';
 
+  let _allArtworks = [];
+  let _selectedUnit = 'all';
+  let _searchQuery = '';
+
   document.addEventListener('DOMContentLoaded', async function () {
     const listContainer = document.getElementById('artwork-list');
     if (!listContainer) return;
 
     try {
       await window.DataLoader.loadAll();
-      renderList(listContainer);
+      _allArtworks = window.DataLoader.getArtworks()
+        .slice()
+        .sort(function (a, b) { return a.id - b.id; });
+
+      setupUnitTabs(listContainer);
+      applyFilters(listContainer);
+
+      if (window.AppSearch) {
+        window.AppSearch.init({
+          onQueryChange: function (query) {
+            _searchQuery = query || '';
+            applyFilters(listContainer);
+          },
+          onSelect: function (artworkId) {
+            window.location.href = `${window.ArtworkRender.padId(artworkId)}/`;
+          }
+        });
+      }
     } catch (err) {
       console.error('List page initialization error:', err);
       listContainer.innerHTML = `
@@ -23,17 +44,58 @@
     }
   });
 
+  function setupUnitTabs(container) {
+    const nav = document.getElementById('list-unit-nav');
+    if (!nav) return;
+
+    nav.addEventListener('click', function (e) {
+      const btn = e.target.closest('.unit-tab');
+      if (!btn) return;
+
+      _selectedUnit = btn.getAttribute('data-unit') || 'all';
+      nav.querySelectorAll('.unit-tab').forEach(function (b) {
+        b.classList.toggle('active', b === btn);
+      });
+      applyFilters(container);
+    });
+  }
+
+  function resolveSelectedUnit() {
+    if (_selectedUnit === 'all') return 'all';
+    return parseInt(_selectedUnit, 10);
+  }
+
+  function applyFilters(container) {
+    const filtered = window.ArtworkFilters.computeFilteredArtworks({
+      selectedUnit: resolveSelectedUnit(),
+      startDate: null,
+      endDate: null,
+      searchQuery: _searchQuery
+    }).slice().sort(function (a, b) { return a.id - b.id; });
+
+    renderList(container, filtered);
+    updateStatusCounter(filtered.length);
+  }
+
+  function updateStatusCounter(count) {
+    const el = document.getElementById('list-status-counter');
+    if (el) {
+      el.textContent = `Showing ${count} of 250 works`;
+    }
+  }
+
   function resolveAssetPath(src) {
     if (!src || /^https?:\/\//i.test(src)) return src;
     return `../${src.replace(/^\//, '')}`;
   }
 
-  function renderList(container) {
-    const artworks = window.DataLoader.getArtworks()
-      .slice()
-      .sort(function (a, b) { return a.id - b.id; });
-
+  function renderList(container, artworks) {
     container.innerHTML = '';
+
+    if (!artworks || artworks.length === 0) {
+      container.innerHTML = '<div class="loading-note">No matching artworks found.</div>';
+      return;
+    }
 
     artworks.forEach(function (artwork) {
       const paddedId = window.ArtworkRender.padId(artwork.id);

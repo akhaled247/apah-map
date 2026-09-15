@@ -15,6 +15,9 @@
 
     try {
       await window.DataLoader.loadAll();
+      await window.DataLoader.loadVocabulary();
+      if (window.VocabLinker) window.VocabLinker.getWordMap(window.DataLoader.getVocabulary());
+      if (window.VocabHovercard) window.VocabHovercard.init();
       const artwork = window.DataLoader.getArtworkById(artworkId);
       if (!artwork) {
         showError(`Artwork #${artworkId} not found.`);
@@ -30,6 +33,16 @@
     }
   });
 
+  function getVocabLinkOptions() {
+    const vocabulary = window.DataLoader.getVocabulary();
+    return {
+      wordMap: window.VocabLinker
+        ? window.VocabLinker.getWordMap(vocabulary)
+        : null,
+      basePath: 'vocab/'
+    };
+  }
+
   function setupNavigation(artwork) {
     const prevLink = document.getElementById('nav-prev');
     const nextLink = document.getElementById('nav-next');
@@ -42,7 +55,7 @@
     if (prevLink) {
       if (artwork.id > 1) {
         const prevId = window.ArtworkRender.padId(artwork.id - 1);
-        prevLink.href = `${prevId}/`;
+        prevLink.href = `list/${prevId}/`;
         prevLink.textContent = `← ${prevId}`;
         prevLink.style.visibility = 'visible';
       } else {
@@ -53,7 +66,7 @@
     if (nextLink) {
       if (artwork.id < 250) {
         const nextId = window.ArtworkRender.padId(artwork.id + 1);
-        nextLink.href = `${nextId}/`;
+        nextLink.href = `list/${nextId}/`;
         nextLink.textContent = `${nextId} →`;
         nextLink.style.visibility = 'visible';
       } else {
@@ -85,7 +98,8 @@
     if (affccContainer) {
       affccContainer.innerHTML = '<div class="loading-note">Loading study analysis...</div>';
       const affcc = await window.DataLoader.loadAffccContent(artwork.id);
-      window.ArtworkRender.renderAffccContent(affccContainer, affcc, artwork);
+      await window.DataLoader.loadVocabulary();
+      window.ArtworkRender.renderAffccContent(affccContainer, affcc, artwork, getVocabLinkOptions());
     }
   }
 
@@ -96,7 +110,7 @@
         <div class="list-error">
           <h2>Error</h2>
           <p>${message}</p>
-          <p><a href="../">Back to artwork list</a></p>
+          <p><a href="list/">Back to artwork list</a></p>
         </div>
       `;
     }

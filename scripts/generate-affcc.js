@@ -21,6 +21,40 @@ function padId(id) {
   return String(id).padStart(3, '0');
 }
 
+function countLeadingSpaces(line) {
+  const normalized = line.replace(/\t/g, '  ');
+  const match = normalized.match(/^(\s*)/);
+  return match ? match[1].length : 0;
+}
+
+function cleanMarkdownArtifacts(str) {
+  if (!str) return '';
+  return str
+    .replace(/\\-/g, '-')
+    .replace(/\\\*/g, '')
+    .replace(/\\_/g, '_')
+    .replace(/\*(.*?)\*/g, '$1')
+    .replace(/\\/g, '')
+    .trim();
+}
+
+function isAffccSectionHeader(text) {
+  return /^(Form|Function|Content|Context|Attribution)\b/i.test(text);
+}
+
+function isArtworkTitleLine(line) {
+  return /^\d+\.\s+\*\*/.test(line.trim());
+}
+
+function formatBullets(items) {
+  if (!items || items.length === 0) return '';
+  return items.map(function (item) {
+    const bullet = typeof item === 'string' ? { depth: 0, text: item } : item;
+    const indent = '  '.repeat(bullet.depth);
+    return `${indent}- ${bullet.text}`;
+  }).join('\n');
+}
+
 /**
  * Parses owner source notes markdown into structured sections (works 1–250).
  */
@@ -66,39 +100,67 @@ function parseSingleArtworkNotes(id, rawText) {
 
   const lines = rawText.split('\n');
   let currentSection = null;
+  let bulletStack = [];
+
+  function switchSection(section) {
+    currentSection = section;
+    bulletStack = [];
+  }
 
   for (const line of lines) {
     const trimmed = line.trim();
+    if (!trimmed || isArtworkTitleLine(line)) continue;
+
     if (/^\d+\.\s+Form/i.test(trimmed) || /^Form\b/i.test(trimmed)) {
-      currentSection = 'form';
+      switchSection('form');
       continue;
     } else if (/^\d+\.\s+Function/i.test(trimmed) || /^Function\b/i.test(trimmed)) {
-      currentSection = 'function';
+      switchSection('function');
       continue;
     } else if (/^\d+\.\s+Content/i.test(trimmed) || /^Content\b/i.test(trimmed)) {
-      currentSection = 'content';
+      switchSection('content');
       continue;
     } else if (/^\d+\.\s+Context/i.test(trimmed) || /^Context\b/i.test(trimmed)) {
-      currentSection = 'context';
+      switchSection('context');
       continue;
     } else if (/^\d+\.\s+Attribution/i.test(trimmed) || /^Attribution\b/i.test(trimmed)) {
-      currentSection = 'attribution';
+      switchSection('attribution');
       continue;
     }
 
-    if (currentSection && trimmed) {
-      let bulletContent = trimmed.replace(/^[-*•\d\.\s\\]+/, '').trim();
-      // Clean up common markdown export escape artifacts like \-, \*, \_
-      bulletContent = bulletContent
-        .replace(/\\-/g, '-')
-        .replace(/\\\*/g, '')
-        .replace(/\\_/g, '_')
-        .replace(/\*(.*?)\*/g, '$1')
-        .trim();
-      if (bulletContent) {
-        result[currentSection].push(bulletContent);
+    if (!currentSection) continue;
+
+    const bulletMatch = line.match(/^(\s*)(?:\d+\.|[-*•])\s+(.*)$/);
+    if (!bulletMatch) continue;
+
+    const text = cleanMarkdownArtifacts(bulletMatch[2]);
+    if (!text || isAffccSectionHeader(text)) continue;
+
+    const indent = countLeadingSpaces(bulletMatch[1]);
+    let depth = 0;
+
+    if (bulletStack.length === 0) {
+      bulletStack.push({ indent: indent });
+      depth = 0;
+    } else {
+      const current = bulletStack[bulletStack.length - 1];
+
+      if (indent > current.indent) {
+        bulletStack.push({ indent: indent });
+        depth = bulletStack.length - 1;
+      } else if (indent < current.indent) {
+        while (bulletStack.length > 1 && bulletStack[bulletStack.length - 1].indent > indent) {
+          bulletStack.pop();
+        }
+        bulletStack[bulletStack.length - 1] = { indent: indent };
+        depth = bulletStack.length - 1;
+      } else {
+        bulletStack[bulletStack.length - 1] = { indent: indent };
+        depth = bulletStack.length - 1;
       }
     }
+
+    result[currentSection].push({ depth: depth, text: text });
   }
 
   return result;
@@ -135,7 +197,7 @@ confidence: "owner_notes"
   // Form
   md += `## Form\n\n`;
   if (parsed && parsed.form && parsed.form.length > 0) {
-    md += parsed.form.map(f => `- ${f}`).join('\n') + '\n\n';
+    md += formatBullets(parsed.form) + '\n\n';
   } else {
     md += `Visual analysis details from owner source notes pending.\n\n`;
   }
@@ -143,7 +205,7 @@ confidence: "owner_notes"
   // Function
   md += `## Function\n\n`;
   if (parsed && parsed.function && parsed.function.length > 0) {
-    md += parsed.function.map(f => `- ${f}`).join('\n') + '\n\n';
+    md += formatBullets(parsed.function) + '\n\n';
   } else {
     md += `Intended functional and ritual context details from owner source notes pending.\n\n`;
   }
@@ -151,7 +213,7 @@ confidence: "owner_notes"
   // Content
   md += `## Content\n\n`;
   if (parsed && parsed.content && parsed.content.length > 0) {
-    md += parsed.content.map(c => `- ${c}`).join('\n') + '\n\n';
+    md += formatBullets(parsed.content) + '\n\n';
   } else {
     md += `Iconography, subject matter, and symbolic motifs from owner source notes pending.\n\n`;
   }
@@ -159,7 +221,7 @@ confidence: "owner_notes"
   // Context
   md += `## Context\n\n`;
   if (parsed && parsed.context && parsed.context.length > 0) {
-    md += parsed.context.map(c => `- ${c}`).join('\n') + '\n\n';
+    md += formatBullets(parsed.context) + '\n\n';
   } else {
     md += `Historical and archaeological context from owner source notes pending.\n\n`;
   }

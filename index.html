@@ -42,6 +42,7 @@
       <!-- Global Actions -->
       <div class="header-controls">
         <a href="list/" class="btn btn-subtle header-nav-link">Browse List</a>
+        <a href="vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
         <button id="random-artwork-btn" class="btn btn-primary" title="Explore a random artwork from the filtered set">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5"/></svg>
           Random Artwork
@@ -153,7 +154,7 @@
   <footer class="app-timeline" role="region" aria-label="Chronological Timeline Filter">
     <div class="timeline-top-bar">
       <div class="timeline-title-group">
-        <span class="timeline-title">Timeline Range:</span>
+        <span class="timeline-title">Timeline Range</span>
         <span id="timeline-range-label" class="timeline-range-label">30,000 BCE – Present</span>
       </div>
 
@@ -184,6 +185,7 @@
   <!-- Application Modules -->
   <script src="js/vendor/leaflet.js"></script>
   <script src="js/vendor/leaflet.markercluster.js"></script>
+  <script src="js/sticky-header.js"></script>
   <script src="js/dateUtils.js"></script>
   <script src="js/data.js"></script>
   <script src="js/state.js"></script>
@@ -191,6 +193,8 @@
   <script src="js/map.js"></script>
   <script src="js/timeline.js"></script>
   <script src="js/search.js"></script>
+  <script src="js/vocab-linker.js"></script>
+  <script src="js/vocab-hovercard.js"></script>
   <script src="js/artwork-render.js"></script>
   <script src="js/artwork-panel.js"></script>
   <script src="js/random.js"></script>

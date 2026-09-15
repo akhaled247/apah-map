@@ -1,0 +1,8 @@
+---
+id: nave
+term: "Nave"
+units: []
+aliases: []
+---
+
+The central part of a church building, intended to accommodate most of the congregation. In traditional Western churches it is rectangular, separated from the chancel by a step or rail, and from adjacent aisles by pillars.

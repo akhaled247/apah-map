@@ -1,0 +1,8 @@
+---
+id: communism
+term: "Communism"
+units: []
+aliases: []
+---
+
+A political and economic doctrine that aims to replace private property and a profit-based economy with public ownership and communal control of at least the major means of production (e.g., mines, mills, and factories) and the natural resources of a society.

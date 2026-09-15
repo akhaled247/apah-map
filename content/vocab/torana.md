@@ -1,0 +1,8 @@
+---
+id: torana
+term: "Torana"
+units: []
+aliases: []
+---
+
+An Indian gateway, usually of stone, marking the entrance to a Buddhist shrine or stupa or to a Hindu temple. Toranas typically consist of two pillars carrying two or three transverse beams that extend beyond the pillars on either side.

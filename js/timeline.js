@@ -245,8 +245,7 @@ window.AppTimeline = (function () {
     _handleEnd.setAttribute('aria-valuenow', endDate);
 
     // Update label and inputs
-    const rangeText = window.DateUtils.formatRange(startDate, endDate);
-    if (_rangeLabel) _rangeLabel.textContent = rangeText;
+    if (_rangeLabel) _rangeLabel.textContent = formatRangeLabel(startDate, endDate);
 
     if (_inputStart && document.activeElement !== _inputStart) {
       _inputStart.value = window.DateUtils.formatYear(startDate);
@@ -261,13 +260,15 @@ window.AppTimeline = (function () {
     _ticksContainer.innerHTML = '';
 
     const majorMilestones = [
-      -30000, -20000, -10000, -5000, -3000, -1000, -500, 1, 500, 1000, 1500, 1800, 1900, 2000, 2026
+      -30000, -20000, -10000, -1000, 1, 1000, 1500, 1800, 1900, 2026
     ];
 
     majorMilestones.forEach(year => {
       const pct = yearToPercent(year);
       const tick = document.createElement('div');
       tick.className = 'timeline-tick';
+      if (pct <= 1) tick.classList.add('timeline-tick--edge-start');
+      else if (pct >= 99) tick.classList.add('timeline-tick--edge-end');
       tick.style.left = `${pct}%`;
 
       const mark = document.createElement('div');
@@ -283,13 +284,18 @@ window.AppTimeline = (function () {
     });
   }
 
+  function formatCompactYear(year) {
+    if (year >= MAX_YEAR) return 'Present';
+    return window.DateUtils.formatYear(year);
+  }
+
+  function formatRangeLabel(startDate, endDate) {
+    if (startDate === endDate) return formatCompactYear(startDate);
+    return formatCompactYear(startDate) + ' – ' + formatCompactYear(endDate);
+  }
+
   function formatTickLabel(year) {
-    if (year === 2026) return 'Present';
-    if (year < 0) {
-      return `${Math.abs(year).toLocaleString()} BCE`;
-    }
-    if (year === 1) return '1 CE';
-    return `${year} CE`;
+    return formatCompactYear(year === 2026 ? MAX_YEAR : year);
   }
 
   function renderArtworkDots() {

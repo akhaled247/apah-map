@@ -165,7 +165,58 @@ for (let id = 1; id <= 250; id++) {
   }
 }
 
-// 5. Validate generated artwork detail pages
+// 5. Validate vocabulary
+const vocabJsonPath = path.join(__dirname, '../data/vocabulary.json');
+const vocabDir = path.join(__dirname, '../content/vocab');
+if (!fs.existsSync(vocabJsonPath)) {
+  errors.push('Missing data/vocabulary.json (run npm run generate-vocab)');
+} else {
+  try {
+    const vocabulary = JSON.parse(fs.readFileSync(vocabJsonPath, 'utf8'));
+    if (!Array.isArray(vocabulary) || vocabulary.length === 0) {
+      errors.push('data/vocabulary.json must be a non-empty array');
+    } else {
+      const vocabIds = new Set();
+      const vocabTerms = new Set();
+      vocabulary.forEach(function (entry, idx) {
+        const prefix = `Vocabulary index ${idx} (id: ${entry ? entry.id : '?'})`;
+        if (!entry.id || typeof entry.id !== 'string') {
+          errors.push(`${prefix}: Missing or invalid id`);
+        } else if (vocabIds.has(entry.id)) {
+          errors.push(`${prefix}: Duplicate vocabulary id "${entry.id}"`);
+        } else {
+          vocabIds.add(entry.id);
+        }
+        if (!entry.term || typeof entry.term !== 'string' || !entry.term.trim()) {
+          errors.push(`${prefix}: Missing or empty term`);
+        } else if (vocabTerms.has(entry.term.toLowerCase())) {
+          errors.push(`${prefix}: Duplicate vocabulary term "${entry.term}"`);
+        } else {
+          vocabTerms.add(entry.term.toLowerCase());
+        }
+        if (!entry.definition || typeof entry.definition !== 'string' || !entry.definition.trim()) {
+          errors.push(`${prefix}: Missing or empty definition`);
+        }
+        if (entry.units && Array.isArray(entry.units)) {
+          entry.units.forEach(function (u) {
+            if (u === 0) return;
+            if (!validUnitIds.has(u)) {
+              errors.push(`${prefix}: Invalid unit ID ${u} in units array`);
+            }
+          });
+        }
+        const vocabFile = path.join(vocabDir, `${entry.id}.md`);
+        if (!fs.existsSync(vocabFile)) {
+          errors.push(`${prefix}: Missing content file "content/vocab/${entry.id}.md"`);
+        }
+      });
+    }
+  } catch (e) {
+    errors.push(`Failed to parse data/vocabulary.json: ${e.message}`);
+  }
+}
+
+// 6. Validate generated artwork detail pages
 for (let id = 1; id <= 250; id++) {
   const pageDir = path.join(__dirname, '..', 'list', padId(id));
   const pageFile = path.join(pageDir, 'index.html');
@@ -184,7 +235,12 @@ for (let id = 1; id <= 250; id++) {
 console.log('--------------------------------------------------');
 console.log('AP Art History Interactive Map — Dataset Validation');
 console.log('--------------------------------------------------');
+let vocabCount = 0;
+if (fs.existsSync(vocabJsonPath)) {
+  try { vocabCount = JSON.parse(fs.readFileSync(vocabJsonPath, 'utf8')).length; } catch (_) {}
+}
 console.log(`Total artworks checked: ${artworks.length}`);
+console.log(`Total vocabulary:       ${vocabCount}`);
 console.log(`Total units checked:    ${units.length}`);
 console.log(`Warnings:               ${warnings.length}`);
 console.log(`Errors:                 ${errors.length}`);

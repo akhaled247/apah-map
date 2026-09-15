@@ -57,7 +57,18 @@ window.ArtworkRender = (function () {
       .trim();
   }
 
-  function renderAffccContent(container, affcc, artwork) {
+  function appendAffccText(parentEl, text, options) {
+    if (!text) return;
+    const hasWordMap = options && options.wordMap && options.wordMap.size > 0;
+    const hasPatterns = options && options.patterns && options.patterns.length > 0;
+    if (window.VocabLinker && (hasWordMap || hasPatterns)) {
+      window.VocabLinker.appendLinkedText(parentEl, text, options);
+    } else {
+      parentEl.textContent = text;
+    }
+  }
+
+  function renderAffccContent(container, affcc, artwork, linkOptions) {
     if (!container) return;
     container.innerHTML = '';
 
@@ -96,7 +107,7 @@ window.ArtworkRender = (function () {
               const ul = document.createElement('ul');
               secDiv.appendChild(ul);
               const li = document.createElement('li');
-              li.textContent = text;
+              appendAffccText(li, text, linkOptions);
               ul.appendChild(li);
               listStack.push({ indent: indentSpaces, ul: ul, lastLi: li });
             } else {
@@ -107,7 +118,7 @@ window.ArtworkRender = (function () {
                 const subUl = document.createElement('ul');
                 parentLi.appendChild(subUl);
                 const li = document.createElement('li');
-                li.textContent = text;
+                appendAffccText(li, text, linkOptions);
                 subUl.appendChild(li);
                 listStack.push({ indent: indentSpaces, ul: subUl, lastLi: li });
               } else if (indentSpaces < current.indent) {
@@ -116,12 +127,12 @@ window.ArtworkRender = (function () {
                 }
                 const target = listStack[listStack.length - 1];
                 const li = document.createElement('li');
-                li.textContent = text;
+                appendAffccText(li, text, linkOptions);
                 target.ul.appendChild(li);
                 target.lastLi = li;
               } else {
                 const li = document.createElement('li');
-                li.textContent = text;
+                appendAffccText(li, text, linkOptions);
                 current.ul.appendChild(li);
                 current.lastLi = li;
               }
@@ -129,7 +140,7 @@ window.ArtworkRender = (function () {
           } else {
             listStack = [];
             const p = document.createElement('p');
-            p.textContent = cleanMarkdownArtifacts(line.trim());
+            appendAffccText(p, cleanMarkdownArtifacts(line.trim()), linkOptions);
             secDiv.appendChild(p);
           }
         });

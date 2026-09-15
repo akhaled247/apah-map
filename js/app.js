@@ -12,6 +12,9 @@
 
       // 1. Load static dataset
       await window.DataLoader.loadAll();
+      await window.DataLoader.loadVocabulary();
+      if (window.VocabLinker) window.VocabLinker.getWordMap(window.DataLoader.getVocabulary());
+      if (window.VocabHovercard) window.VocabHovercard.init();
 
       // 2. Initialize subcomponents
       window.AppMap.init();

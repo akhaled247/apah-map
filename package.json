@@ -6,7 +6,9 @@
   "scripts": {
     "validate": "node scripts/validate-data.js",
     "generate-affcc": "node scripts/generate-affcc.js",
+    "generate-vocab": "node scripts/generate-vocabulary.js",
     "generate-pages": "node scripts/generate-artwork-pages.js",
+    "build-content": "npm run generate-affcc && npm run generate-vocab && npm run generate-pages",
     "test": "node scripts/validate-data.js"
   },
   "keywords": [

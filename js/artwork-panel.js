@@ -245,7 +245,14 @@ window.ArtworkPanel = (function () {
 
     _affccContainer.innerHTML = '<div style="padding:12px; color:#777;">Loading study analysis...</div>';
     const affcc = await window.DataLoader.loadAffccContent(artwork.id);
-    window.ArtworkRender.renderAffccContent(_affccContainer, affcc, artwork);
+    await window.DataLoader.loadVocabulary();
+    const linkOptions = {
+      wordMap: window.VocabLinker
+        ? window.VocabLinker.getWordMap(window.DataLoader.getVocabulary())
+        : null,
+      basePath: 'vocab/'
+    };
+    window.ArtworkRender.renderAffccContent(_affccContainer, affcc, artwork, linkOptions);
 
     _panel.classList.add('open');
     _panel.setAttribute('aria-hidden', 'false');

@@ -10,6 +10,9 @@ window.DataLoader = (function () {
   let _units = [];
   let _imagesMap = new Map();
   let _affccCache = new Map();
+  let _vocabulary = null;
+  let _vocabById = new Map();
+  let _vocabByTerm = new Map();
 
   function padId(id) {
     return String(id).padStart(3, '0');
@@ -153,6 +156,53 @@ window.DataLoader = (function () {
     };
   }
 
+  function indexVocabulary(list) {
+    _vocabulary = list;
+    _vocabById = new Map();
+    _vocabByTerm = new Map();
+    list.forEach(function (entry) {
+      _vocabById.set(entry.id, entry);
+      _vocabByTerm.set(entry.term.toLowerCase(), entry);
+      (entry.aliases || []).forEach(function (alias) {
+        _vocabByTerm.set(alias.toLowerCase(), entry);
+      });
+    });
+    if (window.VocabLinker) {
+      window.VocabLinker.resetCache();
+    }
+  }
+
+  async function loadVocabulary() {
+    if (_vocabulary) return _vocabulary;
+    const res = await fetch(resolveSitePath('data/vocabulary.json'));
+    if (!res.ok) throw new Error('Failed to load vocabulary.json');
+    const list = await res.json();
+    indexVocabulary(list);
+    return _vocabulary;
+  }
+
+  function getVocabulary() {
+    return _vocabulary || [];
+  }
+
+  function getVocabularyById(id) {
+    return _vocabById.get(id) || null;
+  }
+
+  function getVocabularyByTerm(term) {
+    if (!term) return null;
+    return _vocabByTerm.get(term.toLowerCase()) || null;
+  }
+
+  function filterVocabularyByUnit(unit) {
+    const all = getVocabulary();
+    if (!unit || unit === 'all') return all.slice();
+    const num = parseInt(unit, 10);
+    return all.filter(function (e) {
+      return e.units && e.units.indexOf(num) !== -1;
+    });
+  }
+
   return {
     loadAll,
     getArtworks,
@@ -160,6 +210,11 @@ window.DataLoader = (function () {
     getUnits,
     getUnitById,
     getImagesForArtwork,
-    loadAffccContent
+    loadAffccContent,
+    loadVocabulary,
+    getVocabulary,
+    getVocabularyById,
+    getVocabularyByTerm,
+    filterVocabularyByUnit
   };
 })();

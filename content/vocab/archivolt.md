@@ -1,0 +1,8 @@
+---
+id: archivolt
+term: "Archivolt"
+units: []
+aliases: []
+---
+
+molding running around the face of an arch immediately above the opening. The architectural term is applied especially to medieval and Renaissance buildings, where the archivolts are often decorated with sculpture, as in the archivolts on the west facade of Chartres cathedral (1140–50).
