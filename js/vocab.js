@@ -177,6 +177,29 @@
       def.textContent = entry.definition;
       article.appendChild(def);
 
+      if (entry.artworks && entry.artworks.length > 0) {
+        const refs = document.createElement('div');
+        refs.className = 'vocab-entry-references';
+
+        const label = document.createElement('span');
+        label.className = 'vocab-entry-references-label';
+        label.textContent = 'References: ';
+        refs.appendChild(label);
+
+        entry.artworks.forEach(function (artworkId, idx) {
+          if (idx > 0) {
+            refs.appendChild(document.createTextNode(', '));
+          }
+          const paddedId = String(artworkId).padStart(3, '0');
+          const link = document.createElement('a');
+          link.href = '../list/' + paddedId + '/';
+          link.textContent = paddedId;
+          refs.appendChild(link);
+        });
+
+        article.appendChild(refs);
+      }
+
       listEl.appendChild(article);
     });
   }

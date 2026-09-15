@@ -11,7 +11,13 @@ const path = require('path');
 const ROOT = path.join(__dirname, '..');
 const SOURCE = path.join(ROOT, 'Vocabulary.md');
 const OUT_DIR = path.join(ROOT, 'content', 'vocab');
+const AFFCC_DIR = path.join(ROOT, 'content', 'affcc');
 const JSON_OUT = path.join(ROOT, 'data', 'vocabulary.json');
+
+const WORD_SPLIT = /([a-zA-Z][a-zA-Z0-9'-]*)/g;
+
+// AFFCC section headers present in every artwork note; excluded from reference lists.
+const AFFCC_SECTION_VOCAB_IDS = ['content', 'context', 'form', 'function'];
 
 const UNIT_ALIAS_IDS = {
   'bce': 'b-c-e',
@@ -227,6 +233,119 @@ function buildTermMarkdown(entry) {
   return `---\nid: ${entry.id}\nterm: "${entry.term.replace(/"/g, '\\"')}"\nunits: ${unitsStr}\naliases: ${aliasesStr}\n---\n\n${entry.definition}\n`;
 }
 
+function normalizeWord(word) {
+  return word.toLowerCase().replace(/[''`]/g, '');
+}
+
+function registerWord(map, word, id) {
+  const key = normalizeWord(word);
+  if (!key || map.has(key)) return;
+  map.set(key, id);
+}
+
+function buildVocabWordMap(entries) {
+  const map = new Map();
+  entries.forEach(function (entry) {
+    registerWord(map, entry.term, entry.id);
+    (entry.aliases || []).forEach(function (alias) {
+      registerWord(map, alias, entry.id);
+    });
+  });
+  return map;
+}
+
+function lookupWord(word, wordMap) {
+  const key = normalizeWord(word);
+  if (!key) return null;
+
+  if (wordMap.has(key)) return wordMap.get(key);
+
+  if (key.length > 3 && key.endsWith('es')) {
+    const stem = key.slice(0, -2);
+    if (wordMap.has(stem)) return wordMap.get(stem);
+  }
+  if (key.length > 2 && key.endsWith('s')) {
+    const stem = key.slice(0, -1);
+    if (wordMap.has(stem)) return wordMap.get(stem);
+  }
+
+  return null;
+}
+
+function stripAffccFrontmatter(text) {
+  if (!text.startsWith('---')) return text;
+  const end = text.indexOf('---', 3);
+  if (end === -1) return text;
+  return text.substring(end + 3).trim();
+}
+
+function scanAffccForVocab(text, wordMap) {
+  const matchedIds = new Set();
+  const parts = text.split(WORD_SPLIT);
+  parts.forEach(function (part) {
+    if (/^[a-zA-Z][a-zA-Z0-9'-]*$/.test(part)) {
+      const id = lookupWord(part, wordMap);
+      if (id) matchedIds.add(id);
+    }
+  });
+  return matchedIds;
+}
+
+function buildArtworkReferences(entries) {
+  const wordMap = buildVocabWordMap(entries);
+  const idToArtworks = new Map();
+  const artworkCounts = new Map();
+  entries.forEach(function (entry) {
+    idToArtworks.set(entry.id, new Set());
+    artworkCounts.set(entry.id, 0);
+  });
+
+  if (!fs.existsSync(AFFCC_DIR)) {
+    entries.forEach(function (entry) {
+      entry.artworks = [];
+    });
+    return { excluded: [] };
+  }
+
+  const files = fs.readdirSync(AFFCC_DIR).filter(f => /^\d{3}\.md$/.test(f));
+  files.forEach(function (file) {
+    const artworkId = parseInt(file.replace('.md', ''), 10);
+    const text = fs.readFileSync(path.join(AFFCC_DIR, file), 'utf8');
+    const body = stripAffccFrontmatter(text);
+    const matchedIds = scanAffccForVocab(body, wordMap);
+    matchedIds.forEach(function (vocabId) {
+      idToArtworks.get(vocabId).add(artworkId);
+      artworkCounts.set(vocabId, artworkCounts.get(vocabId) + 1);
+    });
+  });
+
+  const totalArtworks = files.length;
+  const universalIds = new Set(
+    entries
+      .filter(function (entry) {
+        return artworkCounts.get(entry.id) === totalArtworks;
+      })
+      .map(function (entry) {
+        return entry.id;
+      })
+  );
+  AFFCC_SECTION_VOCAB_IDS.forEach(function (id) {
+    universalIds.add(id);
+  });
+
+  const excluded = [];
+  entries.forEach(function (entry) {
+    if (universalIds.has(entry.id)) {
+      entry.artworks = [];
+      excluded.push(entry.term);
+    } else {
+      entry.artworks = Array.from(idToArtworks.get(entry.id)).sort((a, b) => a - b);
+    }
+  });
+
+  return { excluded: excluded.sort() };
+}
+
 function main() {
   if (!fs.existsSync(SOURCE)) {
     console.error('Missing Vocabulary.md at project root.');
@@ -256,6 +375,7 @@ function main() {
 
   const lookup = buildTermLookup(parsed);
   const { unitFiles, unmatched } = applyUnitFiles(parsed, lookup);
+  const { excluded: excludedReferences } = buildArtworkReferences(parsed);
 
   parsed.forEach(function (entry) {
     fs.writeFileSync(
@@ -271,13 +391,17 @@ function main() {
       term: e.term,
       definition: e.definition,
       units: e.units,
-      aliases: e.aliases
+      aliases: e.aliases,
+      artworks: e.artworks || []
     };
   });
 
   fs.writeFileSync(JSON_OUT, JSON.stringify(json, null, 2) + '\n', 'utf8');
 
   console.log(`Generated ${json.length} vocabulary entries.`);
+  if (excludedReferences.length) {
+    console.log(`Excluded from artwork references (${excludedReferences.length} universal terms): ${excludedReferences.join(', ')}`);
+  }
   unitFiles.forEach(function ({ file, unit }) {
     const count = json.filter(e => e.units.indexOf(unit) !== -1).length;
     console.log(`  Unit ${unit} (${file}): ${count} terms tagged`);

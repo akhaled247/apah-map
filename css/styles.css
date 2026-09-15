@@ -1289,6 +1289,27 @@ a.panel-image-caption.panel-detail-link:hover {
   white-space: pre-wrap;
 }
 
+.vocab-entry-references {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-top: 10px;
+}
+
+.vocab-entry-references a {
+  color: var(--accent-burgundy);
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.vocab-entry-references a:hover {
+  text-decoration: underline;
+}
+
 /* Quiz */
 .vocab-quiz {
   background: var(--bg-card);

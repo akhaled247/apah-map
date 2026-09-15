@@ -205,6 +205,17 @@ if (!fs.existsSync(vocabJsonPath)) {
             }
           });
         }
+        if (entry.artworks !== undefined) {
+          if (!Array.isArray(entry.artworks)) {
+            errors.push(`${prefix}: artworks must be an array`);
+          } else {
+            entry.artworks.forEach(function (id) {
+              if (!Number.isInteger(id) || id < 1 || id > 250) {
+                errors.push(`${prefix}: Invalid artwork ID ${id} in artworks array`);
+              }
+            });
+          }
+        }
         const vocabFile = path.join(vocabDir, `${entry.id}.md`);
         if (!fs.existsSync(vocabFile)) {
           errors.push(`${prefix}: Missing content file "content/vocab/${entry.id}.md"`);

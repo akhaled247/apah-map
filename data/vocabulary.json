@@ -4,63 +4,77 @@
     "term": "Abstraction",
     "definition": "Art that does not attempt to represent an accurate depiction of a visual reality but instead use shapes, colors, forms and gestural marks to achieve its effect",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ascetic",
     "term": "Ascetic",
     "definition": "Characterized by or suggesting the practice of severe self-discipline and abstention from all forms of indulgence, typically for religious reasons",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "aclla",
     "term": "Aclla",
     "definition": "Sequestered women in the Inca Empire. They were virgins, chosen at about age 10. They were given in marriage to men who had distinguished themselves in service to the empire; they produced luxury items, weaving fine cloth, preparing ritual food, and brewing the chicha (beer) drunk at religious festivals; and some, the most \"perfect,\" were selected as human sacrifices for religious rites. Others lived out their lives in a monastic environment.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "acroterion",
     "term": "Acroterion",
     "definition": "An acroterion, acroterium, or akroteria is an architectural ornament placed on a flat pedestal called the acroter or plinth, and mounted at the apex or corner of the pediment of a building in the classical style. An acroterion placed at the outer angles of the pediment is an acroterion angularium.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      36
+    ]
   },
   {
     "id": "action-painting",
     "term": "Action painting",
     "definition": "a technique and style of abstract painting in which paint is randomly splashed, thrown, or poured on the canvas. It was made famous by Jackson Pollock, and formed part of the more general movement of abstract expressionism.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "activist-art",
     "term": "Activist Art",
     "definition": "The aim of activist artists is to create art that is a form of political or social currency, actively addressing cultural power structures rather than representing them or simply describing them.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "adobe",
     "term": "Adobe",
     "definition": "a mixture of mud and straw that is dried into bricks in the sun and used for building, especially in hot countries.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      65,
+      167
+    ]
   },
   {
     "id": "aerial-perspective",
     "term": "Aerial Perspective",
     "definition": "A technique of rendering depth or distance in painting by modifying the tone or hue and distinctness of objects perceived as receding from the picture plane, especially by reducing distinctive local colors and contrasts of light and dark to a uniform light bluish-gray color.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "age-of-enlightenment",
     "term": "Age of Enlightenment",
     "definition": "​The period in Europe in the 18th century when many writers and thinkers began to question established beliefs, e.g. in the authority of kings or of the Church, in favor of reason and scientific proof. The idea developed that everyone was of equal value and had equal rights.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "agora",
@@ -69,49 +83,67 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26
+    ]
   },
   {
     "id": "ahu",
     "term": "Ahu",
     "definition": "stone platform, such as those found associated with moai on Easter Island",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      213,
+      214
+    ]
   },
   {
     "id": "ahu-ula",
     "term": "‘Ahu’ula",
     "definition": "literally, \"red garments,\" these are cloaks and capes worn by Hawaiian male nobility",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "allegory",
     "term": "Allegory",
     "definition": "a story, poem, or picture that can be interpreted to reveal a hidden meaning, typically a moral or political one.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      79
+    ]
   },
   {
     "id": "altar",
     "term": "Altar",
     "definition": "In the Catholic Church, the altar is the structure upon which the Sacrifice of the Mass is offered. The altar, centrally located in the sanctuary, is to be the focus of attention in the church.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      38,
+      75
+    ]
   },
   {
     "id": "alusi",
     "term": "Alusi",
     "definition": "Deities of the Igbo peoples who are tutelary or guardian spirits and are the founders of the communities or associated with the earth, rivers or markets. Alusi may be depicted as wooden figures and placed in shrines where they are the subjects of weekly and annual rituals that honor the deities who help a community or family solve problems.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ambulatory",
     "term": "Ambulatory",
     "definition": "A place for walking, especially an aisle around the apse or a cloister in a church or monastery.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "amphiprostyle",
@@ -120,7 +152,10 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "amphitheater",
@@ -129,14 +164,18 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      44
+    ]
   },
   {
     "id": "aniconic",
     "term": "Aniconic",
     "definition": "The practice or belief of avoiding or shunning the graphic representation of divine beings or religious figures",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "anthropomorphic",
@@ -145,14 +184,19 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      6,
+      11
+    ]
   },
   {
     "id": "antefix",
     "term": "Antefix",
     "definition": "An antefix is a vertical block which terminates and conceals the covering tiles of a tiled roof. It also serves to protect the join from the elements. In grand buildings, the face of each stone antefix was richly carved.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "apadana",
@@ -161,98 +205,118 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      30
+    ]
   },
   {
     "id": "aphrodite",
     "term": "Aphrodite",
     "definition": "Aphrodite is the ancient Greek goddess of love, beauty, desire, and procreation. Her name literally translates to \"arisen from the foam,\" which traces back to the famous myth where she emerged from the sea foam. She corresponds to the Roman goddess Venus.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "apotropaic",
     "term": "Apotropaic",
     "definition": "having the power to avert evil influences or bad luck",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "appropriation",
     "term": "Appropriation",
     "definition": "the practice of artists using pre-existing objects or images in their art with little transformation of the original",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "apse",
     "term": "Apse",
     "definition": "A large semicircular or polygonal recess in a church, arched or with a domed roof, typically at the eastern end, and usually containing the altar.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "apsidal",
     "term": "Apsidal",
     "definition": "Architecture In the form of or resembling an apse",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "aquatint",
     "term": "Aquatint",
     "definition": "A kind of print that achieves a watercolor effect by using acids that dissolve onto a copper plate",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      120
+    ]
   },
   {
     "id": "arabesque",
     "term": "Arabesque",
     "definition": "style of decoration characterized by intertwining plants and abstract curvilinear motifs. Derived from the work of Hellenistic craftsmen working in Asia Minor, the arabesque originally included birds in a highly naturalistic setting.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "arcade",
     "term": "Arcade",
     "definition": "An arcade is a part of a building's structure with a series of arches supported by columns or piers, which are rectangular vertical supports. Arcades usually border a covered section of a building and sometimes they support roofs.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "arcadian",
     "term": "Arcadian",
     "definition": "A simple rural and rustic setting used especially in Venetian paintings of the High Renaissance; named after Arcadia, a district in Greece to which poets and painters have attributed a rural simplicity and an idyllically untroubled world",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "archipelago",
     "term": "Archipelago",
     "definition": "A group, chain, or cluster of islands. It can also refer to a body of water that contains many scattered islands",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "architrave",
     "term": "Architrave",
     "definition": "in Classical architecture, the lowest section of the entablature (horizontal member), immediately above the capital of a column",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "archivolt",
     "term": "Archivolt",
     "definition": "molding running around the face of an arch immediately above the opening. The architectural term is applied especially to medieval and Renaissance buildings, where the archivolts are often decorated with sculpture, as in the archivolts on the west facade of Chartres cathedral (1140–50).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ardabil",
     "term": "Ardabil",
     "definition": "A town in north-west Iran. Ardabil was the home to the shrine of the Sufi saint, Safi al-Din Ardabili, who died in 1334 (Sufism is Islamic mysticism). The matching pair of Ardabil carpets were for this shrine.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      190
+    ]
   },
   {
     "id": "art-mobilier",
@@ -261,98 +325,124 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "art-nouveau",
     "term": "Art Nouveau",
     "definition": "Art Nouveau translates literally to \"new art\". Flourishing between 1890 and 1910, it was a deliberate, modern departure from strict, academic 19th-century styles. It is defined by organic, sinuous lines and nature-inspired motifs (like flowers and insects), seamlessly blending fine art with everyday, functional design.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "asantehene",
     "term": "Asantehene",
     "definition": "The Asantehene is the ruler of the Asante people and the Kingdom of Asante and Asanteman, the homeland of the Asante people ethnic group, historically a position of great power.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "asceticism",
     "term": "Asceticism",
     "definition": "the practice of strict self-denial as a measure of personal and especially spiritual discipline",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ashanti",
     "term": "Ashanti",
     "definition": "Asante, also spelled Ashanti, people of south-central Ghana and adjacent areas of Togo and Côte d'Ivoire. Most of the Asante live in a region centered on the city of Kumasi, which was the capital of the former independent Asante state.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      169
+    ]
   },
   {
     "id": "ashlar-masonry",
     "term": "Ashlar masonry",
     "definition": "carefully cut and regularly shaped blocks of stone used in construction, fitted together without mortar (ex: pyramids)",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "assemblage",
     "term": "Assemblage",
     "definition": "A three-dimensional work made of various disparate elements – often everyday objects and materials such as wood, cloth, paper and miscellaneous objects scavenged by the artist or bought specially.for the work.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "athena",
     "term": "Athena",
     "definition": "Greek goddess of war and wisdom; patron of Athens",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      28,
+      31,
+      35,
+      38
+    ]
   },
   {
     "id": "atoll",
     "term": "Atoll",
     "definition": "An atoll is a ring-shaped coral reef including a coral rim that encircles a lagoon partially or completely",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      216
+    ]
   },
   {
     "id": "atmospheric-perspective",
     "term": "Atmospheric Perspective",
     "definition": "A technique of rendering depth or distance in painting by modifying the tone or hue and distinctness of objects perceived as receding from the picture plane, especially by reducing distinctive local colors and contrasts of light and dark to a uniform light bluish-gray color.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "atrium",
     "term": "Atrium",
     "definition": "A courtyard in a Roman house or before a Christian church",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      39
+    ]
   },
   {
     "id": "avant-garde",
     "term": "Avant-Garde",
     "definition": "New and unusual or experimental ideas, especially in the arts, or the people introducing them.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "axial-plan-basilican-plan-longitudinal-plan",
     "term": "Axial plan (Basilican plan, Longitudinal plan)",
     "definition": "A church with a long nave whose focus is the apse, so-named because it is designed along an axis",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "axis-mundi",
     "term": "Axis Mundi",
     "definition": "Axis mundi is Latin for \"axis of the world\". In mythology and religion, it is the symbolic center of the universe—a cosmic pillar or bridge that connects the heavens, the earthly realm, and the underworld. The concept of the axis mundi is a universal archetype found in cultures across the globe and it represents a meeting place between the divine and the mortal.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "b-c-e",
@@ -361,21 +451,24 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "backstrap-loom",
     "term": "Backstrap Loom",
     "definition": "The backstrap loom is a lightweight, mobile loom made of wood and a strap that is wrapped around the back. It only needed to be attached to a tree or a post for stability and to provide tension.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bahram-gur",
     "term": "Bahram Gur",
     "definition": "Refers to Bahram V, a famous Sasanian King of Kings who ruled Persia from 420 to 438 AD.The name translates literally to \"Bahram the Onager\". \"Bahram\" means \"victorious\", while \"Gur\" is a Persian word meaning onager (a type of swift, wild ass). The nickname stems from his legendary hunting prowess and his favorite game to hunt.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "balance",
@@ -384,56 +477,68 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      24,
+      34,
+      92
+    ]
   },
   {
     "id": "baldacchino",
     "term": "Baldacchino",
     "definition": "In architecture, an ornamental canopy on columns over a tomb, altar, or throne; sometimes portable.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "banality",
     "term": "Banality",
     "definition": "Refers to the state or quality of being boring, unoriginal, or overly ordinary; trite or overused.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bandolier-bag",
     "term": "Bandolier Bag",
     "definition": "A large heavily beaded pouch with a slit on top worn at the waist with a strap over the shoulder",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "banquette",
     "term": "Banquette",
     "definition": "A banquette in Mesa Verde National Park refers to a built-in, ledge-like stone bench that wraps around the perimeter of subterranean ceremonial rooms known as kivas.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "baptistery",
     "term": "Baptistery",
     "definition": "In medieval architecture, a separate chapel or building generally in front of a church used for baptisms",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bark-cloth",
     "term": "Bark Cloth",
     "definition": "Sometimes called tapa, barkcloth is found throughout the Pacific (although in some places today it has almost disappeared). It has different local names as well, such as kapa in Hawai'i and siapo in Samoa. It is made from the bark of the dye-fid or paper mulberry tree, and can be decorated with patterns. It has been used in a number of different ways, including as clothing or to wrap sacred objects (such as \"god staffs\" in the Cook Islands).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "baroque",
     "term": "Baroque",
     "definition": "Relating to or denoting a style of European architecture, music, and art of the 17th and 18th centuries that followed mannerism and is characterized by ornate detail. Some of the qualities most frequently associated with the Baroque are grandeur, sensuous richness, drama, dynamism, movement, tension, emotional exuberance.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "barrel-vault",
@@ -442,7 +547,8 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "basilica",
@@ -451,49 +557,66 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      45,
+      67
+    ]
   },
   {
     "id": "bas-relief",
     "term": "Bas-relief",
     "definition": "A very shallow relief sculpture",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "basalt",
     "term": "Basalt",
     "definition": "a type of volcanic stone",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      19,
+      212,
+      213
+    ]
   },
   {
     "id": "bay",
     "term": "Bay",
     "definition": "A vertical section of a church that is embraced by a set of columns and us usually composed of arches and aligned windows",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      148,
+      163
+    ]
   },
   {
     "id": "bent-axis",
     "term": "Bent-axis",
     "definition": "An architectural plan in which an approach to a building requires an angular change of direction, as opposed to a straight and direct entry",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bestiary",
     "term": "Bestiary",
     "definition": "a descriptive or anecdotal treatise on various real or mythical kinds of animals, especially a medieval work with a moralizing tone.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bhakti",
     "term": "Bhakti",
     "definition": "the devotion, honor, and love one has for god",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bi",
@@ -502,7 +625,10 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      7
+    ]
   },
   {
     "id": "bicephalic",
@@ -511,105 +637,128 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      10
+    ]
   },
   {
     "id": "bilongo",
     "term": "Bilongo",
     "definition": "Medicinal and magical ingredients that empowered spirit-invested objects such as Nkisi nkondi figures that come from the Kongo people of present-day Democratic Republic of the Congo.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "biombos",
     "term": "Biombos",
     "definition": "A folding free-standing screen",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "biomorphism",
     "term": "Biomorphism",
     "definition": "Derived from the Greek words bios (life) and morphe (form), the term refers to abstract forms or images that evoke naturally occurring forms such as plants.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "black-on-black-ceramics",
     "term": "Black on Black Ceramics",
     "definition": "Black-on-black ware is a 20th- and 21st-century pottery tradition developed by Puebloan Native American ceramic artists in Northern New Mexico. \n\nBlackware vessels were traditionally used as water jars and food storage. The unique black color is achieved by using a fire reduction method for pottery firing. This method reduces the amount of oxygen available in the kiln, and by smothering the fire often with cow or horse dung, the pottery is carbonized.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "blind-arcade",
     "term": "Blind Arcade",
     "definition": "An arcade that is composed of a series of arches that has no actual openings and that is applied to the surface of a wall as a decorative element: i.e., the arches are not windows or openings but are part of the masonry face.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bodhisattva",
     "term": "Bodhisattva",
     "definition": "A bodhisattva is primarily associated with Buddhism, specifically Mahayana Buddhism. It refers to a compassionate being who, while having reached the point of enlightenment (nirvana), delays entering it to help all sentient beings achieve awakening.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bourgeois",
     "term": "Bourgeois",
     "definition": "The bourgeoisie is a sociologically defined social class, equivalent to the middle or upper middle class. They are distinguished from, and traditionally contrasted with, the proletariat by their affluence, and their great cultural and financial capital.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "brahman",
     "term": "Brahman",
     "definition": "In Hinduism, Brahman refers to the supreme cosmic power, ontological (the object of inquiry, what you set to examine) ground of being, and the source, goal and purpose of all spiritual knowledge.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "buddha",
     "term": "Buddha",
     "definition": "A fully enlightened being; there are many buddhas, the most famous of whom is Sakyammuni, also known as Gautama or Siddhartha",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      181
+    ]
   },
   {
     "id": "buddha-shakyamuni",
     "term": "Buddha Shakyamuni",
     "definition": "Shakyamuni Buddha is a name given to the historical Buddha, especially in Mahayana Buddhism. So it's nearly always the case that when someone is talking about Shakyamuni, he or she is speaking of the historical figure who was born Siddhartha Gautama but then became known as Shakyamuni only after he became the Buddha.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "buddha-vairochana",
     "term": "Buddha Vairochana",
     "definition": "In the Mahavairocana, Vairocana is established as the universal Buddha from whom all buddhas emanate. He is hailed as the source of enlightenment who resides free from causes and conditions.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bundu",
     "term": "Bundu",
     "definition": "Masks used by the women’s Sande society to bring girls into puberty",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      174
+    ]
   },
   {
     "id": "buk",
     "term": "Buk",
     "definition": "Turtle-shell masks of the Torres Strait Islands that lie between Australia and New Guinea. It combines an abstracted human face below a frigate bird. The face may represent an honored ancestor or a hero.  \nUsed during funerary ceremonies and increase rites, designed to ensure bountiful harvests and an abundance of fish and game.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      217
+    ]
   },
   {
     "id": "buttress-and-flying-buttress",
     "term": "Buttress and Flying Buttress",
     "definition": "1. buttress, in architecture, exterior support, usually of masonry, projecting from the face of a wall and serving either to strengthen it or to resist the side thrust created by the load on an arch or a roof;  \n2. a flying buttress is a masonry structure typically consisting of an inclined bar carried on a half arch that extends (“flies”) from the upper part of a wall to a pier some distance away and carries the thrust of a roof or vault.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ca",
@@ -618,28 +767,34 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "caliph",
     "term": "Caliph",
     "definition": "The chief Muslim civil and religious ruler, regarded as the successor of Muhammad.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "calligraphy",
     "term": "Calligraphy",
     "definition": "Calligraphy is a visual art related to writing. It is the design and execution of lettering with a pen, ink brush, or other writing instrument.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      182
+    ]
   },
   {
     "id": "calotype",
     "term": "Calotype",
     "definition": "An early photographic process introduced in 1841 by William Henry Fox Talbot, using paper coated with silver iodide. The calotype process produced a translucent original negative image from which multiple positives could be made.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "camelid",
@@ -648,14 +803,19 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      3,
+      161
+    ]
   },
   {
     "id": "camera-obscura",
     "term": "Camera obscura",
     "definition": "Comes from a Latin word meaning “dark room.” A box with a lens captures light and casts an image on the opposite side.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "canon-of-proportions",
@@ -664,63 +824,79 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cantilever",
     "term": "Cantilever",
     "definition": "A projecting beam that is attached to a building at one end and suspended in the air at the other.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "capital",
     "term": "Capital",
     "definition": "The top element of a column.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      20,
+      22,
+      23,
+      35
+    ]
   },
   {
     "id": "cartouche",
     "term": "Cartouche",
     "definition": "A carved tablet or drawing representing a scroll with rolled-up ends, used ornamentally or bearing an inscription.  \nARCHAEOLOGY definition:  \nAn oval or oblong enclosing a group of Egyptian hieroglyphs, typically representing the name and title of a monarch.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "caryatid",
     "term": "Caryatid",
     "definition": "A column in a building that is shaped like a female figure. The male version is called an atlantid.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "casta-paintings",
     "term": "Casta Paintings",
     "definition": "Paintings from New Spain showing people of mixed races",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "caste-system",
     "term": "Caste system",
     "definition": "A caste is a fixed social group into which an individual is born within a particular system of social stratification: a caste system.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "casting",
     "term": "Casting",
     "definition": "an object made by pouring molten metal or other material into a mold.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "catacomb",
     "term": "Catacomb",
     "definition": "An underground passageway used for burial",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      48
+    ]
   },
   {
     "id": "ce",
@@ -729,7 +905,219 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      34,
+      38,
+      39,
+      40,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      194,
+      195,
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      225,
+      226,
+      227,
+      228,
+      229,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250
+    ]
   },
   {
     "id": "cella",
@@ -738,63 +1126,76 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      31,
+      35,
+      46
+    ]
   },
   {
     "id": "central-plan",
     "term": "Central Plan",
     "definition": "In architecture, a plan in which the parts of a building radiate from a central point. Examples include circular, octagonal and Greek-cross plans. In the west - central plans were typically adjacent to the main basilica versus the east, which used the central plan for churches.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ceramic-slip",
     "term": "Ceramic Slip",
     "definition": "Ceramic slip is a liquefied mixture of clay and water, with a consistency similar to heavy cream. It acts as a foundational material in ceramics and pottery, primarily used as glue for joining clay pieces together, as a liquid medium poured into molds to reproduce exact shapes (slip casting), or as a painted surface decoration.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "chasing",
     "term": "Chasing",
     "definition": "A metalwork technique used to create a surface design or texture. The metal is worked on the front by hammering with punches that depress the metal surface. Chasing is the opposite of repoussé, in which the metal is worked from the back.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "chattras",
     "term": "Chattras",
     "definition": "Are ceremonial umbrellas or parasols. Rooted in Sanskrit, they are highly significant symbols of royalty, status, and divine protection in Indian, Buddhist, Hindu, and Jain cultures.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cherub",
     "term": "Cherub",
     "definition": "Cherubim (plural of cherub) are one of the ranks of angels; they frequently appear in altarpieces and religious paintings together with Seraphim. They are usually depicted as children with two or three pairs of red or blue wings around their heads, but sometimes appear as winged heads alone.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "chiaroscuro",
     "term": "Chiaroscuro",
     "definition": "(from Italian chiaro, “light,” and scuro, “dark”), technique employed in the visual arts to represent light and shadow as they define three-dimensional objects.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "chac-mool",
     "term": "Chac Mool",
     "definition": "A highly recognizable type of pre-Columbian Mesoamerican sculpture. It depicts a reclining human figure with its legs bent, head turned 90 degrees to the side, and elbows propped up. Typically, they feature a bowl or flat disk resting directly on their stomach or chest. They served as altars or platforms for ritual offerings.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "circumambulate",
     "term": "Circumambulate",
     "definition": "Circumambulation is the act of moving around a sacred object or idol. Circumambulation of temples or deity images is an integral part of Hindu and Buddhist devotional practice.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "classical",
@@ -803,7 +1204,18 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      28,
+      33,
+      34,
+      35,
+      36,
+      38,
+      43,
+      47
+    ]
   },
   {
     "id": "clerestory",
@@ -812,28 +1224,36 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      20
+    ]
   },
   {
     "id": "cloisonn",
     "term": "Cloisonné",
     "definition": "Enamelwork in which colored areas are separated by thin metal bands fixed edgewise to the ground.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cloisters",
     "term": "Cloisters",
     "definition": "A covered walk in a convent, monastery, college, or cathedral, typically with a wall on one side and a colonnade open to a quadrangle on the other.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "codex",
     "term": "Codex",
     "definition": "An ancient manuscript text in book form.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      81
+    ]
   },
   {
     "id": "coffered-ceiling",
@@ -842,21 +1262,27 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "colonettes",
     "term": "Colonettes",
     "definition": "A colonette is a small slender column, usually decorative, which supports a beam or lintel. Colonettes have been used as a feature of furnishings such as a dressing table and case clock. They are typically found in \"a group in a parapet, balustrade, or cluster pier\".",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "colonnade",
     "term": "Colonnade",
     "definition": "A row of columns supporting a roof, an entablature, or arcade.  \nSimilar:  \nrow of columns, Peristyle, Portico, arcade, loggia, covered walk, gallery, cloisters, stoa  \na row of trees or other tall objects.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      21,
+      38
+    ]
   },
   {
     "id": "color",
@@ -865,21 +1291,43 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      2,
+      4,
+      6,
+      10,
+      11,
+      32,
+      37,
+      40,
+      81,
+      186,
+      200,
+      202,
+      204,
+      210,
+      211,
+      230,
+      238,
+      240
+    ]
   },
   {
     "id": "communism",
     "term": "Communism",
     "definition": "A political and economic doctrine that aims to replace private property and a profit-based economy with public ownership and communal control of at least the major means of production (e.g., mines, mills, and factories) and the natural resources of a society.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "confucianism",
     "term": "Confucianism",
     "definition": "An ancient Chinese system of ethical, social, and political philosophy founded by Confucius (551–479 BCE). Rather than an organized religion with gods, it is a human-centered way of living focused on self-cultivation, virtue, and creating a peaceful, harmonious society through respectful relationships.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "content",
@@ -888,7 +1336,8 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "context",
@@ -897,21 +1346,24 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "continental",
     "term": "Continental",
     "definition": "In AP Art History (Unit 9), the term continental refers to one of the three primary geological landmass types that shaped the geography of Oceania (the Pacific). It describes large, landmass-based regions like Australia, which served as the original stepping stones for the earliest migrations\n\nIslands of the Pacific are categorized by their geological formations: continental, volcanic, and atollian.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "contour-rivalry",
     "term": "Contour Rivalry",
     "definition": "An artistic technique where the lines and shapes of an image can be interpreted in multiple, conflicting ways. Depending on which lines you focus on or how the image is oriented, a single outline can represent entirely different objects or faces simultaneously.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "contrapposto",
@@ -920,21 +1372,35 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      34,
+      43
+    ]
   },
   {
     "id": "contrast",
     "term": "Contrast",
     "definition": "Contrast art refers to the arrangement of opposite elements (light vs. dark colors, rough vs. smooth textures, large vs. small shapes, etc.)",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      10,
+      11,
+      21,
+      29,
+      34,
+      37,
+      43
+    ]
   },
   {
     "id": "corbel",
     "term": "Corbel",
     "definition": "In architecture, a corbel is a structural piece of stone, wood or metal jutting from a wall to carry a superincumbent weight, a type of bracket. A corbel is a solid piece of material in the wall, whereas a console is a piece applied to the structure.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "corinthian-order",
@@ -943,28 +1409,34 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "court-culture",
     "term": "Court Culture",
     "definition": "The consolidation of power of the kings of western Europe in fixed administrative centers from the mid-thirteenth century led to the creation of a distinct court culture. Aristocratic households became not only political centers but also artistic, intellectual, and cultural centers.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "coyolxauhqui",
     "term": "Coyolxauhqui",
     "definition": "Coyolxauhqui (pronounced coy-ol-shau-kee) is the Aztec (Mexica) goddess of the moon and the Milky Way. Her name translates to \"Bells-Her-Cheeks\" (or \"She who is decorated with bells\"), stemming from the golden or copper bells painted on her cheeks in traditional depictions",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      156
+    ]
   },
   {
     "id": "crepissage-de-la-grand-mosqu-e",
     "term": "Crepissage de la Grand Mosquée",
     "definition": "An annual festival where the Great Mosque of Djenné in Africa is re-plastered.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "crook-and-flail",
@@ -973,49 +1445,58 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "crucifixion",
     "term": "Crucifixion",
     "definition": "Crucifixion is a method of capital punishment in which the victim is tied or nailed to a large wooden cross or beam and left to hang until eventual death from exhaustion and asphyxiation. It was used as a punishment by the Romans, among others.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cruciform",
     "term": "Cruciform",
     "definition": "Cross-shaped, such as a church planned in the shape of a cross, i.e. with intersecting nave and transepts.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "crusades",
     "term": "Crusades",
     "definition": "Each of a series of medieval military expeditions made by Europeans to recover the Holy Land from the Muslims in the 11th, 12th, and 13th centuries.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cryptoporticus",
     "term": "Cryptoporticus",
     "definition": "A covered gallery that was a characteristic feature of the ancient Roman palazzo. It was usually designed to provide shade and a cool place for walking.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cubiculum",
     "term": "Cubiculum",
     "definition": "A small room, especially a bedroom, typically those small rooms found on the upper floor of a Roman house. A small room carved out of the wall of a catacomb, used as mortuary chapels, and in Roman times, for Christian worship. Plural: cubicula",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      39
+    ]
   },
   {
     "id": "cubism",
     "term": "Cubism",
     "definition": "Cubism is a revolutionary early 20th-century avant-garde art movement. Pioneered by Pablo Picasso and Georges Braque in Paris, it revolutionized visual arts by breaking subjects apart and reassembling them in abstracted, geometric forms. Instead of using a single viewpoint, artists depicted objects from multiple angles simultaneously.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "cuneiform",
@@ -1024,63 +1505,80 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      19,
+      22,
+      25
+    ]
   },
   {
     "id": "cupolas",
     "term": "Cupolas",
     "definition": "A small dome, especially a small dome on a drum on top of a larger dome, adorning a roof or ceiling.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "daguerreotype",
     "term": "Daguerreotype",
     "definition": "Each daguerreotype is a remarkably detailed, one-of-a-kind photographic image on a highly polished, silver-plated sheet of copper. The daguerreotype process made it possible to capture the image seen inside a camera obscura and preserve it as an object. It was the first practical photographic process and ushered in a new age of pictorial possibility. The process was invented in 1837 by Louis Jacques Mandé Daguerre (1787–1851).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      109
+    ]
   },
   {
     "id": "daibutsu",
     "term": "Daibutsu",
     "definition": "Daibutsu translates literally to \"giant Buddha\" in Japanese. It is a term used to describe any exceptionally large statue of Buddha, typically those measuring over several meters in height and housed within or near a Buddhist temple.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "daoism",
     "term": "Daoism",
     "definition": "Daoism (also spelled Taoism) is an ancient Chinese philosophical and religious tradition. It emphasizes living in spontaneous harmony with the Dao (the \"Way\"), which represents the natural, unnameable force that flows through all things.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "darshan",
     "term": "Darshan",
     "definition": "In Indian philosophy and religion, particularly in Hinduism, the beholding of a deity (especially in image form), revered person, or sacred object. The experience is considered to be reciprocal and results in the human viewer receiving a blessing.  \nIn other words: the act of seeing and being seen by god.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "destijl",
     "term": "DeStijl",
     "definition": "De Stijl (Dutch for \"The Style\") was an influential early 20th-century Dutch art movement founded in 1917 by artists Piet Mondrian and Theo van Doesburg. It sought to establish a new, utopian visual harmony by stripping away complex natural forms and colors in favor of strict geometric abstraction.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "dharma",
     "term": "Dharma",
     "definition": "It is a Sanskrit Buddhist term that means “right direction” or “rightful duty\". Your \"dharma\" is your inherent purpose, or true calling in life. It is what you were born to do. It was what was written on your soul from the moment you were conceived.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "diptych",
     "term": "Diptych",
     "definition": "A painting, especially an altarpiece, on two hinged wooden panels which may be closed like a book.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      146
+    ]
   },
   {
     "id": "doric-order",
@@ -1089,21 +1587,31 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "drypoint",
     "term": "Drypoint",
     "definition": "Drypoint is a printmaking process in which a design is drawn on a plate with a sharp, pointed needle-like instrument. Unlike etching, drypoint does not require the use of an acid-resistant ground. Rather, a special diamond tip needle is used to draw directly on the plate, pushing up the copper on either side to create a distinctive ridge or “burr” that holds the ink during the printing process.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      105,
+      120
+    ]
   },
   {
     "id": "earthwork",
     "term": "Earthwork",
     "definition": "Land art, variously known as Earth art, environmental art, and Earthworks, is an art movement that emerged in the 1960s and 1970s. The art is made by shaping the land itself or by making forms in the land using natural materials like rocks or tree branches.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      8,
+      150,
+      155
+    ]
   },
   {
     "id": "emphasis",
@@ -1112,105 +1620,134 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      6
+    ]
   },
   {
     "id": "engaged-column",
     "term": "Engaged Column",
     "definition": "Column embedded into a wall or more commonly cut with a flat side and applied to the wall giving the appearance of being embedded.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "engraving",
     "term": "Engraving",
     "definition": "Engraving is an intaglio printmaking process in which lines are cut into a metal plate in order to hold the ink.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      74
+    ]
   },
   {
     "id": "enlightenment",
     "term": "Enlightenment",
     "definition": "A European intellectual movement of the late 17th and 18th centuries emphasizing reason and individualism rather than tradition. It was heavily influenced by 17th-century philosophers such as Descartes, Locke, and Newton, and its prominent exponents include Kant, Goethe, Voltaire, Rousseau, and Adam Smith.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      11
+    ]
   },
   {
     "id": "entasis",
     "term": "Entasis",
     "definition": "A slight convex curve in the shaft of a column, introduced to correct the visual illusion of concavity produced by a straight shaft.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "etching",
     "term": "Etching",
     "definition": "Etching is an intaglio printmaking process in which lines or areas are incised using acid into a metal plate in order to hold the ink. In etching, the plate can be made of iron, copper, or zinc.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      87,
+      105
+    ]
   },
   {
     "id": "exedra-plural-exedras-or-exedrae",
     "term": "Exedra (plural: exedras or exedrae)",
     "definition": "A semicircular architectural recess or platform, sometimes crowned by a semi-dome, and either set into a building's façade or free-standing. The original Greek sense (ἐξέδρα, a seat out of doors) was applied to a room that opened onto a stoa, ringed with curved high-backed stone benches, a suitable place for conversation. An exedra may also be expressed by a curved break in a colonnade, perhaps with a semicircular seat.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "expressionism",
     "term": "Expressionism",
     "definition": "Expressionism is an early 20th-century artistic movement where artists sought to depict subjective emotions and inner experiences rather than objective reality. Instead of painting the world exactly as it looks, expressionists used distortion, exaggeration, and vibrant, jarring colors to evoke specific moods and feelings.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "fa-ade",
     "term": "Façade",
     "definition": "the face of a building, especially the principal front that looks onto a street or open space",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "fasces",
     "term": "Fasces",
     "definition": "In ancient times, fasces were a Roman symbol of power and authority, a bundle of wooden rods and an ax bound together by leather thongs. Fasces represented that a man held imperium, or executive authority.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "fibulae",
     "term": "Fibulae",
     "definition": "Brooches (safety pins) that were made popular by Roman military campaigns. These became very popular in the early Middle Ages and commonly found in barbarian grave sites. While they show the cultural exchange of ideas from nomadic peoples, they give insight into the particular culture from which they were created.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      28,
+      53
+    ]
   },
   {
     "id": "filigree",
     "term": "Filigree",
     "definition": "Ornamental work of fine (typically gold or silver) wire formed into delicate tracery.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      53
+    ]
   },
   {
     "id": "fluxus",
     "term": "Fluxus",
     "definition": "An international, interdisciplinary community of artists, poets, and musicians in the 1960s and 70s who sought to break down the barriers between art and everyday life.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "flying-buttress",
     "term": "Flying Buttress",
     "definition": "A masonry structure typically consisting of an inclined bar carried on a half arch that extends (\"flies\") from the upper part of a wall to a pier some distance away and carries the thrust of a roof or vault.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "folios",
     "term": "Folios",
     "definition": "a general term for a sheet, leaf or page in (especially) manuscripts and old books",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "foreshortening",
@@ -1219,7 +1756,10 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      40
+    ]
   },
   {
     "id": "form",
@@ -1228,14 +1768,16 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "french-revolution",
     "term": "French Revolution",
     "definition": "The French Revolution (1789–1799) was a period of massive social and political upheaval in France that dismantled the absolute monarchy and feudal system. Driven by financial ruin, inequality, and Enlightenment ideals, it established a republic, ultimately paved the way for Napoleon Bonaparte, and birthed modern democratic values.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "fresco",
@@ -1244,7 +1786,17 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      32,
+      39,
+      48,
+      63,
+      75,
+      76,
+      82,
+      142
+    ]
   },
   {
     "id": "frieze",
@@ -1253,14 +1805,22 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35,
+      38,
+      46
+    ]
   },
   {
     "id": "frontispiece",
     "term": "Frontispiece",
     "definition": "an illustration facing the title page of a book",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      81
+    ]
   },
   {
     "id": "function",
@@ -1269,49 +1829,59 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ganesha",
     "term": "Ganesha",
     "definition": "Ganesha, also called Ganapati, elephant-headed Hindu god of beginnings, who is traditionally worshiped before any major enterprise and is the patron of intellectuals, bankers, scribes, and authors.He is known as the god of wisdom and remover of obstacles.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "gogok",
     "term": "Gogok",
     "definition": "Refers to ancient, comma-shaped or curved jewels or beads. Historically significant in Korean and East Asian archaeology, these ornamental beads feature a voluminous crescent or comma shape with a hole at the head for threading.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "gothic",
     "term": "Gothic",
     "definition": "A style of European church and castle building prominent from the 12th to the 16th centuries. It is known for its soaring heights, thin walls, and dramatic use of light.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      60,
+      61
+    ]
   },
   {
     "id": "gothic-revival",
     "term": "Gothic Revival",
     "definition": "Gothic Revival (also known as Neo-Gothic or Victorian Gothic) is an architectural and artistic movement that emerged in 18th-century England and peaked globally in the 19th century. It sought to revive the romantic, soaring aesthetic of medieval Gothic architecture, serving as a dramatic alternative to the rigid, classical styles of the era.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "hajj",
     "term": "Hajj",
     "definition": "The annual Islamic pilgrimage to the holy city of Mecca in Saudi Arabia. As one of the Five Pillars of Islam, it is a mandatory religious duty for all adult Muslims who are physically and financially able.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "harmika",
     "term": "Harmika",
     "definition": "A harmika is a small, square, fence-like or balcony-like structure located at the very top of a Buddhist stupa. Sitting directly on the dome (the anda), it symbolizes the abode of the gods and encloses the central pillar (yashti) that supports sacred umbrellas.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "hellenistic",
@@ -1320,21 +1890,31 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      37,
+      38,
+      41
+    ]
   },
   {
     "id": "henotheistic",
     "term": "Henotheistic",
     "definition": "The belief in and worship of a single god while accepting the existence or possible existence of other deities.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "hiapo",
     "term": "Hiapo",
     "definition": "early Niuean [barkcloth](#bookmark=id.nklbr8hoq278) (see bark cloth)",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      218
+    ]
   },
   {
     "id": "hieratic-scale-hierarchical-scale",
@@ -1343,35 +1923,40 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "historiated-capital",
     "term": "Historiated Capital",
     "definition": "Historiated or figured capital: A capital which is decorated with figures of animals, birds, or humans, used either alone or combined with foliage. The figures need not have any meaning, although they may be symbolic or part of a narrative sequence.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "horror-vacui",
     "term": "Horror vacui",
     "definition": "In visual art, horror vacui, also referred to as kenophobia, is the filling of the entire surface of a space or an artwork with detail. In physics, horror vacui reflects Aristotle's idea that \"nature abhors an empty space",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "horseshoe-arch",
     "term": "Horseshoe Arch",
     "definition": "The horseshoe arch, also called the \"Moorish arch\" and the \"keyhole arch\", is the emblematic arch of Islamic architecture, especially Moorish architecture.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "huitzilopochtli",
     "term": "Huitzilopochtli",
     "definition": "Huitzilopochtli (pronounced Weetz-ee-loh-POSHT-lee) is the supreme Aztec god of the sun, warfare, and military conquest. He served as the patron deity of the Mexica (Aztec) people, guiding them to found their capital, Tenochtitlan, and requiring human sacrifice to keep the sun moving across the sky.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "hypostyle-hall",
@@ -1380,7 +1965,8 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ibex",
@@ -1389,91 +1975,111 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      5
+    ]
   },
   {
     "id": "icon",
     "term": "Icon",
     "definition": "In Eastern Christian tradition, a representation of sacred personages or events in mural painting, mosaic, or wood.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "iconoclasm",
     "term": "Iconoclasm",
     "definition": "Pertaining to the belief in, participation in, or sanction of destroying religious icons and other symbols or monuments, usually with religious or political motives.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "i-iwi-bird",
     "term": "i’iwi bird",
     "definition": "ʻIʻiwi are important to their islands' culture. Early Hawaiians considered their native birds' red colors to be sacred and used ʻIʻiwi and other honeycreeper feathers to create elaborate cloaks, helmets, and leis. This garb became a mark of societal rank and was worn only during special ceremonies, or into battle.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ilkhanid",
     "term": "Ilkhanid",
     "definition": "The term Ilkhanid refers to a Mongol dynasty and the empire they ruled in West Asia from 1256 to 1335 CE, encompassing modern-day Iran, Iraq, Afghanistan, and parts of Turkey and Central Asia.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      188
+    ]
   },
   {
     "id": "impost-block",
     "term": "Impost Block",
     "definition": "In architecture, a stone in the shape of a truncated, inverted pyramid, placed between a capital and an arch that springs from it. Builders of what is now known as Byzantine architecture created decorative stone blocks to transition between columns and arches.These can be found at San Vitale. Ravenna, Italy. 526-547",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "in-antis",
     "term": "In Antis",
     "definition": "When describing Greek temple:  If the long walls of a temple extend past the cella, or sanctuary, to form the side walls of the porch or anteroom, these long walls often terminate with antas, an anta being a corner post or pilaster. The open end of the porch, or portico, is then supported by between one and four columns in antis, that is to say, “between the antas.” The temples so constructed are called henostyle (one column), distyle (two columns), tristyle (three columns), or tetrastyle (four columns). No more than four columns were ever used.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "indigenous",
     "term": "Indigenous",
     "definition": "Indigenous people or things belong to the country in which they are found, rather than coming there or being brought there from another country.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      11,
+      81
+    ]
   },
   {
     "id": "industrial-revolution",
     "term": "Industrial Revolution",
     "definition": "The Industrial Revolution was the transition to new manufacturing processes in Great Britain, continental Europe, and the United States, in the period from about 1760 to sometime between 1820 and 1840.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "illuminated-texts-or-manuscripts",
     "term": "Illuminated Texts or Manuscripts",
     "definition": "Illuminated manuscripts are hand-written books with painted decoration that generally includes precious metals such as gold or silver. The pages were made from animal skin, commonly calf, sheep, or goat. Illuminated manuscripts were produced between 1100 and 1600, with monasteries as their earliest creators.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "incipit-page",
     "term": "Incipit (Page)",
     "definition": "In Latin: “here begins.” The opening word or words of a medieval Western manuscript or early printed book. In the absence of a title page, the text may be recognized, referred to, and recorded by its incipit.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "installation-art",
     "term": "Installation art",
     "definition": "A modern movement characterized by immersive, larger-than-life works of art. Usually, installation artists create these pieces for specific locations, enabling them to expertly transform any space into a customized, interactive environment.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "international-style-architecture",
     "term": "International Style Architecture",
     "definition": "International Style architecture is a major modernist movement that emerged in Europe in the 1920s and dominated global building design through the 1970s. It is defined by simple geometric forms, an absence of applied decoration, and the prominent use of industrial materials like glass, steel, and reinforced concrete.\n\nThe International Style is a highly specific subset of modernism defined by an absolute lack of applied decoration, an emphasis on volume over mass, and strict geometric regularity.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ionic-order",
@@ -1482,14 +2088,16 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "islet",
     "term": "Islet",
     "definition": "​An islet is a very small island, generally defined as having little vegetation, being uninhabitable by humans, or having an area of less than 1 km²",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "isocephalism",
@@ -1498,70 +2106,84 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "iwan",
     "term": "Iwan",
     "definition": "An iwan is a rectangular hall or space, usually vaulted, walled on three sides, with one end entirely open. It is often used in Iranian mosque architecture.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "jamb-figures",
     "term": "Jamb Figures",
     "definition": "statues that decorate the side posts and jambs of a doorway",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kaaba",
     "term": "Kaaba",
     "definition": "a cube-shaped building in Mecca, the most sacred Muslim pilgrim shrine, into which is built the black stone believed to have been given by Gabriel to Abraham. Muslims turn in its direction when praying",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      182
+    ]
   },
   {
     "id": "kava-ceremony",
     "term": "Kava ceremony",
     "definition": "Kava is a type of tea that comes from the Kava root. During the ceremony, the drink is sipped by community members in order of their rank in the Fijian community.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "karg",
     "term": "Karg",
     "definition": "In Persian mythology and epic poetry, a karg is a terrifying beast—often described as a large, fierce horned wolf or a combination of a wolf and a rhinoceros. It is most famous for being famously slain by the Persian king Bahram Gur in an epic battle from the 10th-century Shahnameh (Book of Kings).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      188
+    ]
   },
   {
     "id": "karma",
     "term": "Karma",
     "definition": "Hinduism identifies karma as the relationship between a person's mental or physical action and the consequences following that action. It also signifies the consequences of all the actions of a person in their current and previous lives and the chain of cause and effect in morality.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kiswa",
     "term": "Kiswa",
     "definition": "The Kiswa (or Kiswah) is the sacred black cloth that drapes the Holy Kaaba in Mecca, Saudi Arabia. It is one of the most revered objects in Islam, symbolizing deep reverence and serving as a physical \"garment\" of protection.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kitsch",
     "term": "Kitsch",
     "definition": "A low-brow style of mass-produced art or design using popular or cultural icons",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kiva",
     "term": "Kiva",
     "definition": "a chamber, built wholly or partly underground, traditionally used by male members of the Pueblo people for religious rites.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kore-plural-korai",
@@ -1570,7 +2192,8 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kouros-plural-kouroi",
@@ -1579,14 +2202,18 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "kuba",
     "term": "Kuba",
     "definition": "A group of people of the Democratic Republic of Congo in Africa",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      170
+    ]
   },
   {
     "id": "krater",
@@ -1595,35 +2222,44 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      33
+    ]
   },
   {
     "id": "lamentation",
     "term": "Lamentation",
     "definition": "The Lamentation of Christ is a very common subject in Christian art from the High Middle Ages to the Baroque. After Jesus was crucified, his body was removed from the cross and his friends mourned over his body.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      63
+    ]
   },
   {
     "id": "lancet-windows",
     "term": "Lancet Windows",
     "definition": "A lancet window is a tall, narrow window with a pointed arch at its top. It acquired the \"lancet\" name from its resemblance to a lance. Instances of this architectural element are typical of Gothic church edifices of the earliest period.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "lanz-n",
     "term": "Lanzón",
     "definition": "The Lanzón is the colloquial name for the most important statue of the central deity of the ancient Chavín culture of the central highlands of Peru. The Chavín religion was the first major religious and cultural movement in the Andes mountains, flourishing between 900 and 200 BCE.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "lapita-people",
     "term": "Lapita People",
     "definition": "The first inhabitants of Polynesia who share roots with Australian natives",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "line",
@@ -1632,133 +2268,171 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      5,
+      7,
+      10,
+      11,
+      13,
+      24,
+      32,
+      35,
+      36,
+      47
+    ]
   },
   {
     "id": "linear-perspective",
     "term": "Linear Perspective",
     "definition": "A form of perspective in drawing and painting in which parallel lines are represented as converging so as to give the illusion of depth and distance.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "lintel",
     "term": "Lintel",
     "definition": "A lintel is a beam placed across the openings like doors, windows etc. in buildings to support the load from the structure above.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      8,
+      154
+    ]
   },
   {
     "id": "lithograph",
     "term": "Lithograph",
     "definition": "Lithography is a planographic (where the printing surface is flat) printmaking process in which a design is drawn onto a flat stone (or prepared metal plate, usually zinc or aluminum) and affixed by means of a chemical reaction.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      113,
+      211
+    ]
   },
   {
     "id": "liturgy",
     "term": "Liturgy",
     "definition": "The customary public worship performed by a religious group. As a religious phenomenon, liturgy represents a communal response to and participation in the sacred through activity reflecting praise, thanksgiving, supplication or repentance.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "loculus",
     "term": "Loculus",
     "definition": "plural loculi, is an architectural compartment or niche that houses a body, as in a catacomb, hypogeum, mausoleum or other place of entombment.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "loggia",
     "term": "Loggia",
     "definition": "In architecture, a loggia is a covered exterior gallery or corridor, usually on an upper level, but sometimes on the ground level of a building. The outer wall is open to the elements, usually supported by a series of columns or arches",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "lost-wax-casting",
     "term": "Lost Wax Casting",
     "definition": "Lost wax casting builds a mold around a sacrificial wax model. After the mold investment is set, the wax is melted out and forms a cavity where the metal or glass flows in.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "lotus-posture",
     "term": "Lotus Posture",
     "definition": "a cross-legged position for meditation, with the feet resting on the thighs.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "lunette",
     "term": "Lunette",
     "definition": "A semicircular architectural space that can be filled with a painting, a mosaic, relief sculpture or a window.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "madrasa",
     "term": "Madrasa",
     "definition": "A madrasa is an Islamic college, literally a \"place of instruction”",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mahayana",
     "term": "Mahayana",
     "definition": "Mahayana literally means: the “big vehicle.” It is a big vehicle that transports more sentient beings off the samsaric cycle towards enlightenment and nirvana. One of the cornerstones of Mahayana Buddhism is compassion, which is visualized in the appearance of the bodhisattvas.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "malangan",
     "term": "Malangan",
     "definition": "refers to one or more intricate carvings from the island of New Ireland in Papua New Guinea. These carvings may take the form of a mask, a wooden board or “frieze,” a sturdy house pole, a circular, woven mat, or a scaled model of a dugout canoe with or without human figures inside",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mana",
     "term": "Mana",
     "definition": "Refers to a foundational concept in Polynesian and Melanesian cultures denoting a supernatural, spiritual life force, prestige, and innate power. Objects imbued with mana were not merely decorative; they were treated as living repositories of power that could influence, protect, or command authority within a community.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mandapa",
     "term": "Mandapa",
     "definition": "Mandapa in Indian architecture, especially Hindu temple architecture, is a pillared hall or pavilion for public rituals. Mandapas are described as \"open\" or \"closed\" depending on whether they have walls. In temples, one or more mandapas very often lie between the sanctuary and the temple entrance, on the same axis.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mandorla",
     "term": "Mandorla",
     "definition": "A mandorla is an almond-shaped aureola, i.e. a frame that surrounds the totality of an iconographic figure. It is usually synonymous with vesica, a lens shape. Mandorlas often surround the figures of Jesus Christ and the Virgin Mary in traditional Christian iconography.\n\nWhile the term \"mandorla\" specifically originates from Western art history (derived from the Italian word for \"almond\") to describe a full-body halo, the concept it represents—a divine aura of light or sacred geometry—is central to both Hinduism and Buddhism.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "manifest-destiny",
     "term": "Manifest Destiny",
     "definition": "the 19th-century doctrine or belief that the expansion of the US throughout the American continents was both justified and inevitable",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "m-ori",
     "term": "Māori",
     "definition": "peoples native to New Zealand",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mastaba",
     "term": "Mastaba",
     "definition": "An ancient Egyptian tomb made of mud brick, rectangular in plan with sloping sides and a flat roof.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      17
+    ]
   },
   {
     "id": "materials",
@@ -1767,42 +2441,56 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      2,
+      16,
+      31,
+      32,
+      46
+    ]
   },
   {
     "id": "mattang",
     "term": "Mattang",
     "definition": "Navigation charts used to train future navigators among peoples of the Pacific Islands. Such charts depict general information about swell movements around one or more small islands.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mecca",
     "term": "Mecca",
     "definition": "Mecca, in a desert valley in western Saudi Arabia, is Islam’s holiest city, as it’s the birthplace of the Prophet Muhammad and the faith itself. Only Muslims are allowed in the city, with millions arriving for the annual Hajj (pilgrimage).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      182
+    ]
   },
   {
     "id": "meddo-or-rebbelib",
     "term": "Meddo or Rebbelib",
     "definition": "Navigation charts used for memory not directions; often cover either a large section or all of the Marshall Islands. Other charts show a smaller area.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "melanesia",
     "term": "Melanesia",
     "definition": "Refers to a region of the western Pacific that includes the islands and island groups of Fiji, New Guinea, the Solomon Islands, and Vanuatu",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mesoamerica",
     "term": "Mesoamerica",
     "definition": "Mesoamerica is a historical region and cultural area in southern North America and most of Central America. It extends from approximately central Mexico through Belize, Guatemala, El Salvador, Honduras, Nicaragua, and northern Costa Rica.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mesolithic",
@@ -1811,77 +2499,98 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "mestizo",
     "term": "Mestizo",
     "definition": "The term mestizo means mixed in Spanish, and is generally used throughout Latin America to describe people of mixed ancestry with a white European and an indigenous background",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      96
+    ]
   },
   {
     "id": "metopes",
     "term": "Metopes",
     "definition": "In classical architecture, a metope (μετόπη) is a rectangular architectural element that fills the space between two triglyphs in a Doric frieze, which is a decorative band of alternating triglyphs and metopes above the architrave of a building of the Doric order.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "micronesia",
     "term": "Micronesia",
     "definition": "A region of the Pacific Islands that includes more than 2,100 islands, including the Marshall Islands, Guam, and Kiribati",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      212,
+      216,
+      220
+    ]
   },
   {
     "id": "mihrab",
     "term": "Mihrab",
     "definition": "Mihrab is a niche in the wall of a mosque that indicates the qibla, the direction of the Kaaba in Mecca towards which Muslims should face when praying. The wall in which a mihrab appears is thus the \"qibla wall\".",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "minarets",
     "term": "Minarets",
     "definition": "A tall slender tower, typically part of a mosque, with a balcony from which a muezzin calls Muslims to prayer.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "moai",
     "term": "Moai",
     "definition": "Stone statues built by the first people who came to Easter Island and embody the ancestors who first came.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      213
+    ]
   },
   {
     "id": "modern-architecture",
     "term": "Modern Architecture",
     "definition": "Modern architecture is a 20th-century design movement characterized by minimalism, the rejection of historical ornamentation, and the principle that \"form follows function\". It embraced new industrial materials like steel, concrete, and plate glass. Famous pioneers include Le Corbusier and Frank Lloyd Wright.\n\nModern architecture is a broad philosophical movement rejecting historical ornamentation in favor of new materials and functionalism. The International Style is a highly specific subset of modernism defined by an absolute lack of applied decoration, an emphasis on volume over mass, and strict geometric regularity.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "moko",
     "term": "Moko",
     "definition": "an intricate facial tattoo among the Māori",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "moksa",
     "term": "Moksa",
     "definition": "In Hinduism and Jainism, release from the cycle of rebirth impelled by the law of karma.  \nThe transcendent state attained as a result of being released from the cycle of rebirth.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "monarchy",
     "term": "Monarchy",
     "definition": "A monarchy is a system of government in which a single person—such as a king, queen, or emperor—serves as the head of state, usually for life or until abdication. Authority is traditionally passed down through hereditary succession within a royal family.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "monolithic",
@@ -1890,7 +2599,12 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      25,
+      35,
+      46
+    ]
   },
   {
     "id": "movement",
@@ -1899,49 +2613,67 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      38,
+      40,
+      41,
+      43,
+      46,
+      222
+    ]
   },
   {
     "id": "mudra",
     "term": "Mudra",
     "definition": "A mudra is a symbolic or ritual gesture or pose in Hinduism, Jainism and Buddhism. While some mudras involve the entire body, most are performed with the hands and fingers.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "muqarnas",
     "term": "Muqarnas",
     "definition": "A form of decorative vaulting in Islamic architecture.  In muqarnas, the surface of a vault or dome is subdivided into niche-like cells that have no load-bearing function. Also known as stalactite vaulting or honeycomb vaulting.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "nan-madol",
     "term": "Nan-Madol",
     "definition": "Once the political and ceremonial center for the ruling chiefs of the Sau Deleur dynasty (c. 1100–1628), Nan Madol is a complex of close to 100 artificial rectilinear islets spread over 200 acres that are thought to have housed up to 1000 people.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      213
+    ]
   },
   {
     "id": "narthex",
     "term": "Narthex",
     "definition": "An antechamber, porch, or distinct area at the western entrance of some early Christian churches, separated off by a railing and used by catechumens, penitents, etc.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "nave",
     "term": "Nave",
     "definition": "The central part of a church building, intended to accommodate most of the congregation. In traditional Western churches it is rectangular, separated from the chancel by a step or rail, and from adjacent aisles by pillars.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ndop",
     "term": "Ndop",
     "definition": "Ndop were figurative sculptures representing different kings of the Kuba kingdom of Africa.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      170
+    ]
   },
   {
     "id": "necropolis",
@@ -1950,7 +2682,13 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      5,
+      15,
+      17,
+      29
+    ]
   },
   {
     "id": "nemes",
@@ -1959,21 +2697,27 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      18,
+      23
+    ]
   },
   {
     "id": "neoclassicism",
     "term": "Neoclassicism",
     "definition": "Neoclassicism in the arts is an aesthetic attitude based on the art of Greece and Rome in antiquity, which invokes harmony, clarity, and restraint.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "neo-confucianism",
     "term": "Neo-Confucianism",
     "definition": "Neo-Confucianism is a revitalized form of classical Confucianism that emerged in China during the Song Dynasty (960–1279 CE) and dominated East Asian philosophy for centuries. It combined traditional Confucian ethics with the metaphysical and spiritual elements of Buddhism and Daoism to explain the nature of the universe and human morality.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "neolithic",
@@ -1982,84 +2726,110 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      1,
+      4,
+      5,
+      7,
+      8
+    ]
   },
   {
     "id": "new-ireland",
     "term": "New Ireland",
     "definition": "A small island of the southwestern Pacific, just south of the equator; part of Papua New Guinea",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "nganga",
     "term": "Nganga",
     "definition": "A spiritual healer, diviner, and ritual specialist in traditional Kongo religion.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "niche",
     "term": "Niche",
     "definition": "Niche, in architecture, decorative recess set into a wall for the purpose of displaying a statue, vase, font, or other object. Niches were used extensively in both interior and exterior walls by the architects of ancient Rome.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      46
+    ]
   },
   {
     "id": "nimbus",
     "term": "Nimbus",
     "definition": "A luminous cloud or a halo surrounding a supernatural being or a saint.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "niuean",
     "term": "Niuean",
     "definition": "A native or inhabitant of the island of Niue, or someone of Niuean descent. Niue is a self-governing island country in free association with New Zealand.\n\nWhile it is self-governing, it is part of the Realm of New Zealand, meaning its residents are New Zealand citizens and New Zealand handles its defense and foreign affairs.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "nkisi-figure",
     "term": "Nkisi Figure",
     "definition": "Central African power figures were conceived to house specific mystical forces. They were collaborative creations of a Kongo sculptor and a ritual specialist (nganga). After an artist completed carving the wooden receptacle, the nganga filled it with powerful medicines (bilongo) that transformed it into an object capable of healing illness, settling disputes, safeguarding the peace, and punishing wrongdoers.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "non-objective",
     "term": "Non-objective",
     "definition": "Art that does not represent or depict any identifiable person, place or thing. The content of the work is its color, shapes, texture, size and scale. Color-field painting (think Mark Rothko) is an example of non-objective art.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "nyim",
     "term": "Nyim",
     "definition": "Paramount Ruler of the Kuba people of the Democratic Republic of Congo, Africa",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "oba",
     "term": "Oba",
     "definition": "a hereditary tribal ruler among various peoples in the Benin region of western Africa.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      168
+    ]
   },
   {
     "id": "obelisk",
     "term": "Obelisk",
     "definition": "A tall, four-sided, narrow tapering monument which ends in a pyramid-like shape or pyramidion at the top.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      20
+    ]
   },
   {
     "id": "oceania",
     "term": "Oceania",
     "definition": "Oceania refers to a vast geographic region spanning the central and southern Pacific Ocean. It encompasses thousands of islands, the nation of Australia, and represents one of the world's seven traditional continents",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      9
+    ]
   },
   {
     "id": "oculus",
@@ -2068,105 +2838,128 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      46
+    ]
   },
   {
     "id": "odalisque",
     "term": "Odalisque",
     "definition": "A female slave or concubine in a harem, especially one in the seraglio of the Sultan of Turkey.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      106
+    ]
   },
   {
     "id": "ogive",
     "term": "Ogive",
     "definition": "a. A diagonal rib of a Gothic vault.  \nb. A pointed arch.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ogival",
     "term": "Ogival",
     "definition": "Having the shape of an ogive",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "olmec",
     "term": "Olmec",
     "definition": "\"Olmec\" literally means \"rubber people\" or \"people of the rubber country\" in Nahuatl, the language of the Aztec, derived from ōlli (rubber) and mēcatl (people). It refers to the earliest known major Mesoamerican civilization (c. 1200–400 BCE) that flourished in the Gulf Coast of Mexico, known for producing rubber and monumental stone heads.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "opus-reticulatum",
     "term": "Opus Reticulatum",
     "definition": "A form of stonework that had been used by the Romans to face concrete.  It utilized pyramidal stones that were inserted point-first into wet concrete at a diagonal angle.  The stones not only covered the concrete surface but also added stability to it.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "orant",
     "term": "Orant",
     "definition": "Orant, in Christian art, is a figure in a posture of prayer, usually standing upright with raised arms.In certain contexts, when it is identified with no particular individual, the orant has been interpreted as a symbol of faith or of the church itself.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "oracle",
     "term": "Oracle",
     "definition": "A priest or priestess acting as a medium through whom advice or prophecy was sought from the gods in classical antiquity.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "orrery",
     "term": "Orrery",
     "definition": "A mechanical model of the solar system, or of just the sun, earth, and moon, used to represent their relative positions and motions.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      99
+    ]
   },
   {
     "id": "osei-tutu",
     "term": "Osei Tutu",
     "definition": "Osei Kofi Tutu I was one of the founders of the Ashanti Empire, aided by Okomfo Anokye, his Chief Priest and distant relative. The Asante are an Akan ethnic group of West Africa.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "padmasana",
     "term": "Padmasana",
     "definition": "Padmasana, or Lotus Pose, is a foundational, cross-legged seated yoga posture that translates to \"Lotus Seat\" from Sanskrit (padma = lotus; asana = seat or posture). It is designed for deep meditation, where each foot rests on the opposite thigh, simulating the petals of a lotus flower and representing spiritual purity, balance, and awakening.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "pagoda",
     "term": "Pagoda",
     "definition": "A pagoda is an East Asian tiered tower with multiple eaves common to Nepal, India, China, Japan, Korea, Vietnam, and other parts of Asia. Most pagodas were built to have a religious function, most often Buddhist.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "palanquin",
     "term": "Palanquin",
     "definition": "a structure formerly used in East Asia for transporting one person. It consists of a box that is carried by four or six people by means of two long poles.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "palladian-arch",
     "term": "“Palladian” arch",
     "definition": "A three-part window composed of a large, arched central section flanked by two narrower, shorter sections having square tops.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "palazzo",
     "term": "Palazzo",
     "definition": "A palatial building, especially in Italy; a palace",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      70
+    ]
   },
   {
     "id": "paleolithic",
@@ -2175,14 +2968,20 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "id": "pantocrator",
     "term": "Pantocrator",
     "definition": "A title of Christ represented as the ruler of the universe, especially in Byzantine church decoration.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "parapet",
@@ -2191,14 +2990,20 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "parchment",
     "term": "Parchment",
     "definition": "The term parchment is a general term for an animal skin which has been prepared for writing or printing. Parchment has been made for centuries, and is usually calf, goat, or sheep skin. The term vellum from the French veau refers to a parchment made from calf skin.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      186
+    ]
   },
   {
     "id": "parietal",
@@ -2207,21 +3012,30 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "parinirvana",
     "term": "Parinirvana",
     "definition": "In Buddhism, parinirvana is commonly used to refer to nirvana-after-death, which occurs upon the death of someone who has attained nirvana during his or her lifetime. It implies a release from the Saṃsāra, karma and rebirth as well as the dissolution of the skandhas.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "pattern",
     "term": "Pattern",
     "definition": "Pattern is the repetition of a shape, form, or texture across a work of art.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      6,
+      11,
+      25,
+      32,
+      33
+    ]
   },
   {
     "id": "pediments",
@@ -2230,21 +3044,27 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35,
+      46
+    ]
   },
   {
     "id": "pendentive",
     "term": "Pendentive",
     "definition": "In architecture, a pendentive is a constructional device permitting the placing of a circular dome over a square room or of an elliptical dome over a rectangular room.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "peninsular-war",
     "term": "Peninsular War",
     "definition": "The Peninsular War (1807–1814) was a major conflict of the Napoleonic Wars. Fought in the Iberian Peninsula, it pitted an allied coalition of Spain, Portugal, and the United Kingdom against the invading and occupying forces of the First French Empire.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "peplos",
@@ -2253,35 +3073,50 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      28,
+      35
+    ]
   },
   {
     "id": "performance-art",
     "term": "Performance Art",
     "definition": "Performance art is a time-based art form where the artist's live actions and physical presence serve as the primary medium. Unlike traditional visual arts (like painting or sculpture) or performing arts (like theater), it rejects conventional narratives, uses the body as an object rather than a tool, and challenges the boundaries between art and everyday life.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "peristyle",
     "term": "Peristyle",
     "definition": "ARCHITECTURE  \na row of columns surrounding a space within a building such as a court or internal garden or edging a veranda or porch.  \nan architectural space such as a court or porch that is surrounded or edged by a peristyle.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      39,
+      40
+    ]
   },
   {
     "id": "perpendicular-gothic",
     "term": "Perpendicular Gothic",
     "definition": "Perpendicular Gothic architecture was the third and final style of English Gothic architecture developed in the Kingdom of England during the Late Middle Ages, typified by large windows, four-centered arches, straight vertical and horizontal lines in the tracery, and regular arch-topped rectangular paneling.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "perspective",
     "term": "Perspective",
     "definition": "A method of graphically depicting three-dimensional objects and spatial relationships on a two-dimensional plane or on a plane that is shallower than the original (for example, in flat relief).\n\nIn linear perspective, the relative size, shape, and position of objects are determined by drawn or imagined lines converging at a point on the horizon.\n\nAerial perspective is the effect the atmosphere has on the appearance of an object as viewed from a distance.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      2,
+      4,
+      47
+    ]
   },
   {
     "id": "pestle",
@@ -2290,7 +3125,10 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      9
+    ]
   },
   {
     "id": "petroglyph",
@@ -2299,14 +3137,16 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "pieta",
     "term": "Pieta",
     "definition": "\"representation in painting or sculpture of the seated Virgin holding the body of the dead Christ in her lap,\" 1640s, from Italian pieta, from Latin pietatem \"piety, pity, faithfulness to natural ties\" (see piety).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "pilaster",
@@ -2315,56 +3155,74 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      36,
+      44
+    ]
   },
   {
     "id": "pilgrimage",
     "term": "Pilgrimage",
     "definition": "A  journey, especially a long one, made to some sacred place as an act of religious devotion.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      8,
+      44
+    ]
   },
   {
     "id": "plinth",
     "term": "Plinth",
     "definition": "A plinth is a solid block or slab that serves as the base for a column, pedestal, statue, or heavy piece of furniture. It is designed to evenly distribute weight and elevate structures off the ground.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "polychrome-woodblock-print",
     "term": "Polychrome Woodblock Print",
     "definition": "Polychrome prints were made using a woodblock printing technique and a separate carved block for each color, which could number up to twenty. To print with precision using numerous blocks on a single paper sheet, a system of placing two cuts on the edge of each block to serve as alignment guides was employed.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "polynesian-triangle",
     "term": "Polynesian Triangle",
     "definition": "An area that stretches from Hawai'i in the north to Aotearoa (New Zealand) in the south, and Rapa Nui (Easter Island) in the east",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "polyptych",
     "term": "Polyptych",
     "definition": "A painting, typically an altarpiece, consisting of more than three leaves or panels joined by hinges or folds.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "pop-art",
     "term": "Pop art",
     "definition": "Art based on modern popular culture and the mass media, especially as a critical or ironic comment on traditional fine art values.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "portico",
     "term": "Portico",
     "definition": "A portico is a porch leading to the entrance of a building, or extended as a colonnade, with a roof structure over a walkway, supported by columns or enclosed by walls.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      45,
+      46
+    ]
   },
   {
     "id": "post-and-lintel",
@@ -2373,119 +3231,150 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "postmodernism",
     "term": "Postmodernism",
     "definition": "Postmodernism is a late 20th-century cultural, artistic, and philosophical movement that emerged as a skeptical reaction to modernism. It rejects the idea of absolute truths, universal progress, and overarching theories (or \"grand narratives\"), instead emphasizing that reality, meaning, and knowledge are socially constructed and relative.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "predella",
     "term": "Predella",
     "definition": "A step or platform on which an altar is placed.\n\nA painting or sculpture on the front of a raised shelf above an altar, which typically forms the base for an altarpiece.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "propaganda",
     "term": "Propaganda",
     "definition": "Information, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      43
+    ]
   },
   {
     "id": "proportion",
     "term": "Proportion",
     "definition": "Proportion in art and design refers to the different sizes of the individual parts that make up one object.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      10,
+      14,
+      29,
+      34,
+      35
+    ]
   },
   {
     "id": "propylaea",
     "term": "Propylaea",
     "definition": "The name given to monumental gates or entranceways to a specific space, usually to a temple or religious complex and as such they acted as a symbolic partition between the secular and religious parts of a city.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "public-art",
     "term": "Public Art",
     "definition": "Art that is created for and displayed in the public realm—such as parks, streets, plazas, or transit stations. It is physically and visually accessible to everyone, and its primary purpose is to engage the community, reflect local culture, and enhance the shared environment.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "puja",
     "term": "Puja",
     "definition": "Making offerings as a form of ritual worship. One can make puja by lustrating (purifying) an image with ghee, milk or oils, or simply adorning an image with garlands of flowers.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "putti",
     "term": "Putti",
     "definition": "Putto, plural putti, a nude chubby child figure, often with wings, frequently appearing in both mythological and religious paintings and sculpture, especially of the Renaissance and Baroque periods. ...",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "pylon-temple",
     "term": "Pylon Temple",
     "definition": "A pylon is a monumental gate of an Egyptian temple. It consists of two pyramidal towers, each tapered and surmounted by a cornice, joined by a less elevated section enclosing the entrance between them.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "qibla",
     "term": "Qibla",
     "definition": "the direction of the Kaaba (the sacred building at Mecca), to which Muslims turn at prayer.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "quatrefoil",
     "term": "Quatrefoil",
     "definition": "A quatrefoil is a decorative element consisting of a symmetrical shape which forms the overall outline of four partially overlapping circles of the same diameter. It is found in art, architecture, heraldry and traditional Christian symbolism.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "quetzal",
     "term": "Quetzal",
     "definition": "The Bird: A brightly colored, sacred bird of Central and South American cloud forests known for its iridescent green plumage and long, flowing tail feathers. The Resplendent Quetzal is the national bird of Guatemala.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      157
+    ]
   },
   {
     "id": "radial-design",
     "term": "Radial Design",
     "definition": "Radial design is when elements of a design or composition are arranged around a distinct central point. These elements originate from the central point and extend outwards toward the edge",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "rapa-nui",
     "term": "Rapa Nui",
     "definition": "Original name of Easter Island",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "readymade",
     "term": "Readymade",
     "definition": "The term readymade was first used by French artist Marcel Duchamp to describe the works of art he made from manufactured objects. It has since often been applied more generally to artworks by other artists made in this way",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      143
+    ]
   },
   {
     "id": "realism",
     "term": "Realism",
     "definition": "Originating in France in the 1840s and 1850s, this movement was a direct rebellion against the highly emotional, dramatic, and idealized art of the Romanticism and Academic periods.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "reception",
@@ -2494,7 +3383,8 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "red-figure-pottery",
@@ -2503,14 +3393,16 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "reformation",
     "term": "Reformation",
     "definition": "The Protestant Reformation was a religious movement that occurred in Western Europe during the 16th century that resulted in a divide in Christianity between Roman Catholics and Protestants. This movement \"created a North-South split in Europe, where generally Northern countries became Protestant, while Southern countries remained Catholic.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "registers",
@@ -2519,14 +3411,21 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      5,
+      13,
+      16,
+      24
+    ]
   },
   {
     "id": "reinforced-concrete",
     "term": "Reinforced Concrete",
     "definition": "concrete in which wire mesh or steel bars are embedded to increase its tensile strength.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "relief",
@@ -2535,21 +3434,42 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      6,
+      9,
+      19,
+      21,
+      22,
+      25,
+      30,
+      35,
+      36,
+      38,
+      45,
+      47
+    ]
   },
   {
     "id": "reliquary",
     "term": "Reliquary",
     "definition": "A container for relics. Often reliquaries were in the form of caskets, though it was quite common for them to be shaped like statues or like body parts (such as hands or heads).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      58,
+      178
+    ]
   },
   {
     "id": "renaissance",
     "term": "Renaissance",
     "definition": "A revival of or renewed interest in something\n\nThe Renaissance was a fervent period of European cultural, artistic, political and economic “rebirth” following the Middle Ages. Generally described as taking place from the 14th century to the 17th century, the Renaissance promoted the rediscovery of classical philosophy, literature and art.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      46
+    ]
   },
   {
     "id": "repetition",
@@ -2558,21 +3478,29 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      5,
+      25,
+      35,
+      40
+    ]
   },
   {
     "id": "repouss",
     "term": "Repoussé",
     "definition": "method of decorating metals in which parts of the design are raised in relief from the back or the inside of the article by means of hammers and punches; definition and detail can then be added from the front by chasing or engraving.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "revival-styles",
     "term": "Revival Styles",
     "definition": "Revivalism in architecture is the use of visual styles that consciously echo the style of a previous architectural era. The best-known are the Neoclassical one (the revival of Greco-Roman architecture), and Gothic Revival (the revival of Gothic).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "rhythm",
@@ -2581,28 +3509,34 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "rococo",
     "term": "Rococo",
     "definition": "Rococo, less commonly Roccoco or Late Baroque, is an exceptionally ornamental and theatrical style of architecture, art and decoration which combines asymmetry, scrolling curves, gilding, white and pastel colors, sculpted molding, and trompe-l'œil frescoes to create surprise and the illusion of motion and drama",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "roundel",
     "term": "Roundel",
     "definition": "A picture which is round in format may be called a roundel; more commonly the term is used to describe a small round element of a complex picture such as an altarpiece. Small roundels are sometimes called medallions.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "romanticism",
     "term": "Romanticism",
     "definition": "Romanticism An artistic and intellectual movement originating in Europe in the late 1700s and characterized by a heightened interest in nature, emphasis on the individual's expression of emotion and imagination, departure from the attitudes and forms of classicism, and rebellion against established social rules and conventions.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sacrum",
@@ -2611,35 +3545,46 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      3
+    ]
   },
   {
     "id": "safavid",
     "term": "Safavid",
     "definition": "The Safavid dynasty was one of Iran's most significant ruling dynasties reigning from 1501 to 1736. Their rule is often considered the beginning of modern Iranian history.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      185
+    ]
   },
   {
     "id": "samsara",
     "term": "Samsara",
     "definition": "It is the concept of rebirth and \"cyclicality of all life, matter, existence\", a fundamental belief of most Indian religions. Popularly, it is the cycle of death and rebirth.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sande",
     "term": "Sande",
     "definition": "Sande, also known as zadεgi, bundu, bundo and bondo, is a women's initiation society in Liberia, Sierra Leone, Guinea and the Ivory Coast. The Sande society initiates girls into adulthood through rituals.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      174
+    ]
   },
   {
     "id": "sanskrit",
     "term": "Sanskrit",
     "definition": "One of the oldest documented members of the Indo-European family of languages, and a liturgical language of Hinduism and Buddhism.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sarcophagus",
@@ -2648,42 +3593,55 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      23,
+      29,
+      47
+    ]
   },
   {
     "id": "secco",
     "term": "Secco",
     "definition": "A painting technique that allows for painting onto the surface of dried plaster, yielding color of greater intensity than that of fresco painting.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "segmental-pediment",
     "term": "Segmental Pediment",
     "definition": "A pediment above a door or window that takes the form of an arc of a circle.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sfumato",
     "term": "Sfumato",
     "definition": "A painting technique of allowing tones and colors to shade gradually into one another, producing softened outlines or hazy forms.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "shamanism",
     "term": "Shamanism",
     "definition": "Shamanism is a religious practice that involves a practitioner interacting with what they believe to be a spirit world through altered states of consciousness, such as trance.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "shahnama",
     "term": "Shahnama",
     "definition": "The Shahnameh or Shahnama is a long epic poem written by the Persian poet Ferdowsi between c. 977 and 1010 CE and is the national epic of Greater Iran.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      188,
+      189
+    ]
   },
   {
     "id": "shape",
@@ -2692,49 +3650,67 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      2,
+      3,
+      7,
+      13,
+      17,
+      33,
+      36,
+      40,
+      44,
+      46
+    ]
   },
   {
     "id": "sibyl",
     "term": "Sibyl",
     "definition": "The sibyls were oracles in Ancient Greece. The earliest sibyls, according to legend, prophesied at holy sites. Their prophecies were influenced by divine inspiration from a deity; originally at Delphi and Pessinos.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "side-aisles",
     "term": "Side Aisles",
     "definition": "One of the lateral aisles of a building (such as a church, basilica, or theater) as distinguished from the central aisle or nave",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sikhara",
     "term": "Sikhara",
     "definition": "Shikhara, a Sanskrit word translating literally to \"mountain peak\", refers to the rising tower in the Hindu temple architecture of North India, and also often used in Jain temples.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "silk-road",
     "term": "Silk Road",
     "definition": "The Silk Road was a network of Eurasian trade routes active from the second century BCE until the mid-15th century. Spanning over 3970 miles, it played a central role in facilitating economic, cultural, political, and religious interactions between the East and West.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "silver-gilt",
     "term": "Silver gilt",
     "definition": "Silver gilt, also called vermeil, gilded silver produced either by the fire-gilding method or by electrolysis. The object is covered with an amalgam of gold and mercury. The mercury evaporates when the piece is fired, leaving a gold deposit.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sipapu",
     "term": "Sipapu",
     "definition": "A sipapu was a small hole or indentation in the floor of a kiva. Kivas were used by the Ancestral Puebloans and continue to be used by modern-day Puebloans. The sipapu symbolizes the portal through which their ancient ancestors first emerged to enter the present world.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "siting",
@@ -2743,56 +3719,76 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "soapstone",
     "term": "Soapstone",
     "definition": "A metamorphic rock that consists primarily of talc.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "social-realism",
     "term": "Social Realism",
     "definition": "An international art and literary movement that depicts the everyday struggles of the working class and the poor. Emerging in mid-19th-century Europe and peaking during the Great Depression, it uses descriptive realism as a tool to critique power structures, expose socio-political inequalities, and advocate for social reform.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "socialism",
     "term": "Socialism",
     "definition": "A political and economic system in which property and the means of production are owned in common, typically controlled by the state or government. Socialism is based on the idea that common or public ownership of resources and means of production leads to a more equal society.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "space",
     "term": "Space",
     "definition": "Space in a work of art refers to a feeling of depth or three dimensions. It can also refer to the artist's use of the area within the picture plane. The area around the primary objects in a work of art is known as negative space, while the space occupied by the primary objects is known as positive space.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      5,
+      20,
+      22,
+      24,
+      25,
+      26,
+      33,
+      40,
+      45,
+      46,
+      47
+    ]
   },
   {
     "id": "spandrels",
     "term": "Spandrels",
     "definition": "A spandrel is a triangular space, usually found in pairs, between the top of an arch and a rectangular frame; between the tops of two adjacent arches or one of the four spaces between a circle within a square. They are frequently filled with decorative elements.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "spolia",
     "term": "Spolia",
     "definition": "Cut stones or decorative elements from older buildings that are reused for new construction. The use of spolia was common in ancient and medieval times, because recycling was less expensive than quarrying new stone.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "squinch",
     "term": "Squinch",
     "definition": "In architecture, a squinch is a construction filling in the upper angles of a square room so as to form a base to receive an octagonal or spherical dome. Another solution to this structural problem was provided by the pendentive.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "stele",
@@ -2801,7 +3797,13 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      6,
+      19,
+      29,
+      36
+    ]
   },
   {
     "id": "stepped-pyramid",
@@ -2810,14 +3812,16 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "stigmata",
     "term": "Stigmata",
     "definition": "In Christianity, are the appearance of bodily wounds, scars and pain in locations corresponding to the crucifixion wounds of Jesus Christ, such as the hands, wrists and feet.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "stoa",
@@ -2826,14 +3830,21 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26,
+      45
+    ]
   },
   {
     "id": "stupa",
     "term": "Stupa",
     "definition": "A stupa is a mound-like or hemispherical structure containing relics that is used as a place of meditation.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      191
+    ]
   },
   {
     "id": "style",
@@ -2842,14 +3853,29 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      22,
+      23,
+      24,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      39,
+      42,
+      47
+    ]
   },
   {
     "id": "stylistic-revivals",
     "term": "Stylistic Revivals",
     "definition": "Revivalism in architecture is the use of visual styles that consciously echo the style of a previous architectural era. The best-known are the Neoclassical one, and Gothic Revival.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "stylized",
@@ -2858,56 +3884,77 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      1,
+      4,
+      5,
+      6,
+      14,
+      18,
+      29,
+      33
+    ]
   },
   {
     "id": "sublime",
     "term": "Sublime",
     "definition": "In aesthetics, the sublime is the quality of greatness, whether physical, moral, intellectual, metaphysical, aesthetic, spiritual, or artistic. The term especially refers to a greatness beyond all possibility of calculation, measurement, or imitation.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sudano-sahelian-architecture",
     "term": "Sudano-Sahelian Architecture",
     "definition": "Sudano-Sahelian architecture refers to a range of similar indigenous architectural styles common to the African peoples of the Sahel and Sudanian grassland. The traditional, rectangular or square box-house with a flat roof, made of pure dried clay, sun-dried mud, brick or cow-dung plaster.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sumukwha",
     "term": "Sumukwha",
     "definition": "The Korean term for traditional East Asian ink wash painting. Literally translating to \"water-ink painting\", it uses black ink diluted with varying amounts of water to create different shades, depths, and tones on paper or silk.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "sunsum",
     "term": "Sunsum",
     "definition": "In the mythology of the Ashanti people and Akan people, the Sunsum is one's Spirit. The Sunsum is what connects the body (honam) to the soul (Kra).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "taliban",
     "term": "Taliban",
     "definition": "The Taliban is an ultraconservative Sunni Islamist political and military organization that serves as the ruling government of Afghanistan. Meaning \"students\" in the Pashto language, the group emerged in the mid-1990s and enforces a strict interpretation of Islamic law (Sharia).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "taonga-tuku-iho",
     "term": "Taonga tuku iho",
     "definition": "treasures passed down from Māori ancestors, which are treated with great care and reverence",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "tapa",
     "term": "Tapa",
     "definition": "A cloth made of bark usually put together by women from the Pacific islands and worn or hung for special occasions.\n\nTapa is the general, umbrella term used across the Pacific Islands for traditional barkcloth, while hiapo is the specific word for tapa made on the island of Niue.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      215,
+      218,
+      222
+    ]
   },
   {
     "id": "technique",
@@ -2916,49 +3963,66 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      11,
+      33
+    ]
   },
   {
     "id": "temenos",
     "term": "Temenos",
     "definition": "a temple enclosure or court in ancient Greece : a sacred precinct",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "tenebrism",
     "term": "Tenebrism",
     "definition": "The use of extreme contrasts of light and dark in figurative compositions to heighten their dramatic effect.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "terra-cotta",
     "term": "Terra Cotta",
     "definition": "Terracotta, terra cotta, or terra-cotta, in its material sense as an earthenware substrate, is a clay-based unglazed or glazed ceramic where the fired body is porous. It is used to make a variety of objects such as pots, sculptures and architectural purposes.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "tenochtitlan",
     "term": "Tenochtitlan",
     "definition": "Tenochtitlan roughly translates to \"the place of the prickly pear cactus\" or \"among the prickly pears [growing among] rocks\" in the Nahuatl language.The name connects directly to the Mexica (Aztec) creation legend and the location where they established their capital in 1325. . The site later became the foundation for modern-day Mexico City.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      156,
+      157
+    ]
   },
   {
     "id": "tesserae",
     "term": "Tesserae",
     "definition": "A small block of stone, tile, glass, or other material used in the construction of a mosaic.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      40
+    ]
   },
   {
     "id": "tetrastyle",
     "term": "Tetrastyle",
     "definition": "A building or portico having four columns in front.\n\nA method of designating or distinguishing the temples is by the number of columns in front, thus temples are called tetrastyle, hexastyle, octastyle, that is having four, six, or eight columns.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "texture",
@@ -2967,21 +4031,29 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      6,
+      10
+    ]
   },
   {
     "id": "theravada",
     "term": "Theravada",
     "definition": "Theravada means \"teaching of the elders\". It refers to the pure or original teachings of the Buddha over 2500 years ago.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "theotokos",
     "term": "Theotokos",
     "definition": "Bearer of God in Greek, reference to Mary; Mother of God (used in the Eastern Orthodox Church as a title of the Virgin Mary)",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      54
+    ]
   },
   {
     "id": "therianthrope",
@@ -2990,112 +4062,132 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "tholos",
     "term": "Tholos",
     "definition": "a round building of classical Greek date and style.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      26
+    ]
   },
   {
     "id": "tino-aitu",
     "term": "Tino aitu",
     "definition": "stones, pieces of wood or wooden figurines that represent local deities in Nukuoro (Nukuoro is a small isolated atoll in the archipelago of the Caroline Islands. It is located in Micronesia, a region in the Western Pacific.)",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "t-oqapu",
     "term": "T’oqapu",
     "definition": "T’oqapu (also spelled tocapu or tokapu) refers to the small, square, geometric motifs found in the textiles, ceramics, and architecture of the Inca Empire. Functioning as a form of visual communication, each unique pattern represented specific social statuses, ethnic groups, locations, or accomplishments.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "torana",
     "term": "Torana",
     "definition": "An Indian gateway, usually of stone, marking the entrance to a Buddhist shrine or stupa or to a Hindu temple. Toranas typically consist of two pillars carrying two or three transverse beams that extend beyond the pillars on either side.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "torres-strait",
     "term": "Torres Strait",
     "definition": "a strait between Australia and New Guinea, and which includes more than 270 islands now known as the Torres Strait Islands",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "totalitarianism",
     "term": "Totalitarianism",
     "definition": "Totalitarianism is a form of government and a political system that prohibits all opposition parties, outlaws individual and group opposition to the state and its claims, and exercises an extremely high degree of control and regulation over public and private life.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "totem",
     "term": "Totem",
     "definition": "A natural object or animal that is believed by a particular society to have spiritual significance and that is adopted by it as an emblem",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "totemic-image",
     "term": "Totemic image",
     "definition": "A totemic image is a visual representation—such as a carving, painting, or printed symbol—of an animal, plant, or natural object that serves as a sacred emblem or spiritual marker for a family, clan, or group.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "tracery",
     "term": "Tracery",
     "definition": "bars, or ribs, used decoratively in windows or other openings  \nThere are two main types: plate tracery and the later bar tracery. The evolving style from Romanesque to Gothic architecture and changing features, such as the thinning of lateral walls and enlarging of windows, led to the innovation of tracery.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "bar",
     "term": "Bar",
     "definition": "Tracery which is composed of thin stone elements rather than thick ones as in plate tracery",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "plate",
     "term": "Plate",
     "definition": "Decorative architectural tracery consisting of a series of patterns cut through a flat plate of stone",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      105
+    ]
   },
   {
     "id": "transept",
     "term": "Transept",
     "definition": "In a cross-shaped church, either of the two parts forming the arms of the cross shape, projecting at right angles from the nave.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "tridacna-shell-blades",
     "term": "Tridacna shell blades",
     "definition": "a genus of large saltwater clams, sometimes used as blades in tools",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "triforium",
     "term": "Triforium",
     "definition": "A triforium is an interior gallery, opening onto the tall central space of a building at an upper level. In a church, it opens onto the nave from above the side aisles; it may occur at the level of the clerestory windows, or it may be located as a separate level below the clerestory",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "triglyphs",
     "term": "Triglyphs",
     "definition": "An architectural term for the vertically channeled tablets of the Doric frieze in classical architecture, so called because of the angular channels in them.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "trilithon",
@@ -3104,21 +4196,28 @@
     "units": [
       1
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      8
+    ]
   },
   {
     "id": "trimurti",
     "term": "Trimurti",
     "definition": "The trinity of supreme divinity in Hinduism, in which the cosmic functions of creation, preservation, and destruction are personified as a triad of deities.  \nThe three forms of God that make up the Hindu trimurti are Brahma the creator, Vishnu the preserver and Shiva the destroyer.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "triptych",
     "term": "Triptych",
     "definition": "A triptych is an artwork made up of three pieces or panels.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      66
+    ]
   },
   {
     "id": "tufa",
@@ -3127,28 +4226,40 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      31,
+      32,
+      48
+    ]
   },
   {
     "id": "tympanum",
     "term": "Tympanum",
     "definition": "A tympanum is the semi-circular or triangular decorative wall surface over an entrance, door or window, which is bounded by a lintel and an arch. It often contains sculpture or other imagery or ornaments. Most architectural styles include this element.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      58
+    ]
   },
   {
     "id": "twisted-perspective",
     "term": "Twisted Perspective",
     "definition": "Twisted perspective is created by showing most of the animal's body in profile, but turning a portion of the animal's head so that it seems to point directly at the viewer. This technique adds drama and energy to the image and results in a life-like depiction of an animal.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "underglaze",
     "term": "Underglaze",
     "definition": "A method of decorating pottery in which painted decoration is applied to the surface before it is covered with a transparent ceramic glaze and fired in a kiln.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      203
+    ]
   },
   {
     "id": "unity",
@@ -3157,28 +4268,32 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "urna",
     "term": "Urna",
     "definition": "The mark in the center of the Buddha's forehead (urna) refers to his supernatural wisdom.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ushnisha",
     "term": "Ushnisha",
     "definition": "The cranial bump (ushnisha) symbolizes the \"expanded wisdom\" the Buddha attained at the time of his enlightenment.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "vairocana",
     "term": "Vairocana",
     "definition": "One of the most important gods in the Hindu pantheon and considered a member of the holy trinity (trimurti) of Hinduism with Brahma and Shiva. Vishnu is the Preserver and guardian of men, he protects the order of things (dharma) and he appears on earth in various incarnations (avatars) to fight demons and to maintain cosmic harmony.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "value",
@@ -3187,7 +4302,11 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      9,
+      37
+    ]
   },
   {
     "id": "variety",
@@ -3196,7 +4315,12 @@
     "units": [
       0
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      2,
+      37,
+      38
+    ]
   },
   {
     "id": "vaults",
@@ -3205,21 +4329,32 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      44,
+      45
+    ]
   },
   {
     "id": "vedas",
     "term": "Vedas",
     "definition": "Are a large body of religious texts originating in ancient India. Composed in Vedic Sanskrit, the texts constitute the oldest layer of Sanskrit literature and the oldest scriptures of Hinduism.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "vellum",
     "term": "Vellum",
     "definition": "Vellum comes from the French veau, which refers to a parchment made from calf skin.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      50,
+      55,
+      61,
+      64
+    ]
   },
   {
     "id": "verism",
@@ -3228,42 +4363,48 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "viceroyalty",
     "term": "Viceroyalty",
     "definition": "The viceroyalty was a local, political, social, and administrative institution, created by the Spanish monarchy in the 15th century, for ruling in its overseas territories.\n\nThe Spanish Americas had four viceroyalties:  \nViceroyalty of New Spain  \nViceroyalty of Peru  \nViceroyalty of the Río de la Plata  \nViceroyalty of New Granada",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "vietnam-war",
     "term": "Vietnam War",
     "definition": "The Vietnam War (1955–1975) was a protracted, polarizing Cold War conflict. It pitted the communist government of North Vietnam (backed by the Soviet Union and China) against South Vietnam (backed by the United States and anti-communist allies)",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "vimana",
     "term": "Vimana",
     "definition": "A pyramidal tower built over the central shrine of a temple in India.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "vishnu",
     "term": "Vishnu",
     "definition": "One of the most important gods in the Hindu pantheon and considered a member of the holy trinity (trimurti) of Hinduism with Brahma and Shiva. Vishnu is the Preserver and guardian of men, he protects the order of things (dharma) and he appears on earth in various incarnations (avatars) to fight demons and to maintain cosmic harmony.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "vishwakarma",
     "term": "Vishwakarma",
     "definition": "Vishwakarma is the divine architect, craftsman, and patron deity of all artisans, engineers, and builders in Hinduism",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "volutes",
@@ -3272,7 +4413,10 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      35
+    ]
   },
   {
     "id": "votive-figures",
@@ -3281,63 +4425,74 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "voussoir",
     "term": "Voussoir",
     "definition": "a wedge-shaped element, typically a stone, which is used in building an arch or vault.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "warp",
     "term": "Warp",
     "definition": "The warp is the foundational set of yarns stretched vertically (lengthwise) on a loom before weaving begins. Acting as the skeleton of the fabric, these threads are held under high tension. The weft threads are then woven over and under the warp to create cloth.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "wat",
     "term": "Wat",
     "definition": "A Buddhist temple or monastery in Thailand.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      198
+    ]
   },
   {
     "id": "weft",
     "term": "Weft",
     "definition": "The weft is the horizontal thread or yarn woven over and under the vertical warp threads to create fabric. Carried by a shuttle, it travels side-to-side (from edge to edge) across the loom. The word originates from the Old English word wefan, meaning \"to weave\".",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "wharenui",
     "term": "Wharenui",
     "definition": "the central building of the Māori community center",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "woodcut-printing",
     "term": "Woodcut Printing",
     "definition": "Woodcut is a relief printing technique in printmaking. An artist carves an image into the surface of a block of wood—typically with gouges—leaving the printing parts level with the surface while removing the non-printing parts.",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "yakshi",
     "term": "Yakshi",
     "definition": "In Hindu and Buddhist art, auspicious female nature spirits, symbolic of fertility and abundance. Yakshis are typically depicted as beautiful and voluptuous",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "yasti",
     "term": "Yasti",
     "definition": "In Buddhist architecture (such as a stupa), the yasti refers to the central spire or mast that rises from the dome. It symbolizes the axis mundi (the axis of the universe).",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   },
   {
     "id": "ziggurat",
@@ -3346,13 +4501,17 @@
     "units": [
       2
     ],
-    "aliases": []
+    "aliases": [],
+    "artworks": [
+      12
+    ]
   },
   {
     "id": "zoomorphic",
     "term": "Zoomorphic",
     "definition": "having or representing animal forms or gods of animal form",
     "units": [],
-    "aliases": []
+    "aliases": [],
+    "artworks": []
   }
 ]
