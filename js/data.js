@@ -13,6 +13,10 @@ window.DataLoader = (function () {
   let _vocabulary = null;
   let _vocabById = new Map();
   let _vocabByTerm = new Map();
+  let _associationConcepts = [];
+  let _associationRelations = [];
+  let _conceptById = new Map();
+  let _conceptsByArtworkId = new Map();
 
   function padId(id) {
     return String(id).padStart(3, '0');
@@ -28,19 +32,22 @@ window.DataLoader = (function () {
 
   async function loadAll() {
     try {
-      const [artworksRes, unitsRes, imagesRes] = await Promise.all([
+      const [artworksRes, unitsRes, imagesRes, assocRes] = await Promise.all([
         fetch(resolveSitePath('data/artworks.json')),
         fetch(resolveSitePath('data/units.json')),
-        fetch(resolveSitePath('data/images.json'))
+        fetch(resolveSitePath('data/images.json')),
+        fetch(resolveSitePath('data/association-concepts.json'))
       ]);
 
-      if (!artworksRes.ok || !unitsRes.ok || !imagesRes.ok) {
+      if (!artworksRes.ok || !unitsRes.ok || !imagesRes.ok || !assocRes.ok) {
         throw new Error('Failed to load core data files');
       }
 
       _artworks = await artworksRes.json();
       _units = await unitsRes.json();
       const imagesList = await imagesRes.json();
+      const assocData = await assocRes.json();
+      indexAssociationData(assocData);
       _imagesMap = new Map(imagesList.map(img => [img.id, img.images]));
 
       console.log(`Loaded ${_artworks.length} artworks and ${_units.length} units.`);
@@ -203,6 +210,55 @@ window.DataLoader = (function () {
     });
   }
 
+  function indexAssociationData(data) {
+    _associationConcepts = (data && data.concepts) ? data.concepts : [];
+    _associationRelations = (data && data.relations) ? data.relations : [];
+    _conceptById = new Map();
+    _conceptsByArtworkId = new Map();
+    _associationConcepts.forEach(function (concept) {
+      _conceptById.set(concept.id, concept);
+      (concept.artworks || []).forEach(function (artworkId) {
+        if (!_conceptsByArtworkId.has(artworkId)) {
+          _conceptsByArtworkId.set(artworkId, []);
+        }
+        _conceptsByArtworkId.get(artworkId).push(concept);
+      });
+    });
+  }
+
+  function getAssociationConcepts() {
+    return _associationConcepts;
+  }
+
+  function getAssociationRelations() {
+    return _associationRelations;
+  }
+
+  function getAssociationConceptById(id) {
+    return _conceptById.get(id) || null;
+  }
+
+  function getConceptsForArtwork(artworkId) {
+    const numId = parseInt(artworkId, 10);
+    return _conceptsByArtworkId.get(numId) || [];
+  }
+
+  /**
+   * Concepts that have at least minMembers artworks present in pool.
+   */
+  function eligibleConceptsForPool(pool, minMembers) {
+    const min = minMembers || 3;
+    const poolIds = new Set(pool.map(function (a) { return a.id; }));
+    return _associationConcepts.filter(function (concept) {
+      if (concept.quizEligible !== true) return false;
+      var count = 0;
+      (concept.artworks || []).forEach(function (id) {
+        if (poolIds.has(id)) count += 1;
+      });
+      return count >= min;
+    });
+  }
+
   return {
     loadAll,
     getArtworks,
@@ -215,6 +271,11 @@ window.DataLoader = (function () {
     getVocabulary,
     getVocabularyById,
     getVocabularyByTerm,
-    filterVocabularyByUnit
+    filterVocabularyByUnit,
+    getAssociationConcepts,
+    getAssociationRelations,
+    getAssociationConceptById,
+    getConceptsForArtwork,
+    eligibleConceptsForPool
   };
 })();

@@ -111,6 +111,35 @@ for (let i = 0; i < artworks.length; i++) {
     errors.push(`${prefix}: dateStart (${w.dateStart}) > dateEnd (${w.dateEnd})`);
   }
 
+  // Quiz eligibility (see docs/QUIZ-DATA-POLICY.md)
+  const allowedQuizFieldKeys = new Set([
+    'artist', 'artistCulture', 'culture', 'date', 'medium', 'location', 'title'
+  ]);
+  if (w.quizFields !== undefined) {
+    if (typeof w.quizFields !== 'object' || Array.isArray(w.quizFields)) {
+      errors.push(`${prefix}: quizFields must be a plain object when present`);
+    } else {
+      Object.keys(w.quizFields).forEach(function (key) {
+        if (!allowedQuizFieldKeys.has(key)) {
+          errors.push(`${prefix}: quizFields.${key} is not an allowed quiz field key`);
+        }
+        if (w.quizFields[key] !== true) {
+          errors.push(`${prefix}: quizFields.${key} must be true when set (opt-in only)`);
+        }
+        if (key === 'artist' && w.quizFields.artist === true && (!w.artist || !String(w.artist).trim())) {
+          errors.push(`${prefix}: quizFields.artist is true but artist is empty`);
+        }
+        if (key === 'artistCulture' && w.quizFields.artistCulture === true) {
+          const hasCulture = w.culture && String(w.culture).trim();
+          const hasArtist = w.artist && String(w.artist).trim();
+          if (!hasCulture && !hasArtist) {
+            errors.push(`${prefix}: quizFields.artistCulture is true but artist and culture are both empty`);
+          }
+        }
+      });
+    }
+  }
+
   // Medium check
   if (!w.medium || typeof w.medium !== 'string') {
     warnings.push(`${prefix}: Missing or empty medium description`);
@@ -227,6 +256,127 @@ if (!fs.existsSync(vocabJsonPath)) {
   }
 }
 
+// 5b. Validate association concepts
+const FACETS = new Set(['function', 'form', 'period', 'typology', 'material', 'site']);
+const assocPath = path.join(__dirname, '../data/association-concepts.json');
+let vocabIdsForAssoc = new Set();
+if (fs.existsSync(vocabJsonPath)) {
+  try {
+    JSON.parse(fs.readFileSync(vocabJsonPath, 'utf8')).forEach(function (e) {
+      if (e && e.id) vocabIdsForAssoc.add(e.id);
+    });
+  } catch (_) {}
+}
+if (!fs.existsSync(assocPath)) {
+  errors.push('Missing data/association-concepts.json');
+} else {
+  try {
+    const assocRaw = JSON.parse(fs.readFileSync(assocPath, 'utf8'));
+    const concepts = assocRaw.concepts;
+    const relations = assocRaw.relations;
+    if (!Array.isArray(concepts)) {
+      errors.push('association-concepts.json must have a concepts array');
+    } else {
+      const conceptIds = new Set();
+      concepts.forEach(function (entry, idx) {
+        const prefix = `Association concept index ${idx} (id: ${entry ? entry.id : '?'})`;
+        if (!entry.id || typeof entry.id !== 'string') {
+          errors.push(`${prefix}: Missing or invalid id`);
+        } else if (conceptIds.has(entry.id)) {
+          errors.push(`${prefix}: Duplicate concept id "${entry.id}"`);
+        } else {
+          conceptIds.add(entry.id);
+        }
+        if (!entry.label || typeof entry.label !== 'string' || !entry.label.trim()) {
+          errors.push(`${prefix}: Missing or empty label`);
+        }
+        if (!entry.facet || !FACETS.has(entry.facet)) {
+          errors.push(`${prefix}: Invalid facet "${entry.facet}"`);
+        }
+        if (!Array.isArray(entry.artworks) || entry.artworks.length === 0) {
+          errors.push(`${prefix}: artworks must be a non-empty array`);
+        } else {
+          entry.artworks.forEach(function (id) {
+            if (!Number.isInteger(id) || id < 1 || id > 250) {
+              errors.push(`${prefix}: Invalid artwork ID ${id}`);
+            }
+          });
+        }
+        if (entry.units && Array.isArray(entry.units)) {
+          entry.units.forEach(function (u) {
+            if (!validUnitIds.has(u)) {
+              errors.push(`${prefix}: Invalid unit ID ${u} in units array`);
+            }
+          });
+        }
+        if (entry.vocabId && !vocabIdsForAssoc.has(entry.vocabId)) {
+          errors.push(`${prefix}: Unknown vocabId "${entry.vocabId}"`);
+        }
+        const eligible = entry.quizEligible !== false;
+        if (eligible && entry.artworks && entry.artworks.length < 4) {
+          errors.push(`${prefix}: quizEligible concepts need at least 4 artworks`);
+        }
+      });
+    }
+    if (relations !== undefined && !Array.isArray(relations)) {
+      errors.push('association-concepts.json relations must be an array when present');
+    } else if (Array.isArray(relations)) {
+      const RELATION_TYPES = new Set([
+        'architectural_precursor',
+        'period_succession',
+        'stylistic_development',
+        'political_transition',
+        'technological_medium_shift',
+        'other'
+      ]);
+      const chronoPath = path.join(__dirname, '../data/relation-chronology-exceptions.json');
+      let chronoIds = new Set();
+      if (fs.existsSync(chronoPath)) {
+        try {
+          chronoIds = new Set(JSON.parse(fs.readFileSync(chronoPath, 'utf8')).artworkIds || []);
+        } catch (_) {}
+      }
+      const artworkById = new Map(artworks.map(function (a) { return [a.id, a]; }));
+
+      relations.forEach(function (rel, idx) {
+        const prefix = `Association relation index ${idx}`;
+        if (!Number.isInteger(rel.from) || rel.from < 1 || rel.from > 250) {
+          errors.push(`${prefix}: Invalid from artwork ID`);
+        }
+        if (!Number.isInteger(rel.to) || rel.to < 1 || rel.to > 250) {
+          errors.push(`${prefix}: Invalid to artwork ID`);
+        }
+        if (rel.from === rel.to) {
+          errors.push(`${prefix}: from and to must differ`);
+        }
+        if (!rel.type || typeof rel.type !== 'string') {
+          errors.push(`${prefix}: Missing relation type`);
+        } else if (!RELATION_TYPES.has(rel.type)) {
+          warnings.push(`${prefix}: Unknown relation type "${rel.type}"`);
+        }
+        if (!rel.note || typeof rel.note !== 'string' || !rel.note.trim()) {
+          warnings.push(`${prefix}: Missing note`);
+        }
+        if (rel.generated === true && (!rel.tradition || typeof rel.tradition !== 'string')) {
+          warnings.push(`${prefix}: generated relation should include tradition`);
+        }
+        const fromArt = artworkById.get(rel.from);
+        const toArt = artworkById.get(rel.to);
+        if (
+          fromArt && toArt &&
+          fromArt.dateMidpoint != null && toArt.dateMidpoint != null &&
+          fromArt.dateMidpoint > toArt.dateMidpoint &&
+          !chronoIds.has(rel.from) && !chronoIds.has(rel.to)
+        ) {
+          warnings.push(`${prefix}: from #${rel.from} is later than to #${rel.to} by dateMidpoint`);
+        }
+      });
+    }
+  } catch (e) {
+    errors.push(`Failed to parse data/association-concepts.json: ${e.message}`);
+  }
+}
+
 // 6. Validate generated artwork detail pages
 for (let id = 1; id <= 250; id++) {
   const pageDir = path.join(__dirname, '..', 'list', padId(id));
@@ -253,6 +403,14 @@ if (fs.existsSync(vocabJsonPath)) {
 console.log(`Total artworks checked: ${artworks.length}`);
 console.log(`Total vocabulary:       ${vocabCount}`);
 console.log(`Total units checked:    ${units.length}`);
+let assocConceptCount = 0;
+if (fs.existsSync(assocPath)) {
+  try {
+    const ac = JSON.parse(fs.readFileSync(assocPath, 'utf8'));
+    assocConceptCount = (ac.concepts && ac.concepts.length) || 0;
+  } catch (_) {}
+}
+console.log(`Association concepts:   ${assocConceptCount}`);
 console.log(`Warnings:               ${warnings.length}`);
 console.log(`Errors:                 ${errors.length}`);
 console.log('--------------------------------------------------');

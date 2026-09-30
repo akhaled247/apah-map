@@ -8,8 +8,13 @@
     "generate-affcc": "node scripts/generate-affcc.js",
     "generate-vocab": "node scripts/generate-vocabulary.js",
     "generate-pages": "node scripts/generate-artwork-pages.js",
+    "generate-relations": "node scripts/generate-period-relations.js --write",
     "build-content": "npm run generate-affcc && npm run generate-vocab && npm run generate-pages",
-    "test": "node scripts/validate-data.js"
+    "test": "node scripts/validate-data.js",
+    "test:quiz": "node scripts/test-artwork-quiz.js",
+    "test:association": "node scripts/test-artwork-association-quiz.js",
+    "test:network": "node scripts/test-association-graph.js",
+    "test:all": "node scripts/validate-data.js && node scripts/test-artwork-quiz.js && node scripts/test-artwork-association-quiz.js && node scripts/test-association-graph.js"
   },
   "keywords": [
     "ap-art-history",

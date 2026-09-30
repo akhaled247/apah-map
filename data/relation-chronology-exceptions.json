@@ -1,0 +1,4 @@
+{
+  "description": "Artwork IDs allowed to have directed relations where from.dateMidpoint > to.dateMidpoint (copies, multi-period sites).",
+  "artworkIds": [34, 26]
+}

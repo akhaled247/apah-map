@@ -22,6 +22,8 @@
       setupUnitTabs(listContainer);
       applyFilters(listContainer);
 
+      document.dispatchEvent(new CustomEvent('list:dataReady'));
+
       if (window.AppSearch) {
         window.AppSearch.init({
           onQueryChange: function (query) {

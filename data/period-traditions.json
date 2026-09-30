@@ -1,0 +1,181 @@
+{
+  "manualRelations": [
+    {
+      "from": 12,
+      "to": 17,
+      "type": "architectural_precursor",
+      "tradition": "mesopotamia_persia",
+      "note": "Ziggurat and pyramid traditions are often taught as a development of monumental sacred architecture in the ancient Near East and Egypt."
+    },
+    {
+      "from": 34,
+      "to": 35,
+      "type": "stylistic_development",
+      "tradition": "greek_mediterranean",
+      "note": "Roman marble copy after Polykleitos' Classical Doryphoros; compare with the Parthenon program on the Acropolis."
+    }
+  ],
+  "traditions": [
+    {
+      "id": "egypt_kingship",
+      "label": "Egypt (Predynastic → Old → New Kingdom)",
+      "units": [2],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "predynastic", "label": "Predynastic", "artworks": [13] },
+        { "id": "old_kingdom", "label": "Old Kingdom", "artworks": [15, 17, 18] },
+        { "id": "new_kingdom", "label": "New Kingdom", "artworks": [20, 21, 22, 23, 24] }
+      ]
+    },
+    {
+      "id": "greek_mediterranean",
+      "label": "Greek (Archaic → Classical → Hellenistic)",
+      "units": [2],
+      "intraType": "stylistic_development",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "archaic", "label": "Archaic", "artworks": [26, 27, 28] },
+        { "id": "classical", "label": "Classical", "artworks": [33, 35, 36] },
+        { "id": "hellenistic", "label": "Hellenistic", "artworks": [34, 37, 38, 41] }
+      ]
+    },
+    {
+      "id": "etruscan_to_rome",
+      "label": "Etruscan → Republican → Imperial Rome",
+      "units": [2],
+      "intraType": "period_succession",
+      "interType": "political_transition",
+      "tiers": [
+        { "id": "etruscan", "label": "Etruscan", "artworks": [29, 31, 32] },
+        { "id": "republican", "label": "Republican Roman", "artworks": [40, 42] },
+        { "id": "imperial", "label": "Imperial Roman", "artworks": [39, 43, 44, 45, 46] },
+        { "id": "late_imperial", "label": "Late Imperial Roman", "artworks": [47] }
+      ]
+    },
+    {
+      "id": "mesopotamia_persia",
+      "label": "Ancient Near East and Persia",
+      "units": [2],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "early_monumental", "label": "Early monumental", "artworks": [12, 14, 19] },
+        { "id": "imperial_persian", "label": "Persian imperial", "artworks": [25, 30] }
+      ]
+    },
+    {
+      "id": "late_antique_to_gothic",
+      "label": "Late Antique → Byzantine → Romanesque → Gothic",
+      "units": [3],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "late_antique", "label": "Late Antique", "artworks": [48, 49, 50] },
+        { "id": "byzantine", "label": "Byzantine", "artworks": [51, 52, 53, 54] },
+        { "id": "romanesque", "label": "Romanesque", "artworks": [57, 58, 59] },
+        { "id": "gothic", "label": "Gothic", "artworks": [60, 61, 62, 63, 64, 65] }
+      ]
+    },
+    {
+      "id": "renaissance_to_baroque",
+      "label": "Renaissance → Mannerism → Baroque",
+      "units": [3],
+      "intraType": "stylistic_development",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "early_renaissance", "label": "Early Renaissance", "artworks": [66, 67, 68, 69, 70, 71, 72, 250] },
+        { "id": "high_renaissance", "label": "High Renaissance", "artworks": [73, 74, 75, 76, 77] },
+        { "id": "mannerism", "label": "Mannerism", "artworks": [78, 79, 80, 81, 82, 83] },
+        { "id": "baroque", "label": "Baroque", "artworks": [85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98] }
+      ]
+    },
+    {
+      "id": "european_modern",
+      "label": "Neoclassical → Romantic → Realist → Impressionist → Modernist → Postmodern",
+      "units": [4],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "neoclassical", "label": "Neoclassical", "artworks": [99, 101, 102, 103, 104] },
+        { "id": "romantic", "label": "Romantic", "artworks": [100, 105, 106, 107, 108, 109, 110] },
+        { "id": "realist", "label": "Realist", "artworks": [111, 112, 113, 114] },
+        { "id": "impressionist", "label": "Impressionist / late 19th c.", "artworks": [115, 116, 117, 118, 119, 120, 121, 122] },
+        { "id": "modernist", "label": "Modernist", "artworks": [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150] },
+        { "id": "postmodern", "label": "Postmodern", "artworks": [151] }
+      ]
+    },
+    {
+      "id": "mesoamerica_andes",
+      "label": "Indigenous Americas (early → classic → imperial)",
+      "units": [5],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "early", "label": "Early / Formative", "artworks": [152, 155, 153] },
+        { "id": "classic", "label": "Classic", "artworks": [154] },
+        { "id": "imperial", "label": "Imperial / Late", "artworks": [156, 157, 158, 159, 160, 161, 162, 163, 164, 165] }
+      ]
+    },
+    {
+      "id": "islamic_w_c_asia",
+      "label": "Islamic West and Central Asia",
+      "units": [3, 7],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "early_islam", "label": "Early Islamic", "artworks": [56, 182, 184] },
+        { "id": "medieval_islamic", "label": "Medieval Islamic", "artworks": [185, 186, 187, 188] },
+        { "id": "ottoman_safavid", "label": "Ottoman / Safavid", "artworks": [84, 189, 190] }
+      ]
+    },
+    {
+      "id": "east_asia",
+      "label": "South, East, and Southeast Asia",
+      "units": [8],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "early", "label": "Early empires", "artworks": [191, 192, 193] },
+        { "id": "medieval", "label": "Medieval / classical Asia", "artworks": [194, 195, 197, 198, 199, 200, 201] },
+        { "id": "later", "label": "Later dynasties and Japan", "artworks": [196, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211] }
+      ]
+    },
+    {
+      "id": "global_prehistory",
+      "label": "Global Prehistory (chronological samples)",
+      "units": [1],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "paleolithic", "label": "Paleolithic", "artworks": [1, 2, 3, 4] },
+        { "id": "neolithic", "label": "Neolithic / early agricultural", "artworks": [5, 6, 7, 9, 10, 11] },
+        { "id": "megalithic", "label": "Megalithic / late prehistory", "artworks": [8] }
+      ]
+    },
+    {
+      "id": "pacific",
+      "label": "The Pacific (chronological)",
+      "units": [9],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "early_pacific", "label": "Early Pacific", "artworks": [212, 213, 214] },
+        { "id": "colonial_contact", "label": "Colonial-era Pacific", "artworks": [215, 216, 217, 218, 219] },
+        { "id": "modern_pacific", "label": "Modern Pacific", "artworks": [220, 221, 222] }
+      ]
+    },
+    {
+      "id": "global_contemporary",
+      "label": "Global Contemporary (1980s–present)",
+      "units": [10],
+      "intraType": "period_succession",
+      "interType": "period_succession",
+      "tiers": [
+        { "id": "eighties_nineties", "label": "1980s–1990s", "artworks": [224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238] },
+        { "id": "two_thousands", "label": "2000s", "artworks": [239, 240, 241, 242, 243, 244, 245, 246, 247, 248] },
+        { "id": "recent", "label": "2010s–present", "artworks": [223, 249] }
+      ]
+    }
+  ]
+}

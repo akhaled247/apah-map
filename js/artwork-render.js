@@ -6,6 +6,103 @@
 window.ArtworkRender = (function () {
   'use strict';
 
+  /**
+   * Leaflet map markers (.artwork-marker in styles.css). Network graph reuses these tokens.
+   */
+  var MAP_MARKER = {
+    diameterPx: 26,
+    borderPx: 2,
+    fontSizePx: 11,
+    fontStack: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace',
+    normal: {
+      background: '#ffffff',
+      border: '#802b2b',
+      font: '#802b2b'
+    },
+    hover: {
+      background: '#802b2b',
+      border: '#802b2b',
+      font: '#ffffff'
+    },
+    selected: {
+      background: '#c59b27',
+      border: '#8c6a08',
+      font: '#2b2824'
+    },
+    shadow: 'rgba(0,0,0,0.22)'
+  };
+
+  function mapMarkerVisRadius() {
+    return MAP_MARKER.diameterPx / 2;
+  }
+
+  function mapMarkerVisNode(artworkId) {
+    var m = MAP_MARKER;
+    return {
+      shape: 'circle',
+      size: mapMarkerVisRadius(),
+      label: String(artworkId),
+      borderWidth: m.borderPx,
+      color: {
+        background: m.normal.background,
+        border: m.normal.border,
+        highlight: {
+          background: m.hover.background,
+          border: m.hover.border
+        }
+      },
+      font: {
+        size: m.fontSizePx,
+        face: m.fontStack,
+        color: m.normal.font,
+        bold: true,
+        vadjust: 0
+      },
+      shadow: {
+        enabled: true,
+        color: m.shadow,
+        size: 5,
+        x: 0,
+        y: 2
+      }
+    };
+  }
+
+  function applyMapMarkerChosen(values, selected, hovering) {
+    var m = MAP_MARKER;
+    if (!selected && !hovering) return;
+    var baseSize = values.size || mapMarkerVisRadius();
+    if (selected) {
+      values.size = Math.round(baseSize * 1.3);
+      values.color = {
+        background: m.selected.background,
+        border: m.selected.border
+      };
+      values.font = {
+        size: m.fontSizePx,
+        face: m.fontStack,
+        color: m.selected.font,
+        bold: true,
+        vadjust: 0,
+        strokeWidth: 0
+      };
+    } else if (hovering) {
+      values.size = Math.round(baseSize * 1.25);
+      values.color = {
+        background: m.hover.background,
+        border: m.hover.border
+      };
+      values.font = {
+        size: m.fontSizePx,
+        face: m.fontStack,
+        color: m.hover.font,
+        bold: true,
+        vadjust: 0,
+        strokeWidth: 0
+      };
+    }
+  }
+
   function padId(id) {
     return String(id).padStart(3, '0');
   }
@@ -209,6 +306,10 @@ window.ArtworkRender = (function () {
   }
 
   return {
+    MAP_MARKER: MAP_MARKER,
+    mapMarkerVisRadius: mapMarkerVisRadius,
+    mapMarkerVisNode: mapMarkerVisNode,
+    applyMapMarkerChosen: applyMapMarkerChosen,
     padId: padId,
     artworkPageUrl: artworkPageUrl,
     formatArtistCulture: formatArtistCulture,

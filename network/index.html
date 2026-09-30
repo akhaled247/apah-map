@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" class="list-page-html network-page-html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../images/favicon.png">
+  <title>AP Art History — Connection Network</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="list-page network-page">
+
+  <header class="app-header app-header--page" role="banner">
+    <div class="header-top">
+      <div class="brand-title">
+        <h1>AP Art History</h1>
+        <span class="badge">Connections</span>
+      </div>
+
+      <div class="search-container" role="search">
+        <label for="artwork-search-input" class="sr-only">Search artworks to focus on the graph</label>
+        <input type="text" id="artwork-search-input" class="search-input" placeholder="Search by title, CED #, culture..." autocomplete="off" aria-expanded="false" aria-haspopup="listbox">
+        <button id="search-clear-btn" class="search-clear" aria-label="Clear search">&times;</button>
+        <div id="search-dropdown" class="search-dropdown" role="listbox"></div>
+      </div>
+
+      <div class="header-controls">
+        <a href="../" class="btn btn-subtle header-nav-link">Map</a>
+        <a href="../list/" class="btn btn-subtle header-nav-link">Browse List</a>
+        <a href="../vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
+        <a href="./" class="btn btn-subtle header-nav-link active" aria-current="page">Network</a>
+      </div>
+    </div>
+
+    <p class="status-counter network-page-tagline">Explore how required works connect through shared concepts and curated links</p>
+
+    <div class="header-bottom network-header-controls">
+      <div class="vocab-view-tabs" role="tablist" aria-label="Graph view">
+        <button type="button" id="network-view-works" class="vocab-view-tab unit-tab active" role="tab" aria-selected="true">Works</button>
+        <button type="button" id="network-view-concepts" class="vocab-view-tab unit-tab" role="tab" aria-selected="false">Concepts</button>
+      </div>
+      <div id="network-status" class="status-counter" aria-live="polite">Loading...</div>
+    </div>
+  </header>
+
+  <main class="list-page-main network-page-main" role="main">
+    <div class="vocab-toolbar network-toolbar">
+      <nav class="unit-presets network-unit-presets" id="network-unit-nav" aria-label="Filter graph by unit">
+        <button type="button" class="unit-tab active" data-network-unit="all">All Works</button>
+        <button type="button" class="unit-tab" data-network-unit="1" title="Global Prehistory (30,000–500 BCE)">Unit 1</button>
+        <button type="button" class="unit-tab" data-network-unit="2" title="Ancient Mediterranean (3,500 BCE–300 CE)">Unit 2</button>
+        <button type="button" class="unit-tab" data-network-unit="3" title="Early Europe &amp; Colonial Americas (200–1750 CE)">Unit 3</button>
+        <button type="button" class="unit-tab" data-network-unit="4" title="Later Europe &amp; Americas (1750–1980 CE)">Unit 4</button>
+        <button type="button" class="unit-tab" data-network-unit="5" title="Indigenous Americas (1000 BCE–1980 CE)">Unit 5</button>
+        <button type="button" class="unit-tab" data-network-unit="6" title="Africa (1100–1980 CE)">Unit 6</button>
+        <button type="button" class="unit-tab" data-network-unit="7" title="West &amp; Central Asia (500 BCE–1980 CE)">Unit 7</button>
+        <button type="button" class="unit-tab" data-network-unit="8" title="South, East &amp; SE Asia (300 BCE–1980 CE)">Unit 8</button>
+        <button type="button" class="unit-tab" data-network-unit="9" title="The Pacific (700–1980 CE)">Unit 9</button>
+        <button type="button" class="unit-tab" data-network-unit="10" title="Global Contemporary (1980 CE–Present)">Unit 10</button>
+      </nav>
+    </div>
+
+    <div class="network-presets" role="group" aria-label="Graph presets">
+      <span class="network-presets-label">Quick view</span>
+      <button type="button" class="btn btn-subtle network-preset-btn active" data-network-preset="explore">Explore all</button>
+      <button type="button" class="btn btn-subtle network-preset-btn" data-network-preset="study-unit">One unit (clearer)</button>
+      <button type="button" class="btn btn-subtle network-preset-btn" data-network-preset="period-threads">Period threads</button>
+    </div>
+
+    <p id="network-density-notice" class="list-connect-help network-density-notice" hidden></p>
+
+    <details class="network-filters" id="network-filters">
+      <summary class="network-filters-summary btn btn-subtle">More filters</summary>
+      <div class="network-controls">
+        <fieldset class="network-controls-fieldset">
+          <legend class="list-connect-legend">Units (multi-select)</legend>
+          <div id="network-units" class="list-connect-units">
+            <label class="list-connect-unit-all"><input type="checkbox" id="network-unit-all" checked> All units</label>
+            <label><input type="checkbox" data-unit="1"> Unit 1</label>
+            <label><input type="checkbox" data-unit="2"> Unit 2</label>
+            <label><input type="checkbox" data-unit="3"> Unit 3</label>
+            <label><input type="checkbox" data-unit="4"> Unit 4</label>
+            <label><input type="checkbox" data-unit="5"> Unit 5</label>
+            <label><input type="checkbox" data-unit="6"> Unit 6</label>
+            <label><input type="checkbox" data-unit="7"> Unit 7</label>
+            <label><input type="checkbox" data-unit="8"> Unit 8</label>
+            <label><input type="checkbox" data-unit="9"> Unit 9</label>
+            <label><input type="checkbox" data-unit="10"> Unit 10</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="network-controls-fieldset">
+          <legend class="list-connect-legend">Concept facets</legend>
+          <div id="network-facets" class="list-connect-units network-facets">
+            <label><input type="checkbox" data-facet="function" checked> Function</label>
+            <label><input type="checkbox" data-facet="form" checked> Form</label>
+            <label><input type="checkbox" data-facet="period" checked> Period</label>
+            <label><input type="checkbox" data-facet="typology" checked> Typology</label>
+            <label><input type="checkbox" data-facet="material" checked> Material</label>
+            <label><input type="checkbox" data-facet="site" checked> Site</label>
+          </div>
+        </fieldset>
+
+        <fieldset class="network-controls-fieldset" id="network-traditions-wrap">
+          <legend class="list-connect-legend">Period traditions (directed links)</legend>
+          <p class="network-traditions-help">Filter precursor / period arrows. All selected shows every tradition.</p>
+          <div id="network-traditions" class="list-connect-units network-traditions">
+            <label class="list-connect-unit-all"><input type="checkbox" id="network-tradition-all" checked> All traditions</label>
+          </div>
+        </fieldset>
+
+        <div class="network-options">
+          <label class="list-connect-attribution-toggle network-option-row">
+            <input type="checkbox" id="network-include-cohort">
+            Include unit cohort concepts (dense graph)
+          </label>
+          <label class="list-connect-attribution-toggle network-option-row" id="network-directed-wrap">
+            <input type="checkbox" id="network-show-directed" checked>
+            Show precursor / directed links
+          </label>
+        </div>
+      </div>
+    </details>
+
+    <div class="network-layout">
+      <div class="network-graph-wrap">
+        <div id="network-legend" class="network-legend" aria-hidden="true">
+          <p class="network-legend-title">Legend</p>
+          <ul class="network-legend-list">
+            <li><span class="network-legend-line network-legend-line--shared"></span> Shared concept</li>
+            <li><span class="network-legend-line network-legend-line--directed"></span> Period / precursor</li>
+            <li><span class="artwork-marker network-legend-marker" aria-hidden="true">12</span> Artwork #</li>
+            <li class="network-legend-concepts-only" hidden><span class="network-legend-box"></span> Concept label</li>
+          </ul>
+          <button type="button" id="network-freeze-layout" class="btn btn-subtle network-freeze-btn">Freeze layout</button>
+        </div>
+        <div id="network-graph" class="network-graph" role="img" aria-label="Interactive graph of artwork connections" aria-describedby="network-status network-density-notice network-legend"></div>
+      </div>
+      <aside id="network-detail" class="network-detail" aria-live="polite">
+        <p class="network-detail-placeholder">Circles show CED # (same as map and list). Hover or select for the full title; click for details.</p>
+      </aside>
+    </div>
+
+    <div class="network-list-section">
+      <button type="button" id="network-list-toggle" class="btn btn-subtle network-list-toggle" aria-expanded="true" aria-controls="network-list-panel">
+        Connection list (accessible)
+      </button>
+      <div id="network-list-panel" class="network-list-panel">
+        <div class="network-list-toolbar">
+          <div class="vocab-view-tabs network-list-tabs" role="tablist" aria-label="Connection list filter">
+            <button type="button" id="network-list-tab-all" class="vocab-view-tab unit-tab active" role="tab" aria-selected="true" data-list-kind="all">All</button>
+            <button type="button" id="network-list-tab-shared" class="vocab-view-tab unit-tab" role="tab" aria-selected="false" data-list-kind="sharedConcept">Shared</button>
+            <button type="button" id="network-list-tab-directed" class="vocab-view-tab unit-tab" role="tab" aria-selected="false" data-list-kind="directed">Directed</button>
+          </div>
+          <label for="network-list-search" class="sr-only">Filter connection list</label>
+          <input type="search" id="network-list-search" class="search-input network-list-search" placeholder="Filter by title or concept…" autocomplete="off">
+        </div>
+        <div id="network-edge-list" class="network-edge-list">
+          <p class="loading-note">Loading connections...</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/sticky-header.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/artwork-render.js"></script>
+  <script src="../js/association-graph.js"></script>
+  <script src="../js/vendor/vis-network.min.js"></script>
+  <script src="../js/search.js"></script>
+  <script src="../js/network-page.js"></script>
+</body>
+</html>

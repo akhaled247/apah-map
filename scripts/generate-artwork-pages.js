@@ -34,6 +34,8 @@ function buildPageHtml(artwork) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <base href="../../">
   <title>${title}</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="images/favicon.png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="standalone-artwork-page" data-artwork-id="${artwork.id}">
@@ -48,6 +50,7 @@ function buildPageHtml(artwork) {
         <a href="./" class="btn btn-subtle header-nav-link">Map</a>
         <a href="list/" class="btn btn-subtle header-nav-link active" aria-current="page">Browse List</a>
         <a href="vocab/" class="btn btn-subtle header-nav-link">Vocabulary</a>
+        <a href="network/" class="btn btn-subtle header-nav-link">Network</a>
       </div>
     </div>
 

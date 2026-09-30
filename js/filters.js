@@ -54,7 +54,57 @@ window.ArtworkFilters = (function () {
     });
   }
 
+  function computeFilteredArtworksByUnits(state) {
+    if (!window.DataLoader) return [];
+    const all = window.DataLoader.getArtworks();
+    if (!all || all.length === 0) return [];
+
+    const selectedUnits = state.selectedUnits;
+    const startYear = state.startDate;
+    const endYear = state.endDate;
+    const query = (state.searchQuery || '').toLowerCase().trim();
+
+    let allowedUnits = null;
+    if (selectedUnits !== 'all' && selectedUnits != null && Array.isArray(selectedUnits)) {
+      allowedUnits = new Set(selectedUnits.map(function (u) { return parseInt(u, 10); }));
+    }
+
+    return all.filter(function (artwork) {
+      if (allowedUnits && !allowedUnits.has(artwork.unit)) {
+        return false;
+      }
+
+      if (startYear !== null && endYear !== null) {
+        if (artwork.dateStart !== null && artwork.dateEnd !== null) {
+          const overlap = artwork.dateStart <= endYear && artwork.dateEnd >= startYear;
+          if (!overlap) return false;
+        }
+      }
+
+      if (query) {
+        const idStr = String(artwork.id);
+        const title = (artwork.title || '').toLowerCase();
+        const artist = (artwork.artist || '').toLowerCase();
+        const culture = (artwork.culture || '').toLowerCase();
+        const location = (artwork.locationDisplay || '').toLowerCase();
+        const medium = (artwork.medium || '').toLowerCase();
+
+        const match = idStr === query ||
+          title.includes(query) ||
+          artist.includes(query) ||
+          culture.includes(query) ||
+          location.includes(query) ||
+          medium.includes(query);
+
+        if (!match) return false;
+      }
+
+      return true;
+    });
+  }
+
   return {
-    computeFilteredArtworks
+    computeFilteredArtworks,
+    computeFilteredArtworksByUnits
   };
 })();
