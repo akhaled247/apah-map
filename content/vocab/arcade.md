@@ -1,7 +1,7 @@
 ---
 id: arcade
 term: "Arcade"
-units: []
+units: [3]
 aliases: []
 ---
 

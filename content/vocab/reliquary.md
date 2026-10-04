@@ -1,7 +1,7 @@
 ---
 id: reliquary
 term: "Reliquary"
-units: []
+units: [3]
 aliases: []
 ---
 

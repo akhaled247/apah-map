@@ -1018,10 +1018,16 @@
     "title": "Catacomb of Priscilla",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7627/16542782897_7dccb9f52f_b.jpg",
         "alt": "Catacomb of Priscilla (c. 200–400 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/catacomb-of-priscilla-rome/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8753/16724149006_3d12e5fecc_b.jpg",
+        "alt": "Catacomb of Priscilla (c. 200–400 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1030,10 +1036,34 @@
     "title": "Santa Sabina",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7645/16542925467_e6b2e6a6bf_b.jpg",
         "alt": "Santa Sabina (c. 422–432 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/santa-sabina/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7635/16564087789_78a3fefbe7_b.jpg",
+        "alt": "Santa Sabina (c. 422–432 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7615/16127884364_00abfe929d_b.jpg",
+        "alt": "Santa Sabina (c. 422–432 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8564/16724291766_e64dd8b9cd_b.jpg",
+        "alt": "Santa Sabina (c. 422–432 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7640/16562802720_69057c1d08_b.jpg",
+        "alt": "Santa Sabina (c. 422–432 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1042,10 +1072,16 @@
     "title": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7603/16564460399_cda13d3dce_b.jpg",
         "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) (Early sixth century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-vienna-genesis/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8674/16543301467_458df1f02e_b.jpg",
+        "alt": "Vienna Genesis (Rebecca and Eliezer at the Well; Jacob Wrestling the Angel) (Early sixth century CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1054,10 +1090,10 @@
     "title": "San Vitale",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8511/8552240295_b35dd9dd3d_b.jpg",
         "alt": "San Vitale (c. 526–547 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/san-vitale/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1066,10 +1102,40 @@
     "title": "Hagia Sophia",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/2908/14068334078_e8481bb12a_b.jpg",
         "alt": "Hagia Sophia (532–537 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/hagia-sophia-istanbul/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2924/14275199463_9220b469cd_b.jpg",
+        "alt": "Hagia Sophia (532–537 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/5503/14231848946_3d2bc986fe_b.jpg",
+        "alt": "Hagia Sophia (532–537 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2938/14231876576_1ef435f404_b.jpg",
+        "alt": "Hagia Sophia (532–537 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3747/14068426300_250f84bf93_b.jpg",
+        "alt": "Hagia Sophia (532–537 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3757/14068317039_ed837fda00_b.jpg",
+        "alt": "Hagia Sophia (532–537 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1078,10 +1144,10 @@
     "title": "Merovingian looped fibulae",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8675/16566209348_4bbfd310e2_b.jpg",
         "alt": "Merovingian looped fibulae (Mid-sixth century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/fibulae/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1090,10 +1156,10 @@
     "title": "Virgin (Theotokos) and Child between Saints Theodore and George",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8695/16566613400_4dc0f5bbcd_b.jpg",
         "alt": "Virgin (Theotokos) and Child between Saints Theodore and George (Sixth or early seventh century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/virgin-theotokos-and-child-between-saints-theodore-and-george/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1102,10 +1168,22 @@
     "title": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8684/16547569107_b9ef14cea9_b.jpg",
         "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-lindisfarne-gospels/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7282/16728941946_2f1af7bffb_b.jpg",
+        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7628/16754837515_4bc71555ec_b.jpg",
+        "alt": "Lindisfarne Gospels (St. Matthew, cross-carpet page; St. Luke, incipit page) (c. 700 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1114,10 +1192,34 @@
     "title": "Great Mosque of Córdoba",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/7642/16756016875_c8f23a7c8c_b.jpg",
         "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-great-mosque-of-cordoba/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8729/16548735627_89f90aa9f3_b.jpg",
+        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7598/16569881829_77efb5f9b9_b.jpg",
+        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8656/16133694324_6e8c44aa45_b.jpg",
+        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7640/16568609310_12524a3dac_b.jpg",
+        "alt": "Great Mosque of Córdoba (c. 785–786 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1126,10 +1228,28 @@
     "title": "Pyxis of al-Mughira",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/8678/16755798102_8218e27351_b.jpg",
         "alt": "Pyxis of al-Mughira (968 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/pyxis-of-al-mughira/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8584/16136921753_a7b40c13b4_b.jpg",
+        "alt": "Pyxis of al-Mughira (968 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/8607/16134557414_695376473e_b.jpg",
+        "alt": "Pyxis of al-Mughira (968 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/7605/16136932503_3be51b83ef_b.jpg",
+        "alt": "Pyxis of al-Mughira (968 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1138,10 +1258,10 @@
     "title": "Church of Sainte-Foy",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Abbatiale_de_Conques_et_la_ville.JPG/1920px-Abbatiale_de_Conques_et_la_ville.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Church of Sainte-Foy (Church: c. 1050–1130 CE; Reliquary: ninth century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/church-and-reliquary-of-sainte‐foy-france/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Abbey Church of Saint Foy,Sainte-Foy Abbey,Conques)",
+        "local": false
       }
     ]
   },
@@ -1150,10 +1270,10 @@
     "title": "Bayeux Tapestry",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Odo_bayeux_tapestry.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "alt": "Bayeux Tapestry (c. 1066–1080 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-bayeux-tapestry/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Bayeux Tapestry)",
+        "local": false
       }
     ]
   },
@@ -1162,10 +1282,10 @@
     "title": "Chartres Cathedral",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Notre_Dame_de_Chartres.jpg/1920px-Notre_Dame_de_Chartres.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Chartres Cathedral (Original construction c. 1145–1155 CE; reconstructed c. 1194–1220 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/cathedral-of-notre-dame-de-chartres-part-1-of-3/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Chartres Cathedral)",
+        "local": false
       }
     ]
   },
@@ -1174,10 +1294,10 @@
     "title": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/God_the_Geometer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "alt": "Dedication Page with Blanche of Castile and King Louis IX of France, Scenes from the Apocalypse from Bibles moralisées (c. 1225–1245 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/saint-louis-bible-moralized-bible-or-bible-moralisee/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Bible moralisée)",
+        "local": false
       }
     ]
   },
@@ -1186,10 +1306,10 @@
     "title": "Röttgen Pietà",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Roettgen_Pieta%2C_c._1300-25_(CH_Foto_RDB)_(4426080453).jpg",
         "alt": "Röttgen Pietà (c. 1300–1325 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/roettgen-pieta/",
-        "local": true
+        "source": "Wikimedia Commons: Roettgen Pieta, c. 1300-25 (CH Foto RDB) (4426080453).jpg",
+        "local": false
       }
     ]
   },
@@ -1198,10 +1318,52 @@
     "title": "Arena (Scrovegni) Chapel, including Lamentation",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/50182152351_4ce7105e6b_b.jpg",
         "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/giotto-arena-scrovegni-chapel/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50181583398_950540f7c0_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50182123776_5ac76216d1_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50182148116_7cd6b128aa_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50181593363_2918103bcb_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50182390427_8ce7498a4e_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50181596018_e81f4e6e6e_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50181589608_50b4da63ce_b.jpg",
+        "alt": "Arena (Scrovegni) Chapel, including Lamentation (Chapel: c. 1303 CE; Fresco: c. 1305 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1210,10 +1372,10 @@
     "title": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Golden_Hag_BL_F60073-09b.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "alt": "Golden Haggadah (The Plagues of Egypt, Scenes of Liberation, Preparation for Passover) (c. 1320 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-golden-haggadah/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Golden Haggadah)",
+        "local": false
       }
     ]
   },
@@ -1222,10 +1384,10 @@
     "title": "Alhambra",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg/1920px-Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Alhambra (1354–1391 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/the-alhambra/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Alhambra)",
+        "local": false
       }
     ]
   },
@@ -1234,10 +1396,10 @@
     "title": "Annunciation Triptych (Merode Altarpiece)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Robert_Campin_006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "alt": "Annunciation Triptych (Merode Altarpiece) (1427–1432 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/robert-campin-merode-altarpiece/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Mérode Altarpiece)",
+        "local": false
       }
     ]
   },
@@ -1246,10 +1408,16 @@
     "title": "Pazzi Chapel",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/52202640169_5a83ab24d5_b.jpg",
         "alt": "Pazzi Chapel (c. 1429–1461 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/filippo-brunelleschi-pazzi-chapel-florence/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52202875770_dd0a373547_b.jpg",
+        "alt": "Pazzi Chapel (c. 1429–1461 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1258,10 +1426,10 @@
     "title": "The Arnolfini Portrait",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/1920px-The_Arnolfini_portrait_%281434%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "The Arnolfini Portrait (1434 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/jan-van-eyck-the-arnolfini-portrait/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Arnolfini Portrait)",
+        "local": false
       }
     ]
   },
@@ -1270,10 +1438,40 @@
     "title": "David",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/50092521341_93d13d01c3_b.jpg",
         "alt": "David (c. 1440–1460 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/donatello-david/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50092522811_b543f874ac_b.jpg",
+        "alt": "David (c. 1440–1460 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50092755122_025f042816_b.jpg",
+        "alt": "David (c. 1440–1460 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50092754567_5927c1239c_b.jpg",
+        "alt": "David (c. 1440–1460 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50092522726_7e27d9caeb_b.jpg",
+        "alt": "David (c. 1440–1460 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50092522866_ba14714f22_b.jpg",
+        "alt": "David (c. 1440–1460 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1282,10 +1480,10 @@
     "title": "Palazzo Rucellai",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Via_della_Vigna_Nuova_18%2C_palazzo_rucellai%2C_02%2C0.jpg/1920px-Via_della_Vigna_Nuova_18%2C_palazzo_rucellai%2C_02%2C0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Palazzo Rucellai (c. 1450 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/alberti-palazzo-rucellai/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Palazzo Rucellai)",
+        "local": false
       }
     ]
   },
@@ -1294,10 +1492,10 @@
     "title": "Madonna and Child with Two Angels",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Madonna_and_Child_with_two_Angels_%28by_Filippo_Lippi%29_%E2%80%93_Galleria_degli_Uffizi%2C_Florence.jpg/1920px-Madonna_and_Child_with_two_Angels_%28by_Filippo_Lippi%29_%E2%80%93_Galleria_degli_Uffizi%2C_Florence.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Madonna and Child with Two Angels (c. 1465 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/lippi-madonna-and-child-with-two-angels/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Madonna and Child (Lippi))",
+        "local": false
       }
     ]
   },
@@ -1306,10 +1504,10 @@
     "title": "Birth of Venus",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1920px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Birth of Venus (c. 1484–1486 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/sandro-botticelli-the-birth-of-venus/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: The Birth of Venus)",
+        "local": false
       }
     ]
   },
@@ -1318,10 +1516,40 @@
     "title": "Last Supper",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/52083551814_7401be6ae7_b.jpg",
         "alt": "Last Supper (c. 1494–1498 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/leonardo-last-supper/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52083329163_e1bacc1fdf_b.jpg",
+        "alt": "Last Supper (c. 1494–1498 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52083549539_df8b36205c_b.jpg",
+        "alt": "Last Supper (c. 1494–1498 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52083548489_5f38fc5d8a_b.jpg",
+        "alt": "Last Supper (c. 1494–1498 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52082273832_d8bde69dbc_b.jpg",
+        "alt": "Last Supper (c. 1494–1498 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52083307206_c270f15013_b.jpg",
+        "alt": "Last Supper (c. 1494–1498 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1330,10 +1558,10 @@
     "title": "Adam and Eve",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg/1920px-Albrecht_D%C3%BCrer%2C_Adam_and_Eve%2C_1504%2C_Engraving.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Adam and Eve (1504 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/durer-adam-and-eve/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Adam and Eve (Dürer))",
+        "local": false
       }
     ]
   },
@@ -1342,10 +1570,10 @@
     "title": "Sistine Chapel ceiling and altar wall frescoes",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Sistine_Chapel_ceiling_02_%28brightened%29.jpg/1920px-Sistine_Chapel_ceiling_02_%28brightened%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Sistine Chapel ceiling and altar wall frescoes (Ceiling: 1508–1512 CE; altar wall: 1536–1541 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/who-was-michelangelo/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Sistine Chapel ceiling)",
+        "local": false
       }
     ]
   },
@@ -1354,10 +1582,40 @@
     "title": "School of Athens",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/52207103472_f066ebe82e_b.jpg",
         "alt": "School of Athens (1509–1511 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/raphael-school-of-athens/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52208611385_cb267efa3a_b.jpg",
+        "alt": "School of Athens (1509–1511 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52208112581_6799f8ab70_b.jpg",
+        "alt": "School of Athens (1509–1511 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52208384069_d2ca518a8f_b.jpg",
+        "alt": "School of Athens (1509–1511 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52208612075_322276eff8_b.jpg",
+        "alt": "School of Athens (1509–1511 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52207105812_f37727776c_b.jpg",
+        "alt": "School of Athens (1509–1511 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1366,10 +1624,40 @@
     "title": "Isenheim altarpiece",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/52826675020_5c17ee9d38_b.jpg",
         "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/grunewald-isenheim-altarpiece/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52825695287_c9f6bcc3b6_b.jpg",
+        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52826710273_e241cca171_b.jpg",
+        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52825695252_35f94d4cfb_b.jpg",
+        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52825694612_89358f604c_b.jpg",
+        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/52826704713_37cdd9913d_b.jpg",
+        "alt": "Isenheim altarpiece (c. 1512–1516 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1378,10 +1666,10 @@
     "title": "Entombment of Christ",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/50360554558_f949939da4_b.jpg",
         "alt": "Entombment of Christ (1525–1528 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/jacopo-pontormo-entombment-or-deposition-from-the-cross/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1390,10 +1678,10 @@
     "title": "Allegory of Law and Grace",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/GOTHA-cranach-veljo.jpg/1920px-GOTHA-cranach-veljo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Allegory of Law and Grace (c. 1530 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/cranach-law-and-gospel-law-and-grace/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Law and Gospel (Cranach))",
+        "local": false
       }
     ]
   },
@@ -1402,10 +1690,10 @@
     "title": "Venus of Urbino",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg/1920px-Tiziano_-_Venere_di_Urbino_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Venus of Urbino (1538 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/titian-venus-of-urbino/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Venus of Urbino)",
+        "local": false
       }
     ]
   },
@@ -1414,10 +1702,10 @@
     "title": "Frontispiece of the Codex Mendoza",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/CodexMendoza01.jpg/1920px-CodexMendoza01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Frontispiece of the Codex Mendoza (c. 1541–1542 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/frontispiece-of-the-codex-mendoza/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Codex Mendoza)",
+        "local": false
       }
     ]
   },
@@ -1426,10 +1714,40 @@
     "title": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/50987905341_8ebce9679a_b.jpg",
         "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/il-gesu-rome/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50988012112_baa87ed6ed_b.jpg",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50988015382_4033b20c15_b.jpg",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50987197858_ee5d867d2c_b.jpg",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50987921086_e730fa3d85_b.jpg",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50988015012_280ec2160a_b.jpg",
+        "alt": "Il Gesù, including Triumph of the Name of Jesus ceiling fresco (Church: 1568–1584 CE; fresco: 1676–1679 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1438,10 +1756,10 @@
     "title": "Hunters in the Snow",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg",
         "alt": "Hunters in the Snow (1565 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/pieter-bruegel-the-elder-hunters-in-the-snow-winter/",
-        "local": true
+        "source": "Wikimedia Commons: Pieter Bruegel the Elder - Hunters in the Snow (Winter) - Google Art Project.jpg",
+        "local": false
       }
     ]
   },
@@ -1450,10 +1768,10 @@
     "title": "Mosque of Selim II",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Selimiye_Mosque%2C_Edirne%2C_Turkey.jpg",
         "alt": "Mosque of Selim II (1568–1575 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/",
-        "local": true
+        "source": "Wikimedia Commons: Selimiye Mosque, Edirne, Turkey.jpg",
+        "local": false
       }
     ]
   },
@@ -1462,10 +1780,10 @@
     "title": "Calling of Saint Matthew",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Calling-of-st-matthew.jpg",
         "alt": "Calling of Saint Matthew (c. 1597–1601 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/caravaggio-calling-of-st-matthew/",
-        "local": true
+        "source": "Wikimedia Commons: Calling-of-st-matthew.jpg",
+        "local": false
       }
     ]
   },
@@ -1474,10 +1792,10 @@
     "title": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter_Paul_Rubens_-_Henri_IV_recevant_le_portrait_de_Marie_de_Medicis_-_WGA20336.jpg",
         "alt": "Henri IV Receives the Portrait of Marie de' Medici, from the Marie de' Medici Cycle (1621–1625 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/rubens-the-presentation-of-the-portrait-of-marie-de-medici/",
-        "local": true
+        "source": "Wikimedia Commons: Peter Paul Rubens - Henri IV recevant le portrait de Marie de Medicis - WGA20336.jpg",
+        "local": false
       }
     ]
   },
@@ -1486,10 +1804,10 @@
     "title": "Self-Portrait with Saskia",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt_-_Self-portrait_with_Saskia%2C_1636.jpg",
         "alt": "Self-Portrait with Saskia (1636 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/rembrandt-self-portrait-with-saskia/",
-        "local": true
+        "source": "Wikimedia Commons: Rembrandt - Self-portrait with Saskia, 1636.jpg",
+        "local": false
       }
     ]
   },
@@ -1498,10 +1816,40 @@
     "title": "San Carlo alle Quattro Fontane",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/65535/50052198792_640ef6c5b7_b.jpg",
         "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/borromini-san-carlo-alle-quattro-fontane/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50051952636_21b73e9339_b.jpg",
+        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50052203437_1a1643b352_b.jpg",
+        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50051952961_9e309c3610_b.jpg",
+        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50051381583_22ebeb3eec_b.jpg",
+        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/65535/50051381693_22b3a8a2d9_b.jpg",
+        "alt": "San Carlo alle Quattro Fontane (1638–1646 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1510,10 +1858,10 @@
     "title": "Ecstasy of Saint Teresa",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Ecstasy_of_St._Teresa_HDR.jpg/1920px-Ecstasy_of_St._Teresa_HDR.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Ecstasy of Saint Teresa (1647–1652 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/bernini-ecstasy-of-st-teresa/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Ecstasy of Saint Teresa)",
+        "local": false
       }
     ]
   },
@@ -1522,10 +1870,10 @@
     "title": "Angel with Arquebus, Asiel Timor Dei",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Angel_with_Arquebus%2C_Asiel_Timor_Dei.jpg",
         "alt": "Angel with Arquebus, Asiel Timor Dei (c. 17th century CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/master-of-calamarca-angel-with-arquebus/",
-        "local": true
+        "source": "Wikimedia Commons: Angel with Arquebus, Asiel Timor Dei.jpg",
+        "local": false
       }
     ]
   },
@@ -1534,10 +1882,10 @@
     "title": "Las Meninas",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1920px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Las Meninas (1656 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/diego-velazquez-las-meninas/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Las Meninas)",
+        "local": false
       }
     ]
   },
@@ -1546,10 +1894,10 @@
     "title": "Woman Holding a Balance",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg/1920px-Johannes_Vermeer_-_Woman_Holding_a_Balance_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "Woman Holding a Balance (c. 1664 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/johannes-vermeer-woman-holding-a-balance/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Woman Holding a Balance)",
+        "local": false
       }
     ]
   },
@@ -1558,10 +1906,10 @@
     "title": "The Palace at Versailles",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg/1920px-Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "The Palace at Versailles (Begun 1669 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/chateau-de-versailles/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Palace of Versailles)",
+        "local": false
       }
     ]
   },
@@ -1570,10 +1918,22 @@
     "title": "Screen with the Siege of Belgrade and hunting scene",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://live.staticflickr.com/5548/11917533145_210367a8fb_b.jpg",
         "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/screen-with-the-siege-of-belgrade-and-hunting-scene-or-brooklyn-biombo/",
-        "local": true
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/2840/11917907324_1d443eb8e8_b.jpg",
+        "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
+      },
+      {
+        "src": "https://live.staticflickr.com/3692/11917499895_eb9ffeede8_b.jpg",
+        "alt": "Screen with the Siege of Belgrade and hunting scene (c. 1697–1701 CE)",
+        "source": "Steven Zucker / Smarthistory (Flickr, CC BY-NC-SA 2.0): https://www.flickr.com/photos/profzucker/albums/72157648851606647/",
+        "local": false
       }
     ]
   },
@@ -1582,34 +1942,34 @@
     "title": "The Virgin of Guadalupe (Virgen de Guadalupe)",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Virgen_de_guadalupe1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
         "alt": "The Virgin of Guadalupe (Virgen de Guadalupe) (c. 1698 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/gonzalez-guadalupe/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Our Lady of Guadalupe)",
+        "local": false
       }
     ]
   },
   {
     "id": 96,
-    "title": "Spaniard and Indian Produce a Mestizo",
+    "title": "Fruit and Insects",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
-        "alt": "Spaniard and Indian Produce a Mestizo (c. 1715 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/rachel-ruysch-fruit-and-insects/",
-        "local": true
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Rachel_Ruysch_-_Fruit_and_Insects_-_WGA20378.jpg",
+        "alt": "Fruit and Insects (c. 1711 CE)",
+        "source": "Wikimedia Commons: Rachel Ruysch - Fruit and Insects - WGA20378.jpg",
+        "local": false
       }
     ]
   },
   {
     "id": 97,
-    "title": "Portrait of Sor Juana Inés de la Cruz",
+    "title": "Spaniard and Indian Produce a Mestizo",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
-        "alt": "Portrait of Sor Juana Inés de la Cruz (c. 1750 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/spaniard-and-indian-produce-a-mestizo-attributed-to-juan-rodriguez/",
-        "local": true
+        "src": "https://commons.wikimedia.org/wiki/Special:FilePath/De_espa%C3%B1ol_e_india_produce_mestizo.jpg",
+        "alt": "Spaniard and Indian Produce a Mestizo (c. 1715 CE)",
+        "source": "Wikimedia Commons: De español e india produce mestizo.jpg",
+        "local": false
       }
     ]
   },
@@ -1618,10 +1978,10 @@
     "title": "The Tête à Tête, from Marriage à la Mode",
     "images": [
       {
-        "src": "images/placeholder/artwork-placeholder.svg",
+        "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Marriage_A-la-Mode_2%2C_The_T%C3%AAte_%C3%A0_T%C3%AAte_-_William_Hogarth.jpg/1920px-Marriage_A-la-Mode_2%2C_The_T%C3%AAte_%C3%A0_T%C3%AAte_-_William_Hogarth.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
         "alt": "The Tête à Tête, from Marriage à la Mode (c. 1743 CE)",
-        "source": "Smarthistory guide: https://smarthistory.org/william-hogarth-marriage-a-la-mode/",
-        "local": true
+        "source": "Wikimedia Commons (via Wikipedia: Marriage A-la-Mode: 2. The Tête à Tête)",
+        "local": false
       }
     ]
   },

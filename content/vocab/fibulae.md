@@ -1,7 +1,7 @@
 ---
 id: fibulae
 term: "Fibulae"
-units: []
+units: [3]
 aliases: []
 ---
 

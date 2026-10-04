@@ -1,7 +1,7 @@
 ---
 id: jamb-figures
 term: "Jamb Figures"
-units: []
+units: [3]
 aliases: []
 ---
 

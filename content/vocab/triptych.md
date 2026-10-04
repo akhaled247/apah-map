@@ -1,7 +1,7 @@
 ---
 id: triptych
 term: "Triptych"
-units: []
+units: [3]
 aliases: []
 ---
 

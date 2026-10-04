@@ -1,7 +1,7 @@
 ---
 id: qibla
 term: "Qibla"
-units: []
+units: [3]
 aliases: []
 ---
 

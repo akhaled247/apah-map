@@ -43,7 +43,13 @@ function isAffccSectionHeader(text) {
 }
 
 function isArtworkTitleLine(line) {
-  return /^\d+\.\s+\*\*/.test(line.trim());
+  const trimmed = line.trim();
+  // Unit 3 export headers only (**48\. Title…**). Do not treat numbered bold bullets as titles.
+  return /^\*\*\d+\\\./.test(trimmed);
+}
+
+function stripBoldMarkers(line) {
+  return line.replace(/\*\*/g, '');
 }
 
 function formatBullets(items) {
@@ -89,6 +95,35 @@ function parseOwnerNotes(filePath) {
   return sections;
 }
 
+/**
+ * Unit 3 notes use Google-export headers: **48\. Title…** (often multi-line bold).
+ */
+function parseUnit3OwnerNotes(filePath) {
+  const text = fs.readFileSync(filePath, 'utf8');
+  const lines = text.split('\n');
+  const sections = {};
+  const indices = [];
+
+  for (let i = 0; i < lines.length; i++) {
+    const trimmed = lines[i].trim();
+    const match = trimmed.match(/^\*\*(\d+)\\\.\s+/);
+    if (!match) continue;
+    const id = parseInt(match[1], 10);
+    if (id < 48 || id > 98) continue;
+    indices.push({ id, lineIndex: i });
+  }
+
+  for (let i = 0; i < indices.length; i++) {
+    const curr = indices[i];
+    const next = indices[i + 1];
+    const endLine = next ? next.lineIndex : lines.length;
+    const itemText = lines.slice(curr.lineIndex, endLine).join('\n');
+    sections[curr.id] = parseSingleArtworkNotes(curr.id, itemText);
+  }
+
+  return sections;
+}
+
 function parseSingleArtworkNotes(id, rawText) {
   const result = {
     form: [],
@@ -111,19 +146,21 @@ function parseSingleArtworkNotes(id, rawText) {
     const trimmed = line.trim();
     if (!trimmed || isArtworkTitleLine(line)) continue;
 
-    if (/^\d+\.\s+Form/i.test(trimmed) || /^Form\b/i.test(trimmed)) {
+    const sectionProbe = stripBoldMarkers(trimmed);
+
+    if (/^\d+\.\s+Form/i.test(sectionProbe) || /^Form\b/i.test(sectionProbe)) {
       switchSection('form');
       continue;
-    } else if (/^\d+\.\s+Function/i.test(trimmed) || /^Function\b/i.test(trimmed)) {
+    } else if (/^\d+\.\s+Function/i.test(sectionProbe) || /^Function\b/i.test(sectionProbe)) {
       switchSection('function');
       continue;
-    } else if (/^\d+\.\s+Content/i.test(trimmed) || /^Content\b/i.test(trimmed)) {
+    } else if (/^\d+\.\s+Content/i.test(sectionProbe) || /^Content\b/i.test(sectionProbe)) {
       switchSection('content');
       continue;
-    } else if (/^\d+\.\s+Context/i.test(trimmed) || /^Context\b/i.test(trimmed)) {
+    } else if (/^\d+\.\s+Context/i.test(sectionProbe) || /^Context\b/i.test(sectionProbe)) {
       switchSection('context');
       continue;
-    } else if (/^\d+\.\s+Attribution/i.test(trimmed) || /^Attribution\b/i.test(trimmed)) {
+    } else if (/^\d+\.\s+Attribution/i.test(sectionProbe) || /^Attribution\b/i.test(sectionProbe)) {
       switchSection('attribution');
       continue;
     }
@@ -269,12 +306,20 @@ const notesSources = [
   path.join(__dirname, '../data/source/unit-02-ancient-mediterranean.md')
 ];
 
+const unit3NotesPath = path.join(__dirname, '../data/source/unit-03-early-europe-colonial-americas.md');
+
 let ownerNotesParsed = {};
 for (const notesPath of notesSources) {
   if (!fs.existsSync(notesPath)) continue;
   const parsed = parseOwnerNotes(notesPath);
   Object.assign(ownerNotesParsed, parsed);
   console.log(`Parsed ${Object.keys(parsed).length} works from ${path.basename(notesPath)}.`);
+}
+
+if (fs.existsSync(unit3NotesPath)) {
+  const parsed = parseUnit3OwnerNotes(unit3NotesPath);
+  Object.assign(ownerNotesParsed, parsed);
+  console.log(`Parsed ${Object.keys(parsed).length} works from ${path.basename(unit3NotesPath)}.`);
 }
 
 let generatedCount = 0;

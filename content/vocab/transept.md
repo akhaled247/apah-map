@@ -1,7 +1,7 @@
 ---
 id: transept
 term: "Transept"
-units: []
+units: [3]
 aliases: []
 ---
 

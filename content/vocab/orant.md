@@ -1,7 +1,7 @@
 ---
 id: orant
 term: "Orant"
-units: []
+units: [3]
 aliases: []
 ---
 

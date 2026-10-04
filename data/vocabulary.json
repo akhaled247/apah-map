@@ -5,7 +5,9 @@
     "definition": "Art that does not attempt to represent an accurate depiction of a visual reality but instead use shapes, colors, forms and gestural marks to achieve its effect",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      50
+    ]
   },
   {
     "id": "ascetic",
@@ -64,7 +66,9 @@
     "id": "aerial-perspective",
     "term": "Aerial Perspective",
     "definition": "A technique of rendering depth or distance in painting by modifying the tone or hue and distinctness of objects perceived as receding from the picture plane, especially by reducing distinctive local colors and contrasts of light and dark to a uniform light bluish-gray color.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -114,7 +118,9 @@
     "units": [],
     "aliases": [],
     "artworks": [
-      79
+      63,
+      79,
+      92
     ]
   },
   {
@@ -126,7 +132,9 @@
     "artworks": [
       26,
       38,
-      75
+      63,
+      75,
+      77
     ]
   },
   {
@@ -143,7 +151,9 @@
     "definition": "A place for walking, especially an aisle around the apse or a cloister in a church or monastery.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      51
+    ]
   },
   {
     "id": "amphiprostyle",
@@ -166,7 +176,8 @@
     ],
     "aliases": [],
     "artworks": [
-      44
+      44,
+      63
     ]
   },
   {
@@ -216,7 +227,9 @@
     "definition": "Aphrodite is the ancient Greek goddess of love, beauty, desire, and procreation. Her name literally translates to \"arisen from the foam,\" which traces back to the famous myth where she emerged from the sea foam. She corresponds to the Roman goddess Venus.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      48
+    ]
   },
   {
     "id": "apotropaic",
@@ -238,9 +251,14 @@
     "id": "apse",
     "term": "Apse",
     "definition": "A large semicircular or polygonal recess in a church, arched or with a domed roof, typically at the eastern end, and usually containing the altar.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      51,
+      63
+    ]
   },
   {
     "id": "apsidal",
@@ -272,9 +290,15 @@
     "id": "arcade",
     "term": "Arcade",
     "definition": "An arcade is a part of a building's structure with a series of arches supported by columns or piers, which are rectangular vertical supports. Arcades usually border a covered section of a building and sometimes they support roofs.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      49,
+      58,
+      60
+    ]
   },
   {
     "id": "arcadian",
@@ -389,7 +413,8 @@
       28,
       31,
       35,
-      38
+      38,
+      76
     ]
   },
   {
@@ -481,6 +506,8 @@
     "artworks": [
       24,
       34,
+      79,
+      85,
       92
     ]
   },
@@ -536,9 +563,18 @@
     "id": "baroque",
     "term": "Baroque",
     "definition": "Relating to or denoting a style of European architecture, music, and art of the 17th and 18th centuries that followed mannerism and is characterized by ornate detail. Some of the qualities most frequently associated with the Baroque are grandeur, sensuous richness, drama, dynamism, movement, tension, emotional exuberance.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      49,
+      86,
+      87,
+      89,
+      92,
+      93
+    ]
   },
   {
     "id": "barrel-vault",
@@ -560,7 +596,11 @@
     "aliases": [],
     "artworks": [
       45,
-      67
+      49,
+      52,
+      56,
+      67,
+      95
     ]
   },
   {
@@ -590,6 +630,7 @@
     "units": [],
     "aliases": [],
     "artworks": [
+      60,
       148,
       163
     ]
@@ -656,7 +697,9 @@
     "definition": "A folding free-standing screen",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      94
+    ]
   },
   {
     "id": "biomorphism",
@@ -756,7 +799,9 @@
     "id": "buttress-and-flying-buttress",
     "term": "Buttress and Flying Buttress",
     "definition": "1. buttress, in architecture, exterior support, usually of masonry, projecting from the face of a wall and serving either to strengthen it or to resist the side thrust created by the load on an arch or a roof;  \n2. a flying buttress is a masonry structure typically consisting of an inclined bar carried on a half arch that extends (“flies”) from the upper part of a wall to a pier some distance away and carries the thrust of a roof or vault.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -776,7 +821,9 @@
     "definition": "The chief Muslim civil and religious ruler, regarded as the successor of Muhammad.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      57
+    ]
   },
   {
     "id": "calligraphy",
@@ -845,7 +892,11 @@
       20,
       22,
       23,
-      35
+      35,
+      52,
+      56,
+      81,
+      84
     ]
   },
   {
@@ -854,7 +905,9 @@
     "definition": "A carved tablet or drawing representing a scroll with rolled-up ends, used ornamentally or bearing an inscription.  \nARCHAEOLOGY definition:  \nAn oval or oblong enclosing a group of Egyptian hieroglyphs, typically representing the name and title of a monarch.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      82
+    ]
   },
   {
     "id": "caryatid",
@@ -1137,7 +1190,9 @@
     "id": "central-plan",
     "term": "Central Plan",
     "definition": "In architecture, a plan in which the parts of a building radiate from a central point. Examples include circular, octagonal and Greek-cross plans. In the west - central plans were typically adjacent to the main basilica versus the east, which used the central plan for churches.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -1177,7 +1232,9 @@
     "id": "chiaroscuro",
     "term": "Chiaroscuro",
     "definition": "(from Italian chiaro, “light,” and scuro, “dark”), technique employed in the visual arts to represent light and shadow as they define three-dimensional objects.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -1214,7 +1271,15 @@
       36,
       38,
       43,
-      47
+      47,
+      51,
+      69,
+      70,
+      71,
+      72,
+      74,
+      76,
+      93
     ]
   },
   {
@@ -1226,7 +1291,10 @@
     ],
     "aliases": [],
     "artworks": [
-      20
+      20,
+      49,
+      59,
+      60
     ]
   },
   {
@@ -1249,7 +1317,9 @@
     "id": "codex",
     "term": "Codex",
     "definition": "An ancient manuscript text in book form.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       81
@@ -1271,13 +1341,17 @@
     "definition": "A colonette is a small slender column, usually decorative, which supports a beam or lintel. Colonettes have been used as a feature of furnishings such as a dressing table and case clock. They are typically found in \"a group in a parapet, balustrade, or cluster pier\".",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      60
+    ]
   },
   {
     "id": "colonnade",
     "term": "Colonnade",
     "definition": "A row of columns supporting a roof, an entablature, or arcade.  \nSimilar:  \nrow of columns, Peristyle, Portico, arcade, loggia, covered walk, gallery, cloisters, stoa  \na row of trees or other tall objects.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       21,
@@ -1301,7 +1375,20 @@
       32,
       37,
       40,
+      59,
+      61,
+      62,
+      63,
+      65,
+      68,
+      71,
+      76,
+      77,
+      78,
+      80,
       81,
+      83,
+      84,
       186,
       200,
       202,
@@ -1375,7 +1462,9 @@
     "aliases": [],
     "artworks": [
       34,
-      43
+      43,
+      69,
+      74
     ]
   },
   {
@@ -1391,7 +1480,13 @@
       29,
       34,
       37,
-      43
+      43,
+      62,
+      65,
+      71,
+      78,
+      89,
+      92
     ]
   },
   {
@@ -1452,9 +1547,15 @@
     "id": "crucifixion",
     "term": "Crucifixion",
     "definition": "Crucifixion is a method of capital punishment in which the victim is tied or nailed to a large wooden cross or beam and left to hang until eventual death from exhaustion and asphyxiation. It was used as a punishment by the Romans, among others.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      49,
+      62,
+      77
+    ]
   },
   {
     "id": "cruciform",
@@ -1462,7 +1563,10 @@
     "definition": "Cross-shaped, such as a church planned in the shape of a cross, i.e. with intersecting nave and transepts.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      58,
+      60
+    ]
   },
   {
     "id": "crusades",
@@ -1470,7 +1574,9 @@
     "definition": "Each of a series of medieval military expeditions made by Europeans to recover the Holy Land from the Muslims in the 11th, 12th, and 13th centuries.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      52
+    ]
   },
   {
     "id": "cryptoporticus",
@@ -1484,10 +1590,13 @@
     "id": "cubiculum",
     "term": "Cubiculum",
     "definition": "A small room, especially a bedroom, typically those small rooms found on the upper floor of a Roman house. A small room carved out of the wall of a catacomb, used as mortuary chapels, and in Roman times, for Christian worship. Plural: cubicula",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
-      39
+      39,
+      48
     ]
   },
   {
@@ -1597,6 +1706,7 @@
     "units": [],
     "aliases": [],
     "artworks": [
+      87,
       105,
       120
     ]
@@ -1622,7 +1732,10 @@
     ],
     "aliases": [],
     "artworks": [
-      6
+      6,
+      77,
+      83,
+      87
     ]
   },
   {
@@ -1637,10 +1750,13 @@
     "id": "engraving",
     "term": "Engraving",
     "definition": "Engraving is an intaglio printmaking process in which lines are cut into a metal plate in order to hold the ink.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
-      74
+      74,
+      98
     ]
   },
   {
@@ -1650,7 +1766,9 @@
     "units": [],
     "aliases": [],
     "artworks": [
-      11
+      11,
+      69,
+      97
     ]
   },
   {
@@ -1692,7 +1810,9 @@
     "id": "fa-ade",
     "term": "Façade",
     "definition": "the face of a building, especially the principal front that looks onto a street or open space",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -1708,7 +1828,9 @@
     "id": "fibulae",
     "term": "Fibulae",
     "definition": "Brooches (safety pins) that were made popular by Roman military campaigns. These became very popular in the early Middle Ages and commonly found in barbarian grave sites. While they show the cultural exchange of ideas from nomadic peoples, they give insight into the particular culture from which they were created.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       28,
@@ -1719,9 +1841,12 @@
     "id": "filigree",
     "term": "Filigree",
     "definition": "Ornamental work of fine (typically gold or silver) wire formed into delicate tracery.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
+      52,
       53
     ]
   },
@@ -1737,7 +1862,9 @@
     "id": "flying-buttress",
     "term": "Flying Buttress",
     "definition": "A masonry structure typically consisting of an inclined bar carried on a half arch that extends (\"flies\") from the upper part of a wall to a pier some distance away and carries the thrust of a roof or vault.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -1758,7 +1885,8 @@
     ],
     "aliases": [],
     "artworks": [
-      40
+      40,
+      48
     ]
   },
   {
@@ -1792,6 +1920,7 @@
       39,
       48,
       63,
+      71,
       75,
       76,
       82,
@@ -1809,14 +1938,18 @@
     "artworks": [
       35,
       38,
-      46
+      46,
+      60,
+      70
     ]
   },
   {
     "id": "frontispiece",
     "term": "Frontispiece",
     "definition": "an illustration facing the title page of a book",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       81
@@ -1852,11 +1985,17 @@
     "id": "gothic",
     "term": "Gothic",
     "definition": "A style of European church and castle building prominent from the 12th to the 16th centuries. It is known for its soaring heights, thin walls, and dramatic use of light.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
+      56,
+      58,
+      59,
       60,
-      61
+      61,
+      63
     ]
   },
   {
@@ -1946,7 +2085,9 @@
     "id": "horseshoe-arch",
     "term": "Horseshoe Arch",
     "definition": "The horseshoe arch, also called the \"Moorish arch\" and the \"keyhole arch\", is the emblematic arch of Islamic architecture, especially Moorish architecture.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -1984,17 +2125,25 @@
     "id": "icon",
     "term": "Icon",
     "definition": "In Eastern Christian tradition, a representation of sacred personages or events in mural painting, mosaic, or wood.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      54
+    ]
   },
   {
     "id": "iconoclasm",
     "term": "Iconoclasm",
     "definition": "Pertaining to the belief in, participation in, or sanction of destroying religious icons and other symbols or monuments, usually with religious or political motives.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      48
+    ]
   },
   {
     "id": "i-iwi-bird",
@@ -2038,7 +2187,11 @@
     "aliases": [],
     "artworks": [
       11,
-      81
+      81,
+      90,
+      94,
+      95,
+      97
     ]
   },
   {
@@ -2053,7 +2206,9 @@
     "id": "illuminated-texts-or-manuscripts",
     "term": "Illuminated Texts or Manuscripts",
     "definition": "Illuminated manuscripts are hand-written books with painted decoration that generally includes precious metals such as gold or silver. The pages were made from animal skin, commonly calf, sheep, or goat. Illuminated manuscripts were produced between 1100 and 1600, with monasteries as their earliest creators.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -2121,7 +2276,9 @@
     "id": "jamb-figures",
     "term": "Jamb Figures",
     "definition": "statues that decorate the side posts and jambs of a doorway",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -2234,7 +2391,9 @@
     "units": [],
     "aliases": [],
     "artworks": [
-      63
+      62,
+      63,
+      77
     ]
   },
   {
@@ -2279,14 +2438,25 @@
       32,
       35,
       36,
-      47
+      47,
+      52,
+      59,
+      72,
+      73,
+      78,
+      79,
+      83,
+      87,
+      94
     ]
   },
   {
     "id": "linear-perspective",
     "term": "Linear Perspective",
     "definition": "A form of perspective in drawing and painting in which parallel lines are represented as converging so as to give the illusion of depth and distance.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -2298,6 +2468,7 @@
     "aliases": [],
     "artworks": [
       8,
+      70,
       154
     ]
   },
@@ -2324,7 +2495,9 @@
     "id": "loculus",
     "term": "Loculus",
     "definition": "plural loculi, is an architectural compartment or niche that houses a body, as in a catacomb, hypogeum, mausoleum or other place of entombment.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -2334,7 +2507,9 @@
     "definition": "In architecture, a loggia is a covered exterior gallery or corridor, usually on an upper level, but sometimes on the ground level of a building. The outer wall is open to the elements, usually supported by a series of columns or arches",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      67
+    ]
   },
   {
     "id": "lost-wax-casting",
@@ -2366,7 +2541,9 @@
     "definition": "A madrasa is an Islamic college, literally a \"place of instruction”",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      84
+    ]
   },
   {
     "id": "mahayana",
@@ -2406,7 +2583,9 @@
     "definition": "A mandorla is an almond-shaped aureola, i.e. a frame that surrounds the totality of an iconographic figure. It is usually synonymous with vesica, a lens shape. Mandorlas often surround the figures of Jesus Christ and the Virgin Mary in traditional Christian iconography.\n\nWhile the term \"mandorla\" specifically originates from Western art history (derived from the Italian word for \"almond\") to describe a full-body halo, the concept it represents—a divine aura of light or sacred geometry—is central to both Hinduism and Buddhism.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      95
+    ]
   },
   {
     "id": "manifest-destiny",
@@ -2447,7 +2626,16 @@
       16,
       31,
       32,
-      46
+      46,
+      50,
+      52,
+      55,
+      61,
+      62,
+      63,
+      64,
+      81,
+      95
     ]
   },
   {
@@ -2465,6 +2653,7 @@
     "units": [],
     "aliases": [],
     "artworks": [
+      56,
       182
     ]
   },
@@ -2506,9 +2695,12 @@
     "id": "mestizo",
     "term": "Mestizo",
     "definition": "The term mestizo means mixed in Spanish, and is generally used throughout Latin America to describe people of mixed ancestry with a white European and an indigenous background",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
+      81,
       96
     ]
   },
@@ -2538,17 +2730,25 @@
     "id": "mihrab",
     "term": "Mihrab",
     "definition": "Mihrab is a niche in the wall of a mosque that indicates the qibla, the direction of the Kaaba in Mecca towards which Muslims should face when praying. The wall in which a mihrab appears is thus the \"qibla wall\".",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      56
+    ]
   },
   {
     "id": "minarets",
     "term": "Minarets",
     "definition": "A tall slender tower, typically part of a mosque, with a balcony from which a muezzin calls Muslims to prayer.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      84
+    ]
   },
   {
     "id": "moai",
@@ -2620,6 +2820,12 @@
       41,
       43,
       46,
+      59,
+      63,
+      69,
+      73,
+      76,
+      79,
       222
     ]
   },
@@ -2661,9 +2867,17 @@
     "id": "nave",
     "term": "Nave",
     "definition": "The central part of a church building, intended to accommodate most of the congregation. In traditional Western churches it is rectangular, separated from the chancel by a step or rail, and from adjacent aisles by pillars.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      49,
+      58,
+      59,
+      60,
+      82
+    ]
   },
   {
     "id": "ndop",
@@ -2758,16 +2972,23 @@
     "units": [],
     "aliases": [],
     "artworks": [
-      46
+      46,
+      48,
+      82,
+      89
     ]
   },
   {
     "id": "nimbus",
     "term": "Nimbus",
     "definition": "A luminous cloud or a halo surrounding a supernatural being or a saint.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      54
+    ]
   },
   {
     "id": "niuean",
@@ -2840,7 +3061,10 @@
     ],
     "aliases": [],
     "artworks": [
-      46
+      46,
+      60,
+      66,
+      67
     ]
   },
   {
@@ -2889,9 +3113,13 @@
     "id": "orant",
     "term": "Orant",
     "definition": "Orant, in Christian art, is a figure in a posture of prayer, usually standing upright with raised arms.In certain contexts, when it is identified with no particular individual, the orant has been interpreted as a symbol of faith or of the church itself.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      48
+    ]
   },
   {
     "id": "oracle",
@@ -2958,6 +3186,7 @@
     "units": [],
     "aliases": [],
     "artworks": [
+      69,
       70
     ]
   },
@@ -2999,9 +3228,12 @@
     "id": "parchment",
     "term": "Parchment",
     "definition": "The term parchment is a general term for an animal skin which has been prepared for writing or printing. Parchment has been made for centuries, and is usually calf, goat, or sheep skin. The term vellum from the French veau refers to a parchment made from calf skin.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
+      50,
       186
     ]
   },
@@ -3034,7 +3266,13 @@
       11,
       25,
       32,
-      33
+      33,
+      56,
+      60,
+      64,
+      82,
+      83,
+      84
     ]
   },
   {
@@ -3047,16 +3285,22 @@
     "aliases": [],
     "artworks": [
       35,
-      46
+      46,
+      82
     ]
   },
   {
     "id": "pendentive",
     "term": "Pendentive",
     "definition": "In architecture, a pendentive is a constructional device permitting the placing of a circular dome over a square room or of an elliptical dome over a rectangular room.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      52,
+      67
+    ]
   },
   {
     "id": "peninsular-war",
@@ -3115,7 +3359,17 @@
     "artworks": [
       2,
       4,
-      47
+      47,
+      59,
+      61,
+      66,
+      67,
+      69,
+      71,
+      76,
+      77,
+      78,
+      83
     ]
   },
   {
@@ -3146,7 +3400,9 @@
     "definition": "\"representation in painting or sculpture of the seated Virgin holding the body of the dead Christ in her lap,\" 1640s, from Italian pieta, from Latin pietatem \"piety, pity, faithfulness to natural ties\" (see piety).",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      62
+    ]
   },
   {
     "id": "pilaster",
@@ -3158,7 +3414,11 @@
     "aliases": [],
     "artworks": [
       36,
-      44
+      44,
+      67,
+      70,
+      76,
+      82
     ]
   },
   {
@@ -3169,7 +3429,9 @@
     "aliases": [],
     "artworks": [
       8,
-      44
+      44,
+      58,
+      60
     ]
   },
   {
@@ -3202,7 +3464,9 @@
     "definition": "A painting, typically an altarpiece, consisting of more than three leaves or panels joined by hinges or folds.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      77
+    ]
   },
   {
     "id": "pop-art",
@@ -3246,9 +3510,13 @@
     "id": "predella",
     "term": "Predella",
     "definition": "A step or platform on which an altar is placed.\n\nA painting or sculpture on the front of a raised shelf above an altar, which typically forms the base for an altarpiece.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      77
+    ]
   },
   {
     "id": "propaganda",
@@ -3271,7 +3539,12 @@
       14,
       29,
       34,
-      35
+      35,
+      54,
+      62,
+      70,
+      74,
+      78
     ]
   },
   {
@@ -3320,7 +3593,9 @@
     "id": "qibla",
     "term": "Qibla",
     "definition": "the direction of the Kaaba (the sacred building at Mecca), to which Muslims turn at prayer.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -3374,7 +3649,9 @@
     "definition": "Originating in France in the 1840s and 1850s, this movement was a direct rebellion against the highly emotional, dramatic, and idealized art of the Romanticism and Academic periods.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      50
+    ]
   },
   {
     "id": "reception",
@@ -3400,9 +3677,15 @@
     "id": "reformation",
     "term": "Reformation",
     "definition": "The Protestant Reformation was a religious movement that occurred in Western Europe during the 16th century that resulted in a divide in Christianity between Roman Catholics and Protestants. This movement \"created a North-South split in Europe, where generally Northern countries became Protestant, while Southern countries remained Catholic.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      78,
+      79,
+      82
+    ]
   },
   {
     "id": "registers",
@@ -3416,7 +3699,10 @@
       5,
       13,
       16,
-      24
+      24,
+      61,
+      63,
+      64
     ]
   },
   {
@@ -3447,14 +3733,18 @@
       36,
       38,
       45,
-      47
+      47,
+      60,
+      71
     ]
   },
   {
     "id": "reliquary",
     "term": "Reliquary",
     "definition": "A container for relics. Often reliquaries were in the form of caskets, though it was quite common for them to be shaped like statues or like body parts (such as hands or heads).",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       58,
@@ -3468,7 +3758,21 @@
     "units": [],
     "aliases": [],
     "artworks": [
-      46
+      46,
+      59,
+      63,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      75,
+      76,
+      77,
+      78,
+      85
     ]
   },
   {
@@ -3483,7 +3787,11 @@
       5,
       25,
       35,
-      40
+      40,
+      62,
+      67,
+      70,
+      84
     ]
   },
   {
@@ -3511,7 +3819,8 @@
     ],
     "aliases": [],
     "artworks": [
-      35
+      35,
+      63
     ]
   },
   {
@@ -3528,7 +3837,12 @@
     "definition": "A picture which is round in format may be called a roundel; more commonly the term is used to describe a small round element of a complex picture such as an altarpiece. Small roundels are sometimes called medallions.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      61,
+      67,
+      68,
+      95
+    ]
   },
   {
     "id": "romanticism",
@@ -3597,7 +3911,8 @@
     "artworks": [
       23,
       29,
-      47
+      47,
+      48
     ]
   },
   {
@@ -3606,7 +3921,9 @@
     "definition": "A painting technique that allows for painting onto the surface of dried plaster, yielding color of greater intensity than that of fresco painting.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      75
+    ]
   },
   {
     "id": "segmental-pediment",
@@ -3622,7 +3939,9 @@
     "definition": "A painting technique of allowing tones and colors to shade gradually into one another, producing softened outlines or hazy forms.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      82
+    ]
   },
   {
     "id": "shamanism",
@@ -3661,7 +3980,10 @@
       36,
       40,
       44,
-      46
+      46,
+      59,
+      67,
+      85
     ]
   },
   {
@@ -3670,13 +3992,17 @@
     "definition": "The sibyls were oracles in Ancient Greece. The earliest sibyls, according to legend, prophesied at holy sites. Their prophecies were influenced by divine inspiration from a deity; originally at Delphi and Pessinos.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      75
+    ]
   },
   {
     "id": "side-aisles",
     "term": "Side Aisles",
     "definition": "One of the lateral aisles of a building (such as a church, basilica, or theater) as distinguished from the central aisle or nave",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },
@@ -3763,7 +4089,20 @@
       40,
       45,
       46,
-      47
+      47,
+      51,
+      54,
+      59,
+      63,
+      65,
+      76,
+      77,
+      78,
+      80,
+      81,
+      82,
+      89,
+      91
     ]
   },
   {
@@ -3780,7 +4119,9 @@
     "definition": "Cut stones or decorative elements from older buildings that are reused for new construction. The use of spolia was common in ancient and medieval times, because recycling was less expensive than quarrying new stone.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      49
+    ]
   },
   {
     "id": "squinch",
@@ -3788,7 +4129,9 @@
     "definition": "In architecture, a squinch is a construction filling in the upper angles of a square room so as to form a base to receive an octagonal or spherical dome. Another solution to this structural problem was provided by the pendentive.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      84
+    ]
   },
   {
     "id": "stele",
@@ -3821,7 +4164,9 @@
     "definition": "In Christianity, are the appearance of bodily wounds, scars and pain in locations corresponding to the crucifixion wounds of Jesus Christ, such as the hands, wrists and feet.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      62
+    ]
   },
   {
     "id": "stoa",
@@ -3866,7 +4211,24 @@
       36,
       39,
       42,
-      47
+      47,
+      48,
+      49,
+      50,
+      51,
+      55,
+      56,
+      58,
+      59,
+      60,
+      62,
+      63,
+      67,
+      69,
+      75,
+      80,
+      81,
+      93
     ]
   },
   {
@@ -3893,7 +4255,8 @@
       14,
       18,
       29,
-      33
+      33,
+      59
     ]
   },
   {
@@ -3966,7 +4329,13 @@
     "aliases": [],
     "artworks": [
       11,
-      33
+      33,
+      56,
+      60,
+      63,
+      73,
+      82,
+      87
     ]
   },
   {
@@ -3983,7 +4352,9 @@
     "definition": "The use of extreme contrasts of light and dark in figurative compositions to heighten their dramatic effect.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      85
+    ]
   },
   {
     "id": "terra-cotta",
@@ -4000,6 +4371,7 @@
     "units": [],
     "aliases": [],
     "artworks": [
+      81,
       156,
       157
     ]
@@ -4008,7 +4380,9 @@
     "id": "tesserae",
     "term": "Tesserae",
     "definition": "A small block of stone, tile, glass, or other material used in the construction of a mosaic.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       40
@@ -4072,7 +4446,8 @@
     "units": [],
     "aliases": [],
     "artworks": [
-      26
+      26,
+      67
     ]
   },
   {
@@ -4137,7 +4512,10 @@
     "definition": "bars, or ribs, used decoratively in windows or other openings  \nThere are two main types: plate tracery and the later bar tracery. The evolving style from Romanesque to Gothic architecture and changing features, such as the thinning of lateral walls and enlarging of windows, led to the innovation of tracery.",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      53,
+      59
+    ]
   },
   {
     "id": "bar",
@@ -4154,6 +4532,8 @@
     "units": [],
     "aliases": [],
     "artworks": [
+      59,
+      87,
       105
     ]
   },
@@ -4161,9 +4541,16 @@
     "id": "transept",
     "term": "Transept",
     "definition": "In a cross-shaped church, either of the two parts forming the arms of the cross shape, projecting at right angles from the nave.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      49,
+      58,
+      60,
+      82
+    ]
   },
   {
     "id": "tridacna-shell-blades",
@@ -4179,7 +4566,9 @@
     "definition": "A triforium is an interior gallery, opening onto the tall central space of a building at an upper level. In a church, it opens onto the nave from above the side aisles; it may occur at the level of the clerestory windows, or it may be located as a separate level below the clerestory",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      60
+    ]
   },
   {
     "id": "triglyphs",
@@ -4213,7 +4602,9 @@
     "id": "triptych",
     "term": "Triptych",
     "definition": "A triptych is an artwork made up of three pieces or panels.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       66
@@ -4237,10 +4628,13 @@
     "id": "tympanum",
     "term": "Tympanum",
     "definition": "A tympanum is the semi-circular or triangular decorative wall surface over an entrance, door or window, which is bounded by a lintel and an arch. It often contains sculpture or other imagery or ornaments. Most architectural styles include this element.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
-      58
+      58,
+      60
     ]
   },
   {
@@ -4269,7 +4663,9 @@
       0
     ],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      63
+    ]
   },
   {
     "id": "urna",
@@ -4305,7 +4701,10 @@
     "aliases": [],
     "artworks": [
       9,
-      37
+      37,
+      63,
+      72,
+      87
     ]
   },
   {
@@ -4319,7 +4718,10 @@
     "artworks": [
       2,
       37,
-      38
+      38,
+      48,
+      63,
+      75
     ]
   },
   {
@@ -4332,7 +4734,12 @@
     "aliases": [],
     "artworks": [
       44,
-      45
+      45,
+      58,
+      59,
+      60,
+      67,
+      76
     ]
   },
   {
@@ -4347,7 +4754,9 @@
     "id": "vellum",
     "term": "Vellum",
     "definition": "Vellum comes from the French veau, which refers to a parchment made from calf skin.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": [
       50,
@@ -4372,7 +4781,11 @@
     "definition": "The viceroyalty was a local, political, social, and administrative institution, created by the Spanish monarchy in the 15th century, for ruling in its overseas territories.\n\nThe Spanish Americas had four viceroyalties:  \nViceroyalty of New Spain  \nViceroyalty of Peru  \nViceroyalty of the Río de la Plata  \nViceroyalty of New Granada",
     "units": [],
     "aliases": [],
-    "artworks": []
+    "artworks": [
+      81,
+      90,
+      94
+    ]
   },
   {
     "id": "vietnam-war",
@@ -4474,7 +4887,9 @@
     "id": "woodcut-printing",
     "term": "Woodcut Printing",
     "definition": "Woodcut is a relief printing technique in printmaking. An artist carves an image into the surface of a block of wood—typically with gouges—leaving the printing parts level with the surface while removing the non-printing parts.",
-    "units": [],
+    "units": [
+      3
+    ],
     "aliases": [],
     "artworks": []
   },

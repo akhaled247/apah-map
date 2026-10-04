@@ -1,7 +1,7 @@
 ---
 id: cubiculum
 term: "Cubiculum"
-units: []
+units: [3]
 aliases: []
 ---
 

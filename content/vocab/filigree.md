@@ -1,7 +1,7 @@
 ---
 id: filigree
 term: "Filigree"
-units: []
+units: [3]
 aliases: []
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: loculus
 term: "Loculus"
-units: []
+units: [3]
 aliases: []
 ---
 

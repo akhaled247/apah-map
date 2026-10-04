@@ -45,7 +45,14 @@ const UNIT_ALIAS_IDS = {
   'stepped pyramid': 'stepped-pyramid',
   'hypostyle hall': 'hypostyle-hall',
   'crook and flail': 'crook-and-flail',
-  'votive figures': 'votive-figures'
+  'votive figures': 'votive-figures',
+  buttress: 'buttress-and-flying-buttress',
+  cubicula: 'cubiculum',
+  'illuminated manuscript': 'illuminated-texts-or-manuscripts',
+  loculi: 'loculus',
+  minaret: 'minarets',
+  'side aisle': 'side-aisles',
+  'tympanum romanesque': 'tympanum'
 };
 
 function cleanMarkdownArtifacts(str) {

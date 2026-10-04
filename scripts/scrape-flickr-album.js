@@ -8,11 +8,11 @@ const path = require('path');
 
 const ALBUM_ID = '72157648851606647';
 
-// Anchors chosen to cover Unit 2 in overlapping /with/ context windows
+// Anchors for overlapping /with/ context windows (Units 2–3 and full album)
 const ANCHORS = [
   '15773819026', // White Temple — album start
-  '15179060794', // King Menkaura and queen (user-provided link)
-  '12881170623', // Nike Adjusting Her Sandal / Acropolis cluster
+  '15179060794', // King Menkaura and queen
+  '12881170623', // Acropolis cluster
   '16723646646', // Grave stele of Hegeso
   '5605181736',  // Nike of Samothrace
   '7952983798',  // Pergamon Altar
@@ -22,6 +22,16 @@ const ANCHORS = [
   '51883439665', // Ludovisi Battle Sarcophagus
   '34752049742', // Law Code Stele of Hammurabi
   '49980992177', // Column of Trajan
+  '6722768291',  // Catacomb of Priscilla cluster
+  '14056280179', // Hagia Sophia
+  '15744133576', // Chartres Cathedral
+  '15232956204', // Bayeux Tapestry
+  '16010661862', // Arena (Scrovegni) Chapel
+  '8433859102',  // Arnolfini Portrait
+  '8433858752',  // Sistine Chapel
+  '8433858422',  // Las Meninas
+  '8433858072',  // Palace of Versailles
+  '8433857712',  // Hogarth Marriage à la Mode
 ];
 
 function fetch(url, redirects = 0) {
@@ -54,8 +64,41 @@ function parsePhotos(html) {
   return photos;
 }
 
+async function scrapeAlbumPages(seen) {
+  let stalePages = 0;
+  for (let pageNum = 1; pageNum <= 80; pageNum++) {
+    const url = pageNum === 1
+      ? `https://www.flickr.com/photos/profzucker/albums/${ALBUM_ID}/`
+      : `https://www.flickr.com/photos/profzucker/albums/${ALBUM_ID}/page${pageNum}/`;
+    const html = await fetch(url);
+    const batch = parsePhotos(html);
+    if (!batch.length) {
+      console.log(`Pagination ended at page ${pageNum}`);
+      break;
+    }
+    let added = 0;
+    for (const p of batch) {
+      if (!seen.has(p.id)) {
+        seen.set(p.id, p.title);
+        added++;
+      }
+    }
+    console.log(`Page ${pageNum}: +${added} new (${seen.size} total)`);
+    if (added === 0) {
+      stalePages++;
+      if (stalePages >= 3 && pageNum > 16) break;
+    } else {
+      stalePages = 0;
+    }
+    await new Promise((r) => setTimeout(r, 150));
+  }
+}
+
 async function scrapeFullAlbum(savePath) {
   const seen = new Map();
+
+  console.log('Scraping album pages...');
+  await scrapeAlbumPages(seen);
 
   for (const anchor of ANCHORS) {
     const url = `https://www.flickr.com/photos/profzucker/albums/${ALBUM_ID}/with/${anchor}/`;
@@ -94,4 +137,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { scrapeFullAlbum, parsePhotos, ANCHORS };
+module.exports = { scrapeFullAlbum, parsePhotos, scrapeAlbumPages, ANCHORS, ALBUM_ID };

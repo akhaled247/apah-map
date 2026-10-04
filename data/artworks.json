@@ -907,8 +907,8 @@
     "longitude": 12.5085,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/catacomb-of-priscilla-rome/"
   },
   {
@@ -926,8 +926,8 @@
     "longitude": 12.48,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/santa-sabina/"
   },
   {
@@ -945,8 +945,8 @@
     "longitude": 28.9784,
     "locationPrecision": "region",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/the-vienna-genesis/"
   },
   {
@@ -964,8 +964,8 @@
     "longitude": 12.1963,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/san-vitale/"
   },
   {
@@ -983,8 +983,8 @@
     "longitude": 28.9802,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/hagia-sophia-istanbul/"
   },
   {
@@ -1002,8 +1002,8 @@
     "longitude": 2.17,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/fibulae/"
   },
   {
@@ -1021,8 +1021,8 @@
     "longitude": 33.9761,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/virgin-theotokos-and-child-between-saints-theodore-and-george/"
   },
   {
@@ -1040,8 +1040,8 @@
     "longitude": -1.801,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/the-lindisfarne-gospels/"
   },
   {
@@ -1059,8 +1059,8 @@
     "longitude": -4.7794,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/the-great-mosque-of-cordoba/"
   },
   {
@@ -1078,8 +1078,8 @@
     "longitude": -4.867,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/pyxis-of-al-mughira/"
   },
   {
@@ -1097,8 +1097,8 @@
     "longitude": 2.3965,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/church-and-reliquary-of-sainte‐foy-france/"
   },
   {
@@ -1116,8 +1116,8 @@
     "longitude": -0.7032,
     "locationPrecision": "region",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/the-bayeux-tapestry/"
   },
   {
@@ -1135,8 +1135,8 @@
     "longitude": 1.4878,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/cathedral-of-notre-dame-de-chartres-part-1-of-3/"
   },
   {
@@ -1154,8 +1154,8 @@
     "longitude": 2.3522,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/saint-louis-bible-moralized-bible-or-bible-moralisee/"
   },
   {
@@ -1173,8 +1173,8 @@
     "longitude": 7.0982,
     "locationPrecision": "region",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/roettgen-pieta/"
   },
   {
@@ -1192,8 +1192,8 @@
     "longitude": 11.8797,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/giotto-arena-scrovegni-chapel/"
   },
   {
@@ -1211,8 +1211,8 @@
     "longitude": 2.1734,
     "locationPrecision": "region",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/the-golden-haggadah/"
   },
   {
@@ -1230,8 +1230,8 @@
     "longitude": -3.5897,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/the-alhambra/"
   },
   {
@@ -1249,8 +1249,8 @@
     "longitude": 3.3885,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/robert-campin-merode-altarpiece/"
   },
   {
@@ -1268,8 +1268,8 @@
     "longitude": 11.2625,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/filippo-brunelleschi-pazzi-chapel-florence/"
   },
   {
@@ -1287,8 +1287,8 @@
     "longitude": 3.2247,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/jan-van-eyck-the-arnolfini-portrait/"
   },
   {
@@ -1306,8 +1306,8 @@
     "longitude": 11.2542,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/donatello-david/"
   },
   {
@@ -1325,8 +1325,8 @@
     "longitude": 11.2497,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/alberti-palazzo-rucellai/"
   },
   {
@@ -1344,8 +1344,8 @@
     "longitude": 11.2556,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/lippi-madonna-and-child-with-two-angels/"
   },
   {
@@ -1363,8 +1363,8 @@
     "longitude": 11.2553,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/sandro-botticelli-the-birth-of-venus/"
   },
   {
@@ -1382,8 +1382,8 @@
     "longitude": 9.171,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/leonardo-last-supper/"
   },
   {
@@ -1401,8 +1401,8 @@
     "longitude": 11.0767,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/durer-adam-and-eve/"
   },
   {
@@ -1420,8 +1420,8 @@
     "longitude": 12.4545,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/who-was-michelangelo/"
   },
   {
@@ -1439,8 +1439,8 @@
     "longitude": 12.4547,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/raphael-school-of-athens/"
   },
   {
@@ -1458,8 +1458,8 @@
     "longitude": 7.3556,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/grunewald-isenheim-altarpiece/"
   },
   {
@@ -1477,8 +1477,8 @@
     "longitude": 11.2526,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/jacopo-pontormo-entombment-or-deposition-from-the-cross/"
   },
   {
@@ -1496,8 +1496,8 @@
     "longitude": 12.6433,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/cranach-law-and-gospel-law-and-grace/"
   },
   {
@@ -1515,8 +1515,8 @@
     "longitude": 12.3155,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/titian-venus-of-urbino/"
   },
   {
@@ -1534,8 +1534,8 @@
     "longitude": -99.1332,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/frontispiece-of-the-codex-mendoza/"
   },
   {
@@ -1553,8 +1553,8 @@
     "longitude": 12.4798,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/il-gesu-rome/"
   },
   {
@@ -1572,8 +1572,8 @@
     "longitude": 4.3517,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/pieter-bruegel-the-elder-hunters-in-the-snow-winter/"
   },
   {
@@ -1591,8 +1591,8 @@
     "longitude": 26.5594,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/mimar-sinan-mosque-of-selim-ii-edirne/"
   },
   {
@@ -1610,8 +1610,8 @@
     "longitude": 12.4746,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/caravaggio-calling-of-st-matthew/"
   },
   {
@@ -1629,8 +1629,8 @@
     "longitude": 2.3372,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/rubens-the-presentation-of-the-portrait-of-marie-de-medici/"
   },
   {
@@ -1648,8 +1648,8 @@
     "longitude": 4.9041,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/rembrandt-self-portrait-with-saskia/"
   },
   {
@@ -1667,8 +1667,8 @@
     "longitude": 12.4907,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/borromini-san-carlo-alle-quattro-fontane/"
   },
   {
@@ -1686,8 +1686,8 @@
     "longitude": 12.4942,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/bernini-ecstasy-of-st-teresa/"
   },
   {
@@ -1705,8 +1705,8 @@
     "longitude": -68.12,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/master-of-calamarca-angel-with-arquebus/"
   },
   {
@@ -1724,8 +1724,8 @@
     "longitude": -3.6921,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/diego-velazquez-las-meninas/"
   },
   {
@@ -1743,8 +1743,8 @@
     "longitude": 4.3571,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/johannes-vermeer-woman-holding-a-balance/"
   },
   {
@@ -1762,8 +1762,8 @@
     "longitude": 2.1204,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/chateau-de-versailles/"
   },
   {
@@ -1781,8 +1781,8 @@
     "longitude": -99.1332,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/screen-with-the-siege-of-belgrade-and-hunting-scene-or-brooklyn-biombo/"
   },
   {
@@ -1800,12 +1800,31 @@
     "longitude": -99.1175,
     "locationPrecision": "site",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/gonzalez-guadalupe/"
   },
   {
     "id": 96,
+    "title": "Fruit and Insects",
+    "artist": "Rachel Ruysch",
+    "culture": "Dutch Baroque",
+    "dateDisplay": "c. 1711 CE",
+    "dateStart": 1711,
+    "dateEnd": 1711,
+    "dateMidpoint": 1711,
+    "medium": "Oil on wood",
+    "locationDisplay": "Amsterdam, Netherlands",
+    "latitude": 52.3676,
+    "longitude": 4.9041,
+    "locationPrecision": "city",
+    "unit": 3,
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
+    "sourceUrl": "https://smarthistory.org/rachel-ruysch-fruit-and-insects/"
+  },
+  {
+    "id": 97,
     "title": "Spaniard and Indian Produce a Mestizo",
     "artist": "Attributed to Juan Rodríguez Juárez",
     "culture": "Viceroyalty of New Spain (Mexico)",
@@ -1819,27 +1838,8 @@
     "longitude": -99.1332,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
-    "sourceUrl": "https://smarthistory.org/rachel-ruysch-fruit-and-insects/"
-  },
-  {
-    "id": 97,
-    "title": "Portrait of Sor Juana Inés de la Cruz",
-    "artist": "Miguel Cabrera",
-    "culture": "Viceroyalty of New Spain (Mexico)",
-    "dateDisplay": "c. 1750 CE",
-    "dateStart": 1750,
-    "dateEnd": 1750,
-    "dateMidpoint": 1750,
-    "medium": "Oil on canvas",
-    "locationDisplay": "Mexico City, Mexico",
-    "latitude": 19.4326,
-    "longitude": -99.1332,
-    "locationPrecision": "city",
-    "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/spaniard-and-indian-produce-a-mestizo-attributed-to-juan-rodriguez/"
   },
   {
@@ -1857,8 +1857,8 @@
     "longitude": -0.1278,
     "locationPrecision": "city",
     "unit": 3,
-    "dataConfidence": "best_effort",
-    "affccStatus": "pending",
+    "dataConfidence": "owner_notes",
+    "affccStatus": "complete",
     "sourceUrl": "https://smarthistory.org/william-hogarth-marriage-a-la-mode/"
   },
   {

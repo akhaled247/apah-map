@@ -1,7 +1,7 @@
 ---
 id: gothic
 term: "Gothic"
-units: []
+units: [3]
 aliases: []
 ---
 

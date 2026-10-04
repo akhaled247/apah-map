@@ -9,6 +9,7 @@
     "generate-vocab": "node scripts/generate-vocabulary.js",
     "generate-pages": "node scripts/generate-artwork-pages.js",
     "generate-relations": "node scripts/generate-period-relations.js --write",
+    "update-images:unit3": "node scripts/update-unit3-images.js",
     "build-content": "npm run generate-affcc && npm run generate-vocab && npm run generate-pages",
     "test": "node scripts/validate-data.js",
     "test:quiz": "node scripts/test-artwork-quiz.js",

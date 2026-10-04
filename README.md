@@ -142,6 +142,23 @@ Images are managed declaratively through `data/images.json` (the image manifest)
 * **Local Files**: Store images under `images/005/photo.jpg` and set `"src": "images/005/photo.jpg"`.
 * **Multiple Images**: Add multiple objects to the `"images"` array to activate the carousel.
 
+### Flickr album pipeline (Units 2–3)
+
+Steven Zucker’s [AP Art History Flickr album](https://www.flickr.com/photos/profzucker/albums/72157648851606647/) is the primary source for multi-image carousels (Unit 2: CED 12–47; Unit 3: CED 48–98).
+
+```bash
+# Unit 3: scrape album → map photo IDs → resolve URLs (Flickr + Wikimedia fallbacks)
+npm run update-images:unit3
+
+# Re-map / re-resolve only (skip re-scrape)
+node scripts/update-unit3-images.js --skip-scrape
+
+# Fix remaining placeholders after a partial run
+node scripts/patch-unit3-missing-images.js
+```
+
+Data files: `data/flickr-album-scraped.json`, `data/flickr-unit3-ids.json`, optional overrides in `data/flickr-unit3-manual.json`.
+
 ---
 
 ## 6. How to Add Source Notes & Generate AFFCC Content
