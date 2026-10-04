@@ -144,6 +144,14 @@
     }
   }
 
+  /** Unit 0 intro terms and overly broad AFFCC matches are not useful as artwork link lists. */
+  function shouldShowArtworkReferences(entry) {
+    if (!entry.artworks || entry.artworks.length === 0) return false;
+    if (entry.units && entry.units.indexOf(0) !== -1) return false;
+    if (entry.artworks.length > 10) return false;
+    return true;
+  }
+
   function renderGlossary() {
     const listEl = document.getElementById('vocab-list');
     if (!listEl) return;
@@ -177,7 +185,7 @@
       def.textContent = entry.definition;
       article.appendChild(def);
 
-      if (entry.artworks && entry.artworks.length > 0) {
+      if (shouldShowArtworkReferences(entry)) {
         const refs = document.createElement('div');
         refs.className = 'vocab-entry-references';
 

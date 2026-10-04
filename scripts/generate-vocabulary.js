@@ -384,6 +384,16 @@ function main() {
   const { unitFiles, unmatched } = applyUnitFiles(parsed, lookup);
   const { excluded: excludedReferences } = buildArtworkReferences(parsed);
 
+  let referencesSuppressed = 0;
+  parsed.forEach(function (entry) {
+    const inUnit0 = entry.units && entry.units.indexOf(0) !== -1;
+    const tooManyRefs = (entry.artworks || []).length > 10;
+    if (inUnit0 || tooManyRefs) {
+      if ((entry.artworks || []).length > 0) referencesSuppressed += 1;
+      entry.artworks = [];
+    }
+  });
+
   parsed.forEach(function (entry) {
     fs.writeFileSync(
       path.join(OUT_DIR, `${entry.id}.md`),
@@ -408,6 +418,9 @@ function main() {
   console.log(`Generated ${json.length} vocabulary entries.`);
   if (excludedReferences.length) {
     console.log(`Excluded from artwork references (${excludedReferences.length} universal terms): ${excludedReferences.join(', ')}`);
+  }
+  if (referencesSuppressed) {
+    console.log(`Cleared artwork references for ${referencesSuppressed} terms (Unit 0 or >10 links).`);
   }
   unitFiles.forEach(function ({ file, unit }) {
     const count = json.filter(e => e.units.indexOf(unit) !== -1).length;
